@@ -1,0 +1,25 @@
+from db_connection.db_connect import connect_to_db
+
+def create_customer_table():
+    conn = connect_to_db("scm")
+    if conn:
+        try:
+            cur = conn.cursor()
+            # Create a table with data locality (REGIONAL BY ROW) and composite primary key
+            cur.execute("""
+                CREATE TABLE IF NOT EXISTS customer (
+                    name STRING,
+                    email STRING,
+                    phone STRING,
+                    address STRING,
+                    created_at TIMESTAMP DEFAULT now(),
+                    region STRING NOT NULL,
+                    PRIMARY KEY (region, name)
+                ) LOCALITY REGIONAL BY ROW;
+            """)
+            conn.commit()
+            print("Customer table with regional locality and composite primary key created successfully.")
+        except Exception as e:
+            print(f"Error creating table: {e}")
+        finally:
+            conn.close()

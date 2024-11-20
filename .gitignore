@@ -1,0 +1,5 @@
+/certs
+/venv
+__pycache__/
+license_key.txt
+temp.sh
