@@ -1,0 +1,73 @@
+version: '3.8'
+
+services:
+  cockroach-us-east:
+    image: cockroachdb/cockroach
+    container_name: cockroach-us-east
+    hostname: cockroach-us-east
+    command:
+      - start
+      - --certs-dir=/cockroach/certs
+      - --listen-addr=cockroach-us-east:26257
+      - --advertise-addr=cockroach-us-east:26257
+      - --http-addr=cockroach-us-east:8080
+      - --join=cockroach-us-east:26257,cockroach-us-west:26257,cockroach-us-central:26257
+      - --locality=region=us-east
+    ports:
+      - "26257:26257"
+      - "8080:8080"
+    volumes:
+      - cockroach-data-us-east:/cockroach/cockroach-data
+      - ./certs:/cockroach/certs
+    networks:
+      - cockroach-network
+
+  cockroach-us-west:
+    image: cockroachdb/cockroach
+    container_name: cockroach-us-west
+    hostname: cockroach-us-west
+    command:
+      - start
+      - --certs-dir=/cockroach/certs
+      - --listen-addr=cockroach-us-west:26257
+      - --advertise-addr=cockroach-us-west:26257
+      - --http-addr=cockroach-us-west:8080
+      - --join=cockroach-us-east:26257,cockroach-us-west:26257,cockroach-us-central:26257
+      - --locality=region=us-west
+    ports:
+      - "26258:26257"
+      - "8081:8080"
+    volumes:
+      - cockroach-data-us-west:/cockroach/cockroach-data
+      - ./certs:/cockroach/certs
+    networks:
+      - cockroach-network
+
+  cockroach-us-central:
+    image: cockroachdb/cockroach
+    container_name: cockroach-us-central
+    hostname: cockroach-us-central
+    command:
+      - start
+      - --certs-dir=/cockroach/certs
+      - --listen-addr=cockroach-us-central:26257
+      - --advertise-addr=cockroach-us-central:26257
+      - --http-addr=cockroach-us-central:8080
+      - --join=cockroach-us-east:26257,cockroach-us-west:26257,cockroach-us-central:26257
+      - --locality=region=us-central
+    ports:
+      - "26259:26257"
+      - "8082:8080"
+    volumes:
+      - cockroach-data-us-central:/cockroach/cockroach-data
+      - ./certs:/cockroach/certs
+    networks:
+      - cockroach-network
+
+volumes:
+  cockroach-data-us-east:
+  cockroach-data-us-west:
+  cockroach-data-us-central:
+
+networks:
+  cockroach-network:
