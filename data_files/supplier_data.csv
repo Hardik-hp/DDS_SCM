@@ -1,0 +1,13 @@
+supplier_id,name,email,phone,region
+5a8d9f7b-6c5a-4c5f-b5e9-7d6c3b9f8c6d,East Coast Supplies,east.supplies@example.com,2025550111,us-east
+6b4c8d5a-3e2f-43c8-9b2d-4e8d9a5f3c7e,Atlantic Distributors,atlantic.distr@example.com,2025550222,us-east
+7d2e9b3a-5c4f-4d3b-8f1e-5a7c8d2f4e1b,Tech Parts East,tech.east@example.com,2025550333,us-east
+8a9f6d4c-2e7b-4a8c-9d3f-6c5b9e8a2f1d,Gadget Solutions,gadget.sol@example.com,2025550444,us-east
+3b9d8a5f-1e3c-47b8-8f6a-9d2c4b3e5f2d,West Electronics,west.electronics@example.com,4155550111,us-west
+2c4f9b3e-8a7d-48c9-9f2b-3d1e6b4c5a7e,Pacific Tech,pacific.tech@example.com,4155550222,us-west
+1d6e4b9a-2f3d-49c8-8e2a-4f5c7b6d3e1c,Silicon Supply,silicon.supply@example.com,4155550333,us-west
+9f8b3c2e-4d1e-45f7-9d3a-5c8a9b4d6e2f,Golden Gate Distributors,golden.gate@example.com,4155550444,us-west
+6c9a4b2d-3f7c-4a8e-9d2f-8b3e6f1c7d4a,Central Supplies,central.supplies@example.com,3125550111,us-central
+4d7f8b1e-5a3b-4c6e-9a8d-2f1b3e9c5a2d,Midwest Tech,midwest.tech@example.com,3125550222,us-central
+5b8e9d3c-2a6f-48d7-9c4b-3e1f6a9d4b3c,Heartland Electronics,heartland.electronics@example.com,3125550333,us-central
+7a4d8f3e-6b9c-45e8-9a3b-2c1f5b4e8d7a,Central Connect,central.connect@example.com,3125550444,us-central
