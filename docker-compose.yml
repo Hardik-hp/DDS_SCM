@@ -64,10 +64,93 @@ services:
     networks:
       - cockroach-network
 
+  mongo-us-east:
+    container_name: mongo-us-east
+    image: mongo
+    command: mongod --shardsvr --replSet shard1rs --port 27017 --dbpath /data/db
+    ports:
+      - 20001:27017
+    volumes:
+      - mongo-us-east:/data/db
+    networks:
+      - mongo_network
+
+  mongo-us-west:
+    container_name: mongo-us-west
+    image: mongo
+    command: mongod --shardsvr --replSet shard1rs --port 27017 --dbpath /data/db
+    ports:
+      - 50002:27017
+    volumes:
+      - mongo-us-west:/data/db
+    networks:
+      - mongo_network
+
+  mongo-us-central:
+    container_name: mongo-us-central
+    image: mongo
+    command: mongod --shardsvr --replSet shard1rs --port 27017 --dbpath /data/db
+    ports:
+      - 50003:27017
+    volumes:
+      - mongo-us-central:/data/db
+    networks:
+      - mongo_network
+
+  configs1:
+    container_name: configs1
+    image: mongo
+    command: mongod --configsvr --replSet cfgrs --port 27017 --dbpath /data/db
+    ports:
+      - 10001:27017
+    volumes:
+      - configs1:/data/db
+    networks:
+      - mongo_network
+
+  configs2:
+    container_name: configs2
+    image: mongo
+    command: mongod --configsvr --replSet cfgrs --port 27017 --dbpath /data/db
+    ports:
+      - 10002:27017
+    volumes:
+      - configs2:/data/db
+    networks:
+      - mongo_network
+
+  configs3:
+    container_name: configs3
+    image: mongo
+    command: mongod --configsvr --replSet cfgrs --port 27017 --dbpath /data/db
+    ports:
+      - 10003:27017
+    volumes:
+      - configs3:/data/db
+    networks:
+      - mongo_network
+
+  mongos:
+    container_name: mongos
+    image: mongo
+    command: mongos --configdb cfgrs/configs1:27017,configs2:27017,configs3:27017 --bind_ip_all --port 27017
+    ports:
+      - 30000:27017
+    networks:
+      - mongo_network
+
 volumes:
   cockroach-data-us-east:
   cockroach-data-us-west:
   cockroach-data-us-central:
+  mongo-us-east: {}
+  mongo-us-west: {}
+  mongo-us-central: {}
+  configs1: {}
+  configs2: {}
+  configs3: {}
 
 networks:
   cockroach-network:
+  mongo_network:
+    driver: bridge
