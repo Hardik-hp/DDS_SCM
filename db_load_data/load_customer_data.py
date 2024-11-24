@@ -17,8 +17,6 @@ def load_customer_data(conn, csv_file_path):
         print("Customer data loaded successfully.")
     except Exception as e:
         print(f"Error loading data: {e}")
-    finally:
-        conn.close()
 
 # Main execution
 if __name__ == "__main__":
