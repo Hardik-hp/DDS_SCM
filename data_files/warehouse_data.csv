@@ -1,0 +1,15 @@
+warehouse_id,product_id,quantity,region
+4b1d6c9b-29c7-4bc5-bc33-456d3c09ad3e,6b5c6f9b-1dc7-45e5-95b4-61efb1ef5c35,1500,us-east
+4b1d6c9b-29c7-4bc5-bc33-456d3c09ad3e,1d2a5f4c-0a3e-4a7f-bd29-8a9ef8345f2e,3200,us-east
+4b1d6c9b-29c7-4bc5-bc33-456d3c09ad3e,a54d3f5e-3ec6-42d4-ae2f-44c6de3212a2,2700,us-east
+8e9a9dcb-3f7f-4c6e-9349-958be3398b8d,3e4b7d8f-4c2e-45d2-bf39-0123ef5649ed,4000,us-east
+8e9a9dcb-3f7f-4c6e-9349-958be3398b8d,9e3d8d4a-6b1d-4f2d-9c3d-3f56e3e2f5b6,2300,us-east
+8e9a9dcb-3f7f-4c6e-9349-958be3398b8d,c13b3c2a-4e5d-499d-b7b5-19d3e23e8b1a,5000,us-east
+a7b3e9a9-dc8f-43b1-9c25-b3e8b4a1e8d3,4d6e9b1c-32d3-49c9-9231-c2f3c45d12f1,6000,us-west
+a7b3e9a9-dc8f-43b1-9c25-b3e8b4a1e8d3,5f8e9d1b-3a7d-4c9e-b7d8-6c4f9c21e9d3,7200,us-west
+b9c2f1a5-7c8d-4b2a-83d5-f2c4b3c2e1d3,2d9b5c3e-3e9d-45f3-b2e3-8e3f29d4f2d2,4800,us-west
+b9c2f1a5-7c8d-4b2a-83d5-f2c4b3c2e1d3,d5e6f9a3-32b1-4d2e-8e5c-b7f2c9e5a3d4,5400,us-west
+d3f8e2b7-9c5f-4c9a-b2f4-92d3b2e9c8f3,1a2d3e5f-4c6b-4d8f-b7d9-5f2c1e3b4c8f,3200,us-central
+d3f8e2b7-9c5f-4c9a-b2f4-92d3b2e9c8f3,5b4c3e2d-9f1a-42e9-a5d8-c2d9b3e4f6f5,6700,us-central
+e1b4f3c7-8d9f-4a6e-b7f2-c3b4f5e2a9c4,8f3e1a5b-9d3c-48c9-b2e5-f9a3c4b2f3c7,8000,us-central
+e1b4f3c7-8d9f-4a6e-b7f2-c3b4f5e2a9c4,f2a3d5b7-4e9c-4a5d-92e3-f3c2b4e1f5a4,9200,us-central
