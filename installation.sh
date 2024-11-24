@@ -20,3 +20,11 @@ pip install -r requirements.txt
 echo "Setup Docker and Cluster Initialization..."
 chmod +x docker-commands.sh
 sh docker-commands.sh
+
+# Step 5: Creating database
+echo "Creating Database and Table Schemas..."
+python3 main.py
+
+# # Step 6: Load Initial Data
+# echo "Loading initial data into the schemas..."
+# python3 load_data.py
