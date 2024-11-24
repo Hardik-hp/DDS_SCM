@@ -1,0 +1,15 @@
+product_id,name,description,price,region
+6b5c6f9b-1dc7-45e5-95b4-61efb1ef5c35,Wireless Mouse,Ergonomic wireless mouse with customizable buttons,29.99,us-east
+1d2a5f4c-0a3e-4a7f-bd29-8a9ef8345f2e,Mechanical Keyboard,RGB backlit mechanical keyboard with blue switches,89.99,us-east
+a54d3f5e-3ec6-42d4-ae2f-44c6de3212a2,Gaming Headset,Over-ear gaming headset with surround sound,59.99,us-east
+3e4b7d8f-4c2e-45d2-bf39-0123ef5649ed,USB-C Hub,Multi-port USB-C hub with HDMI and Ethernet,45.99,us-east
+9e3d8d4a-6b1d-4f2d-9c3d-3f56e3e2f5b6,Portable SSD,500GB portable SSD with high-speed data transfer,79.99,us-east
+c13b3c2a-4e5d-499d-b7b5-19d3e23e8b1a,Smartwatch,Waterproof smartwatch with heart rate monitor,119.99,us-east
+4d6e9b1c-32d3-49c9-9231-c2f3c45d12f1,Wireless Charger,Fast wireless charging pad for smartphones,39.99,us-west
+5f8e9d1b-3a7d-4c9e-b7d8-6c4f9c21e9d3,Bluetooth Speaker,Portable Bluetooth speaker with deep bass,59.99,us-west
+2d9b5c3e-3e9d-45f3-b2e3-8e3f29d4f2d2,Webcam,HD webcam with built-in microphone for video calls,49.99,us-west
+d5e6f9a3-32b1-4d2e-8e5c-b7f2c9e5a3d4,Tablet Stand,Adjustable tablet stand for desks and tables,25.99,us-west
+1a2d3e5f-4c6b-4d8f-b7d9-5f2c1e3b4c8f,Laptop Cooler,Cooling pad with adjustable fan speed,34.99,us-central
+5b4c3e2d-9f1a-42e9-a5d8-c2d9b3e4f6f5,External Monitor,27-inch 4K UHD external monitor with HDMI,259.99,us-central
+8f3e1a5b-9d3c-48c9-b2e5-f9a3c4b2f3c7,Ergonomic Chair,Adjustable ergonomic office chair with lumbar support,179.99,us-central
+f2a3d5b7-4e9c-4a5d-92e3-f3c2b4e1f5a4,Noise Cancelling Headphones,Over-ear headphones with active noise cancellation,129.99,us-central
