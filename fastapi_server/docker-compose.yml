@@ -1,0 +1,13 @@
+# docker-compose.yml
+version: "3.8"
+
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    # working_dir: /app
+
+networks:
+  cockroach-network:
+    driver: bridge
