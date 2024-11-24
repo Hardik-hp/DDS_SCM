@@ -131,3 +131,7 @@ sh.updateZoneKeyRange(
 '
 
 echo "MongoDB sharded cluster setup completed!"
+
+cd fastapi_server
+docker-compose up -d
+echo "FastAPI Server Initialized!"
