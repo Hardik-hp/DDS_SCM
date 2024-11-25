@@ -64,93 +64,160 @@ services:
     networks:
       - cockroach-network
 
-  mongo-us-east:
-    container_name: mongo-us-east
-    image: mongo
-    command: mongod --shardsvr --replSet shard1rs --port 27017 --dbpath /data/db
+  # Config Servers
+  config1:
+    image: mongo:latest
+    container_name: config1
+    command: mongod --configsvr --replSet configReplSet --port 27019
     ports:
-      - 20001:27017
+      - "27019:27019"
     volumes:
-      - mongo-us-east:/data/db
+      - config1_data:/data/db
     networks:
-      - mongo_network
+      - mongo_cluster
 
-  mongo-us-west:
-    container_name: mongo-us-west
-    image: mongo
-    command: mongod --shardsvr --replSet shard1rs --port 27017 --dbpath /data/db
+  config2:
+    image: mongo:latest
+    container_name: config2
+    command: mongod --configsvr --replSet configReplSet --port 27019
+    networks:
+      - mongo_cluster
+    volumes:
+      - config2_data:/data/db
+
+  config3:
+    image: mongo:latest
+    container_name: config3
+    command: mongod --configsvr --replSet configReplSet --port 27019
+    networks:
+      - mongo_cluster
+    volumes:
+      - config3_data:/data/db
+
+  # Shard 1
+  us_east_1:
+    image: mongo:latest
+    container_name: us_east_1
+    command: mongod --shardsvr --replSet us_eastReplSet --port 27018
     ports:
-      - 50002:27017
+      - "27018:27018"
     volumes:
-      - mongo-us-west:/data/db
+      - us_east_1_data:/data/db
     networks:
-      - mongo_network
+      - mongo_cluster
 
-  mongo-us-central:
-    container_name: mongo-us-central
-    image: mongo
-    command: mongod --shardsvr --replSet shard1rs --port 27017 --dbpath /data/db
-    ports:
-      - 50003:27017
+  us_east_2:
+    image: mongo:latest
+    container_name: us_east_2
+    command: mongod --shardsvr --replSet us_eastReplSet --port 27018
+    networks:
+      - mongo_cluster
     volumes:
-      - mongo-us-central:/data/db
-    networks:
-      - mongo_network
+      - us_east_2_data:/data/db
 
-  configs1:
-    container_name: configs1
-    image: mongo
-    command: mongod --configsvr --replSet cfgrs --port 27017 --dbpath /data/db
-    ports:
-      - 10001:27017
+  us_east_3:
+    image: mongo:latest
+    container_name: us_east_3
+    command: mongod --shardsvr --replSet us_eastReplSet --port 27018
+    networks:
+      - mongo_cluster
     volumes:
-      - configs1:/data/db
-    networks:
-      - mongo_network
+      - us_east_3_data:/data/db
 
-  configs2:
-    container_name: configs2
-    image: mongo
-    command: mongod --configsvr --replSet cfgrs --port 27017 --dbpath /data/db
-    ports:
-      - 10002:27017
+  # Shard 2
+  us_west_1:
+    image: mongo:latest
+    container_name: us_west_1
+    command: mongod --shardsvr --replSet us_westReplSet --port 27018
+    networks:
+      - mongo_cluster
     volumes:
-      - configs2:/data/db
-    networks:
-      - mongo_network
+      - us_west_1_data:/data/db
 
-  configs3:
-    container_name: configs3
-    image: mongo
-    command: mongod --configsvr --replSet cfgrs --port 27017 --dbpath /data/db
-    ports:
-      - 10003:27017
+  us_west_2:
+    image: mongo:latest
+    container_name: us_west_2
+    command: mongod --shardsvr --replSet us_westReplSet --port 27018
+    networks:
+      - mongo_cluster
     volumes:
-      - configs3:/data/db
-    networks:
-      - mongo_network
+      - us_west_2_data:/data/db
 
+  us_west_3:
+    image: mongo:latest
+    container_name: us_west_3
+    command: mongod --shardsvr --replSet us_westReplSet --port 27018
+    networks:
+      - mongo_cluster
+    volumes:
+      - us_west_3_data:/data/db
+
+  # Shard 3
+  us_central_1:
+    image: mongo:latest
+    container_name: us_central_1
+    command: mongod --shardsvr --replSet us_centralReplSet --port 27018
+    networks:
+      - mongo_cluster
+    volumes:
+      - us_central_1_data:/data/db
+
+  us_central_2:
+    image: mongo:latest
+    container_name: us_central_2
+    command: mongod --shardsvr --replSet us_centralReplSet --port 27018
+    networks:
+      - mongo_cluster
+    volumes:
+      - us_central_2_data:/data/db
+
+  us_central_3:
+    image: mongo:latest
+    container_name: us_central_3
+    command: mongod --shardsvr --replSet us_centralReplSet --port 27018
+    networks:
+      - mongo_cluster
+    volumes:
+      - us_central_3_data:/data/db
+
+  # Mongos
   mongos:
+    image: mongo:latest
     container_name: mongos
-    image: mongo
-    command: mongos --configdb cfgrs/configs1:27017,configs2:27017,configs3:27017 --bind_ip_all --port 27017
+    command: mongos --configdb configReplSet/config1:27019,config2:27019,config3:27019 --port 27017 --bind_ip_all
     ports:
-      - 30000:27017
+      - "27017:27017"
     networks:
-      - mongo_network
+      - mongo_cluster
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: admin
+      MONGO_INITDB_ROOT_PASSWORD: password
+    depends_on:
+      - config1
+      - config2
+      - config3
+      - us_east_1
+      - us_west_1
+      - us_central_1
 
 volumes:
   cockroach-data-us-east:
   cockroach-data-us-west:
   cockroach-data-us-central:
-  mongo-us-east: {}
-  mongo-us-west: {}
-  mongo-us-central: {}
-  configs1: {}
-  configs2: {}
-  configs3: {}
+  config1_data:
+  config2_data:
+  config3_data:
+  us_east_1_data:
+  us_east_2_data:
+  us_east_3_data:
+  us_west_1_data:
+  us_west_2_data:
+  us_west_3_data:
+  us_central_1_data:
+  us_central_2_data:
+  us_central_3_data:
 
 networks:
   cockroach-network:
-  mongo_network:
+  mongo_cluster:
     driver: bridge

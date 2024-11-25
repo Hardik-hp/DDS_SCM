@@ -19,13 +19,25 @@ pip install -r requirements.txt
 # Step 4: Initialize docker and initalize cluster
 echo "Setup Docker and Cluster Initialization..."
 chmod +x docker-commands.sh
+docker-compose up -d
+
+# Step 5: "Setup Cockroach"
+echo "Setting up cockroach DB Network..."
 sh docker-commands.sh
 
-# Step 5: Creating Cockroach database
-echo "Creating Cockroach Database and Table Schemas..."
+# Step 6: Setup Mongo Sharding Network
+echo "Creating Mongo Sharding Network..."
+chmod +x mongo-setup.sh
+sh mongo-setup.sh
+
+# Step 7: Creating Cockroach database
+echo "Creating Cockroach and MongoDB Database and Table Schemas..."
 python3 main.py
 
 # Step 7: Load Initial Data
 echo "Loading initial data into the schemas..."
 python3 load_data.py
 
+cd fastapi_server
+docker-compose up -d
+echo "FastAPI Server Initialized!"
