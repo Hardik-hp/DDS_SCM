@@ -18,10 +18,6 @@ def get_mongo_connection():
     client = MongoClient("mongodb://host.docker.internal:27017/", serverSelectionTimeoutMS=5000)
     return client
 
-def get_mongo_connection():
-    client = MongoClient("mongodb://host.docker.internal:27017/", serverSelectionTimeoutMS=5000)
-    return client
-
 # ADD APIS as Needed a post and get api have been created.
 @app.get("/customers")
 async def get_customers():
