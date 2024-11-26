@@ -77,14 +77,14 @@ var checkReplStatus = function() {
 while (!checkReplStatus()) { sleep(1000); }'
 
 # Wait for mongos to be ready
-until docker exec mongos mongosh --host 127.0.0.1 --port 27017 --eval 'db.runCommand({ping: 1})'; do
+until docker exec mongos1 mongosh --host 127.0.0.1 --port 27017 --eval 'db.runCommand({ping: 1})'; do
     echo "Waiting for mongos to initialize..."
     sleep 2
 done
 
 # Set up Mongos Router and Database Sharding
 echo "Setting up Mongos Router..."
-docker exec mongos mongosh --host 127.0.0.1 --port 27017 --eval '
+docker exec mongos1 mongosh --host 127.0.0.1 --port 27017 --eval '
 sh.addShard("us_eastReplSet/us_east_1:27018");
 sh.addShard("us_westReplSet/us_west_1:27018");
 sh.addShard("us_centralReplSet/us_central_1:27018");
