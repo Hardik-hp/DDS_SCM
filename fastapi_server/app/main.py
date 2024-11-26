@@ -65,17 +65,9 @@ def get_mongo_db_connection():
         print("Configuration error:", e)
         return None
 
-
-@app.post("/create_orders")
-async def get_orders(item: dict):
-    conn = get_cockroach_db_connection("scm")
-    try:
-        print(item)
-    finally:
-        conn.close()
-        # cur.close()
-        # conn.close()
-
+@app.get("/health")
+async def health_check():
+    return {"status": "ok"}
 
 # Sample Monogo API
 @app.get("/orders")
@@ -89,11 +81,6 @@ async def get_orders():
     finally:
         client.close()
         print("Connection to MongoDB closed.")
-
-
-@app.get("/health")
-async def health_check():
-    return {"status": "ok"}
 
 
 # 1. Shipment Management APIs
