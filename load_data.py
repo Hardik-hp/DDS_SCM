@@ -17,7 +17,7 @@ def truncate_data(conn, relation):
 def load_data():
     conn = connect_to_db("scm")
     if conn:
-        tables = ['products', 'supplier', 'customer', 'warehouse', 'shipments']
+        tables = ['products', 'suppliers', 'retailers', 'warehouses', 'shipments']
         for table in tables: truncate_data(conn, table)
 
         customer_data_file_path = "./data_files/customer_data.csv"

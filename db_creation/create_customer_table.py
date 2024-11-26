@@ -7,7 +7,8 @@ def create_customer_table():
             cur = conn.cursor()
             # Create a table with data locality (REGIONAL BY ROW) and composite primary key
             cur.execute("""
-                CREATE TABLE IF NOT EXISTS customer (
+                CREATE TABLE IF NOT EXISTS retailers (
+                    retailer_id UUID DEFAULT gen_random_uuid(),
                     name STRING,
                     email STRING,
                     phone STRING,
@@ -18,7 +19,7 @@ def create_customer_table():
                 ) LOCALITY REGIONAL BY ROW;
             """)
             conn.commit()
-            print("Customer table with regional locality and composite primary key created successfully.")
+            print("Retailer table with regional locality and composite primary key created successfully.")
         except Exception as e:
             print(f"Error creating table: {e}")
         finally:
