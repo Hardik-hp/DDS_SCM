@@ -30,13 +30,10 @@ def get_cockroach_db_connection(db_name):
     """
     Connets to Coakcroach DB and returns connection
     """
-    return psycopg2.connect(
-        database=db_name,
-        user="dds_user",
-        password="admin",
-        host="host.docker.internal",
-        port=26257
-    )
+    connection = psycopg2.connect(
+            f"postgresql://dds_user:admin@host.docker.internal:26257,host.docker.internal:26258,host.docker.internal:26259/{db_name}?sslmode=require"
+        )
+    return connection
 
 def get_mongo_db_connection():
     """
