@@ -1,15 +1,21 @@
 product_id,name,description,price,region
-6b5c6f9b-1dc7-45e5-95b4-61efb1ef5c35,Wireless Mouse,Ergonomic wireless mouse with customizable buttons,29.99,us-east
-1d2a5f4c-0a3e-4a7f-bd29-8a9ef8345f2e,Mechanical Keyboard,RGB backlit mechanical keyboard with blue switches,89.99,us-east
-a54d3f5e-3ec6-42d4-ae2f-44c6de3212a2,Gaming Headset,Over-ear gaming headset with surround sound,59.99,us-east
-3e4b7d8f-4c2e-45d2-bf39-0123ef5649ed,USB-C Hub,Multi-port USB-C hub with HDMI and Ethernet,45.99,us-east
-9e3d8d4a-6b1d-4f2d-9c3d-3f56e3e2f5b6,Portable SSD,500GB portable SSD with high-speed data transfer,79.99,us-east
-c13b3c2a-4e5d-499d-b7b5-19d3e23e8b1a,Smartwatch,Waterproof smartwatch with heart rate monitor,119.99,us-east
-4d6e9b1c-32d3-49c9-9231-c2f3c45d12f1,Wireless Charger,Fast wireless charging pad for smartphones,39.99,us-west
-5f8e9d1b-3a7d-4c9e-b7d8-6c4f9c21e9d3,Bluetooth Speaker,Portable Bluetooth speaker with deep bass,59.99,us-west
-2d9b5c3e-3e9d-45f3-b2e3-8e3f29d4f2d2,Webcam,HD webcam with built-in microphone for video calls,49.99,us-west
-d5e6f9a3-32b1-4d2e-8e5c-b7f2c9e5a3d4,Tablet Stand,Adjustable tablet stand for desks and tables,25.99,us-west
-1a2d3e5f-4c6b-4d8f-b7d9-5f2c1e3b4c8f,Laptop Cooler,Cooling pad with adjustable fan speed,34.99,us-central
-5b4c3e2d-9f1a-42e9-a5d8-c2d9b3e4f6f5,External Monitor,27-inch 4K UHD external monitor with HDMI,259.99,us-central
-8f3e1a5b-9d3c-48c9-b2e5-f9a3c4b2f3c7,Ergonomic Chair,Adjustable ergonomic office chair with lumbar support,179.99,us-central
-f2a3d5b7-4e9c-4a5d-92e3-f3c2b4e1f5a4,Noise Cancelling Headphones,Over-ear headphones with active noise cancellation,129.99,us-central
+29d185ff-8e78-4fde-a92f-67c7bca4f7e4,Smartphone X1,A cutting-edge smartphone with AI features,699.99,us-west
+e616229e-7934-44e3-a569-f604272a1077,Laptop Z Pro,High-performance laptop for professionals,1299.5,us-east
+b03906b1-e43c-4cb3-adaa-d8d95a45b519,Bluetooth Earbuds,Wireless earbuds with noise cancellation,149.99,us-east
+db637951-6a44-44b8-bb88-669b340fc304,Gaming Console S,Next-gen gaming console with 4K support,499.99,us-east
+14e3001e-5193-4246-9dd8-71141e5b2abe,4K Smart TV,55-inch 4K smart TV with HDR,799.99,us-west
+881d1cb0-ac52-4cf5-a8e5-3844982406a9,Fitness Tracker,Waterproof fitness tracker with heart monitor,79.99,us-west
+75fda9c2-14c9-45b9-a0be-3fa496e2de5f,Electric Scooter,Portable electric scooter with long battery life,349.5,us-east
+92628339-4adf-4443-9ee7-95cd28cb234d,Smart Home Hub,Voice-controlled smart home hub,129.99,us-west
+399ddc6a-1ce4-474f-8c46-756b1898ac8b,Wireless Charger,Fast wireless charger for multiple devices,39.99,us-east
+9ba62dda-aaad-4e7a-aea3-1ef69293744b,Drone Pro,Advanced drone with 4K camera and GPS,999.0,us-east
+833b6cbd-dfdf-4dc9-8a1f-a9d3ad005473,Espresso Machine,Premium espresso machine with grinder,599.99,us-west
+3c2d7107-f0a2-4b11-9de9-b851de5f33ee,Electric Bike,Electric bike with 50-mile range,1199.99,us-east
+4659a40e-d2d1-45dd-8b22-1ec49277af3f,Smart Thermostat,Energy-saving smart thermostat with app control,149.5,us-east
+df8b21ec-ffae-419f-a6f4-90688a801d4f,Noise-Cancelling Headphones,High-quality noise-cancelling headphones,299.99,us-west
+7a3b0056-93dc-408b-9fcd-7730c0a8094e,Portable Speaker,Bluetooth portable speaker with deep bass,89.99,us-east
+5e5184f8-8cfb-4cd6-b265-946675591ce2,Digital Camera,24MP digital camera with WiFi connectivity,449.99,us-west
+3af925b9-54c8-4e04-ba38-065b8a0d2106,Air Purifier,Smart air purifier with HEPA filter,199.0,us-west
+251b0fb2-7216-4c08-9981-2513b5f69a2e,Wireless Keyboard,Slim wireless keyboard with backlight,59.99,us-east
+8d783ff8-cf9f-4795-a194-62553ae43c5d,VR Headset,Virtual reality headset with motion tracking,399.99,us-east
+fa8e1ee6-f7b6-4ac7-a970-9ca02989705a,Smart Door Lock,Keyless smart door lock with remote access,249.5,us-east
