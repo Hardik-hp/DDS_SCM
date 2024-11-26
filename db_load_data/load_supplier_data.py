@@ -10,7 +10,7 @@ def load_supplier_data(conn, csv_file_path):
             reader = csv.DictReader(file)
             for row in reader:
                 cur.execute("""
-                    INSERT INTO supplier (supplier_id, name, email, phone, region)
+                    INSERT INTO suppliers (supplier_id, name, email, phone, region)
                     VALUES (%s, %s, %s, %s, %s);
                 """, (row["supplier_id"], row["name"], row["email"], row["phone"], row["region"]))
         conn.commit()

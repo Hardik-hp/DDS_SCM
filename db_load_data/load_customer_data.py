@@ -10,11 +10,11 @@ def load_customer_data(conn, csv_file_path):
             reader = csv.DictReader(file)
             for row in reader:
                 cur.execute("""
-                    INSERT INTO customer (name, email, phone, address, region)
-                    VALUES (%s, %s, %s, %s, %s);
-                """, (row["name"], row["email"], row["phone"], row["address"], row["region"]))
+                    INSERT INTO retailers (retailer_id, name, email, phone, address, region)
+                    VALUES (%s, %s, %s, %s, %s, %s);
+                """, (row["retailer_id"], row["name"], row["email"], row["phone"], row["address"], row["region"]))
         conn.commit()
-        print("Customer data loaded successfully.")
+        print("Retailers data loaded successfully.")
     except Exception as e:
         print(f"Error loading data: {e}")
 
