@@ -7,7 +7,7 @@ def create_warehouse_table():
             cur = conn.cursor()
             # Create warehouse table with UUID warehouse_id and data locality
             cur.execute("""
-                CREATE TABLE IF NOT EXISTS warehouse (
+                CREATE TABLE IF NOT EXISTS warehouses (
                     warehouse_id UUID DEFAULT gen_random_uuid(),
                     product_id UUID,
                     quantity INT,

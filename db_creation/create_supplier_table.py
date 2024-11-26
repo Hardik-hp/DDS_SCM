@@ -7,7 +7,7 @@ def create_supplier_table():
             cur = conn.cursor()
             # Create a table with data locality (REGIONAL BY ROW) and composite primary key
             cur.execute("""
-                CREATE TABLE IF NOT EXISTS supplier (
+                CREATE TABLE IF NOT EXISTS suppliers (
                     supplier_id UUID DEFAULT gen_random_uuid(),
                     name STRING,
                     email STRING,

@@ -20,7 +20,7 @@ def create_orders_collection():
         sample_orders = [
             {
                 "order_id": 1,
-                "customer_id": 101,
+                "retailer_id": 101,
                 "product_id": 201,
                 "order_date": datetime(2024, 11, 1, 14, 30),
                 "status": "Pending",
@@ -30,7 +30,7 @@ def create_orders_collection():
             },
             {
                 "order_id": 2,
-                "customer_id": 102,
+                "retailer_id": 102,
                 "product_id": 202,
                 "order_date": datetime(2024, 11, 2, 10, 15),
                 "status": "Shipped",
@@ -40,7 +40,7 @@ def create_orders_collection():
             },
             {
                 "order_id": 3,
-                "customer_id": 103,
+                "retailer_id": 103,
                 "product_id": 203,
                 "order_date": datetime(2024, 11, 3, 16, 45),
                 "status": "Delivered",
@@ -50,7 +50,7 @@ def create_orders_collection():
             },
             {
                 "order_id": 4,
-                "customer_id": 101,
+                "retailer_id": 101,
                 "product_id": 204,
                 "order_date": datetime(2024, 11, 4, 12, 0),
                 "status": "Pending",
@@ -60,7 +60,7 @@ def create_orders_collection():
             },
             {
                 "order_id": 5,
-                "customer_id": 102,
+                "retailer_id": 102,
                 "product_id": 205,
                 "order_date": datetime(2024, 11, 5, 9, 30),
                 "status": "Shipped",
@@ -70,7 +70,7 @@ def create_orders_collection():
             },
             {
                 "order_id": 6,
-                "customer_id": 104,
+                "retailer_id": 104,
                 "product_id": 206,
                 "order_date": datetime(2024, 11, 6, 14, 0),
                 "status": "Delivered",
@@ -80,7 +80,7 @@ def create_orders_collection():
             },
             {
                 "order_id": 7,
-                "customer_id": 105,
+                "retailer_id": 105,
                 "product_id": 207,
                 "order_date": datetime(2024, 11, 7, 17, 15),
                 "status": "Pending",
@@ -90,7 +90,7 @@ def create_orders_collection():
             },
             {
                 "order_id": 8,
-                "customer_id": 103,
+                "retailer_id": 103,
                 "product_id": 208,
                 "order_date": datetime(2024, 11, 8, 11, 45),
                 "status": "Shipped",
@@ -100,7 +100,7 @@ def create_orders_collection():
             },
             {
                 "order_id": 9,
-                "customer_id": 106,
+                "retailer_id": 106,
                 "product_id": 209,
                 "order_date": datetime(2024, 11, 9, 15, 30),
                 "status": "Delivered",
@@ -110,7 +110,7 @@ def create_orders_collection():
             },
             {
                 "order_id": 10,
-                "customer_id": 105,
+                "retailer_id": 105,
                 "product_id": 210,
                 "order_date": datetime(2024, 11, 10, 13, 0),
                 "status": "Pending",
