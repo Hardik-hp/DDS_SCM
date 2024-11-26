@@ -88,15 +88,6 @@ async def get_orders():
         client.close()
         print("Connection to MongoDB closed.")
 
-def get_db_connection():
-    return psycopg2.connect(
-        database="scm",
-        user="dds_user",
-        password="admin",
-        host="localhost",
-        port=26257
-    )
-
 
 @app.get("/health")
 async def health_check():
@@ -106,7 +97,7 @@ async def health_check():
 # 1. Shipment Management APIs
 @app.get("/api/shipments/outstanding")
 async def get_outstanding_deliveries():
-    conn = get_db_connection()
+    conn = get_cockroach_db_connection("scm")
     try:
         cur = conn.cursor(cursor_factory=RealDictCursor)
         cur.execute("""
@@ -123,7 +114,7 @@ async def get_outstanding_deliveries():
 
 @app.put("/api/shipments/update-status")
 async def update_shipment_status(update: ShipmentUpdate):
-    conn = get_db_connection()
+    conn = get_cockroach_db_connection("scm")
     try:
         cur = conn.cursor()
         # Update shipments
@@ -155,7 +146,7 @@ async def update_shipment_status(update: ShipmentUpdate):
 
 @app.post("/api/shipments/create")
 async def create_shipment(order_id: int):
-    conn = get_db_connection()
+    conn = get_cockroach_db_connection("scm")
     try:
         cur = conn.cursor(cursor_factory=RealDictCursor)
         # Generate fake tracking data
@@ -182,7 +173,7 @@ async def create_shipment(order_id: int):
 # 2. Order Creation with Inventory Check
 @app.post("/api/orders")
 async def create_order(order: OrderCreate):
-    conn = get_db_connection()
+    conn = get_cockroach_db_connection("scm")
     try:
         cur = conn.cursor(cursor_factory=RealDictCursor)
         
@@ -234,7 +225,7 @@ async def get_resource(resource: str, id: int):
     if resource not in valid_resources:
         raise HTTPException(status_code=400, detail="Invalid resource type")
     
-    conn = get_db_connection()
+    conn = get_cockroach_db_connection("scm")
     try:
         cur = conn.cursor(cursor_factory=RealDictCursor)
         cur.execute(f"SELECT * FROM {resource} WHERE {resource[:-1]}_id = %s", (id,))
@@ -249,7 +240,7 @@ async def get_resource(resource: str, id: int):
 # 4. Warehouse Operations
 @app.get("/api/warehouse/inventory/{product_id}")
 async def get_warehouse_inventory(product_id: int, min_quantity: Optional[float] = None):
-    conn = get_db_connection()
+    conn = get_cockroach_db_connection("scm")
     try:
         cur = conn.cursor(cursor_factory=RealDictCursor)
         query = "SELECT * FROM warehouse WHERE product_id = %s"
@@ -268,7 +259,7 @@ async def get_warehouse_inventory(product_id: int, min_quantity: Optional[float]
 
 @app.put("/api/warehouse/inventory")
 async def update_inventory(warehouse_id: int, product_id: int, quantity_change: float):
-    conn = get_db_connection()
+    conn = get_cockroach_db_connection("scm")
     try:
         cur = conn.cursor()
         cur.execute("""
