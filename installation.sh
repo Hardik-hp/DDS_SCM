@@ -39,5 +39,6 @@ echo "Loading initial data into the schemas..."
 python3 load_data.py
 
 cd fastapi_server
-docker-compose up -d
+# Ensure that we build again so it doesn't load older image
+docker-compose up --build
 echo "FastAPI Server Initialized!"

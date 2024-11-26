@@ -179,14 +179,34 @@ services:
       - mongo_cluster
     volumes:
       - us_central_3_data:/data/db
-
-  # Mongos
-  mongos:
+  
+  # Mongos 1
+  mongos1:
     image: mongo:latest
-    container_name: mongos
+    container_name: mongos1
     command: mongos --configdb configReplSet/config1:27019,config2:27019,config3:27019 --port 27017 --bind_ip_all
     ports:
       - "27017:27017"
+    networks:
+      - mongo_cluster
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: admin
+      MONGO_INITDB_ROOT_PASSWORD: password
+    depends_on:
+      - config1
+      - config2
+      - config3
+      - us_east_1
+      - us_west_1
+      - us_central_1
+
+  # Mongos 2 (New Instance)
+  mongos2:
+    image: mongo:latest
+    container_name: mongos2
+    command: mongos --configdb configReplSet/config1:27019,config2:27019,config3:27019 --port 27017 --bind_ip_all
+    ports:
+      - "37017:27017"
     networks:
       - mongo_cluster
     environment:

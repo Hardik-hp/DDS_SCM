@@ -43,7 +43,11 @@ def get_mongo_db_connection():
     Connect to the MongoDB mongos router and return the client object.
     """
     try:
-        client = MongoClient("mongodb://host.docker.internal:27017/", serverSelectionTimeoutMS=5000)
+        client = MongoClient(
+            "mongodb://host.docker.internal:27017,host.docker.internal:37017/",
+            serverSelectionTimeoutMS=5000,
+            replicaSet=None,  # Since mongos doesn't use replica sets, keep this None
+        )
         return client
     except ConnectionFailure as e:
         print("Failed to connect to MongoDB:", e)
