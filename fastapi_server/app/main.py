@@ -1,4 +1,6 @@
-from fastapi import FastAPI, HTTPException
+import traceback
+import uuid
+from fastapi import FastAPI, HTTPException, Query, logger
 from datetime import datetime, timedelta
 import psycopg2
 from psycopg2.extras import RealDictCursor
@@ -19,12 +21,17 @@ class OrderCreate(BaseModel):
     retailer_id: UUID = Field(default_factory=uuid4)
     product_id: UUID = Field(default_factory=uuid4)
     quantity: float
-    shipping_address: str
 
 class ShipmentUpdate(BaseModel):
-    shipment_ids: List[str]
+    shipment_ids: List[UUID]
     status: str
 
+# Pydantic model for request validation
+class ProductCreate(BaseModel):
+    name: str = Field(..., max_length=255)
+    description: Optional[str] = Field(None, max_length=500)
+    price: float = Field(..., ge=0.0)
+    region: str = Field(..., max_length=50)
 
 # db.connect_to_db("scm")
 
@@ -65,10 +72,77 @@ def get_mongo_db_connection():
 @app.get("/health")
 async def health_check():
     return {"status": "ok"}
+@app.post("/api/products")
+async def create_product(product: ProductCreate):
+    conn = get_cockroach_db_connection("scm")
+    try:
+        cur = conn.cursor()
+        # Generate a unique product_id
+        product_id = uuid4()
+        # SQL query to insert a new product
+        cur.execute(
+            """
+            INSERT INTO products (product_id, name, description, price, region)
+            VALUES (%s, %s, %s, %s, %s)
+            RETURNING product_id, name, description, price, region
+            """,
+            (
+                str(product_id),  # Convert UUID to string
+                product.name,
+                product.description,
+                product.price,
+                product.region,
+            ),
+        )
 
+        # Fetch the created product details
+        created_product = cur.fetchone()
+        conn.commit()
+
+        return {
+            "message": "Product created successfully",
+            "product": created_product,
+        }
+    except Exception as e:
+        conn.rollback()
+        raise HTTPException(
+            status_code=500,
+            detail=f"Failed to create product: {str(e)}"
+        )
+    finally:
+        cur.close()
+        conn.close()
+@app.get("/api/products/search")
+async def search_products(name: str = Query(..., min_length=1, description="Name or part of the product name to search")):
+    conn = get_cockroach_db_connection("scm")
+    try:
+        cur = conn.cursor()
+
+        # Use a SQL query with a LIKE clause for partial matching
+        search_query = f"%{name}%"  # Add wildcards for partial match
+        cur.execute(
+            """
+            SELECT product_id, name, description, price, region
+            FROM products
+            WHERE name ILIKE %s
+            """,
+            (search_query,),
+        )
+
+        # Fetch all matching products
+        products = cur.fetchall()
+        if not products:
+            raise HTTPException(status_code=404, detail="No products found matching the search criteria")
+
+        return {"message": "Products found", "products": products}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to search products: {str(e)}")
+    finally:
+        cur.close()
+        conn.close()
 # Sample Monogo API
 @app.get("/orders")
-async def get_orders():
+async def get_all_orders():
     client = get_mongo_db_connection()
     try:
         db = client["scm"]
@@ -78,8 +152,42 @@ async def get_orders():
     finally:
         client.close()
         print("Connection to MongoDB closed.")
-
-
+# Get Order by Order ID
+@app.get("/orders/{order_id}")
+async def get_order_by_id(order_id: str):
+    client = get_mongo_db_connection()
+    try:
+        db = client["scm"]
+        orders_collection = db["orders"]
+        
+        # Find the order by order_id
+        order = orders_collection.find_one({"order_id": order_id})
+        
+        if not order:
+            raise HTTPException(status_code=404, detail="Order not found")
+        
+        return JSONResponse(content=json.loads(json_util.dumps(order)))
+    finally:
+        client.close()
+        print("Connection to MongoDB closed.")
+@app.get("/api/orders/search")
+async def search_orders(retailer_id: str = Query(..., min_length=1, description="Name or part of the product name to search"),
+                        status: str = Query(None, description="Order status to filter by (e.g., Pending, Completed)")):
+    client = get_mongo_db_connection()
+    try:
+        db = client["scm"]
+        orders_collection = db["orders"]
+        
+        # Find the order by order_id
+        orders = orders_collection.find({"retailer_id": retailer_id, "status": status})
+        
+        if not orders:
+            raise HTTPException(status_code=404, detail="Orders not found")
+        
+        return JSONResponse(content=json.loads(json_util.dumps(orders)))
+    finally:
+        client.close()
+        print("Connection to MongoDB closed.")
 # 1. Shipment Management APIs
 @app.get("/api/shipments/outstanding")
 async def get_outstanding_deliveries():
@@ -88,10 +196,9 @@ async def get_outstanding_deliveries():
         cur = conn.cursor(cursor_factory=RealDictCursor)
         cur.execute(
             """
-            SELECT s.*, o.retailer_id, o.product_id 
-            FROM shipments s
-            JOIN orders o ON s.order_id = o.order_id
-            WHERE s.status != 'Delivered'
+            SELECT *
+            FROM shipments
+            WHERE status != 'Delivered'
         """
         )
         shipments = cur.fetchall()
@@ -100,13 +207,16 @@ async def get_outstanding_deliveries():
         cur.close()
         conn.close()
 
-
 @app.put("/api/shipments/update-status")
 async def update_shipment_status(update: ShipmentUpdate):
     conn = get_cockroach_db_connection("scm")
+    client = get_mongo_db_connection()
     try:
+        db = client["scm"]
+        orders_collection = db["orders"]
+
         cur = conn.cursor()
-        # Update shipments
+        # Update shipments in CockroachDB
         cur.execute(
             """
             UPDATE shipments 
@@ -114,34 +224,50 @@ async def update_shipment_status(update: ShipmentUpdate):
             WHERE shipment_id = ANY(%s)
             RETURNING order_id
         """,
-            (update.status, datetime.now(), update.shipment_ids),
+            (update.status, datetime.now(), [str(s) for s in update.shipment_ids]),
         )
 
-        order_ids = [row[0] for row in cur.fetchall()]
+        # Fetch affected order IDs
+        rows = cur.fetchall()
+        order_ids = [str(row[0]) for row in rows]
 
-        # Update related orders
+        # Update related orders in MongoDB
         if order_ids:
-            cur.execute(
-                """
-                UPDATE orders 
-                SET status = %s 
-                WHERE order_id = ANY(%s)
-            """,
-                (update.status, order_ids),
+            update_result = orders_collection.update_many(
+                {"order_id": {"$in": order_ids}},  # Filter orders by order_id
+                {"$set": {"status": update.status}}  # Update the status
             )
+            if update_result.matched_count == 0:
+                raise HTTPException(status_code=404, detail="No matching orders found in MongoDB")
 
         conn.commit()
-        return {"message": "Successfully updated shipments and orders"}
+        return {
+            "message": "Successfully updated shipments and orders",
+            "updated_shipments": len(update.shipment_ids),
+            "updated_orders": update_result.matched_count if order_ids else 0,
+        }
     except Exception as e:
         conn.rollback()
-        raise HTTPException(status_code=500, detail=str(e))
+        # Capture full traceback and log it
+        error_details = traceback.format_exc()
+        print("Error occurred during operation: %s", error_details)
+
+        # Provide detailed error response for the client (customize as needed)
+        raise HTTPException(
+            status_code=500,
+            detail={
+                "error": str(e),
+                "context": "An unexpected error occurred while processing your request. Please check the server logs for more details.",
+            }
+        )
+        # raise HTTPException(status_code=500, detail=str(e))
     finally:
         cur.close()
         conn.close()
-
+        client.close()
 
 @app.post("/api/shipments/create")
-async def create_shipment(order_id: int):
+async def create_shipment(order_id: int, region: str):
     conn = get_cockroach_db_connection("scm")
     try:
         cur = conn.cursor(cursor_factory=RealDictCursor)
@@ -152,17 +278,18 @@ async def create_shipment(order_id: int):
 
         cur.execute(
             """
-            INSERT INTO shipments (carrier, tracking_number, status, shipment_date, delivery_date, order_id)
-            VALUES (%s, %s, %s, %s, %s, %s)
+            INSERT INTO shipments (carrier, tracking_number, status, shipment_date, delivery_date, order_id, region)
+            VALUES (%s, %s, %s, %s, %s, %s, %s)
             RETURNING *
         """,
             (
                 random.choice(carriers),
                 tracking_number,
-                "In Transit",
+                "Pending",
                 datetime.now(),
                 delivery_date,
-                order_id,
+                str(order_id),
+                region,
             ),
         )
 
@@ -176,11 +303,31 @@ async def create_shipment(order_id: int):
         cur.close()
         conn.close()
 
+@app.get("/api/shipments/track/{tracking_number}")
+async def get_outstanding_deliveries(tracking_number: str):
+    conn = get_cockroach_db_connection("scm")
+    try:
+        cur = conn.cursor(cursor_factory=RealDictCursor)
+        cur.execute(
+            """
+            SELECT *
+            FROM shipments
+            WHERE tracking_number = %s
+        """,
+            (tracking_number,),
+        )
+        shipments = cur.fetchone()
+        return {"shipments": shipments}
+    finally:
+        cur.close()
+        conn.close()
 
 # 2. Order Creation with Inventory Check
 @app.post("/api/orders")
 async def create_order(order: OrderCreate):
     conn = get_cockroach_db_connection("scm")
+    client = get_mongo_db_connection()
+        
     try:
         cur = conn.cursor(cursor_factory=RealDictCursor)
 
@@ -188,48 +335,59 @@ async def create_order(order: OrderCreate):
         cur.execute(
             """
             SELECT warehouse_id, quantity 
-            FROM warehouse 
+            FROM warehouses
             WHERE product_id = %s AND quantity >= %s 
             LIMIT 1
         """,
-            (order.product_id, order.quantity),
+            (str(order.product_id), order.quantity),
         )
 
         warehouse_info = cur.fetchone()
         if not warehouse_info:
             raise HTTPException(status_code=400, detail="Insufficient inventory")
 
-        # Create order
+        # Check retailer
         cur.execute(
             """
-            INSERT INTO orders (retailer_id, product_id, order_date, status, quantity, shipping_address)
-            VALUES (%s, %s, %s, %s, %s, %s)
-            RETURNING order_id
+            SELECT * 
+            from retailers
+            WHERE retailer_id = %s
         """,
-            (
-                order.retailer_id,
-                order.product_id,
-                datetime.now(),
-                "Pending",
-                order.quantity,
-                order.shipping_address,
-            ),
+            (str(order.retailer_id),)
         )
+        retailer = cur.fetchone()
+        if not retailer:
+            raise HTTPException(status_code=400, detail="Unregistered Retailer")
 
-        order_id = cur.fetchone()["order_id"]
+        # Create order
+        db = client["scm"]
+        orders_collection = db["orders"]
+        order_id = str(uuid.uuid4())
+        order_document = {
+            "order_id": order_id,
+            "retailer_id": str(order.retailer_id),
+            "product_id": str(order.product_id),
+            "order_date": datetime.now(),
+            "status": "Pending",
+            "quantity": order.quantity,
+            "shipping_address": retailer["address"],
+            "region": retailer["region"]
+        }
+        # Insert the order into MongoDB
+        orders_collection.insert_one(order_document)
 
         # Update inventory
         cur.execute(
             """
-            UPDATE warehouse 
+            UPDATE warehouses 
             SET quantity = quantity - %s 
             WHERE warehouse_id = %s AND product_id = %s
         """,
-            (order.quantity, warehouse_info["warehouse_id"], order.product_id),
+            (order.quantity, str(warehouse_info["warehouse_id"]), str(order.product_id)),
         )
 
         # Create shipment
-        shipment = await create_shipment(order_id)
+        shipment = await create_shipment(order_id, retailer["region"])
 
         conn.commit()
         return {"order_id": order_id, "shipment": shipment}
@@ -277,7 +435,6 @@ async def get_resource(resource: str, id: UUID):
         cur.close()
         conn.close()
 
-
 # 4. Warehouse Operations
 @app.get("/api/warehouse/inventory/{product_id}")
 async def get_warehouse_inventory(
@@ -286,7 +443,7 @@ async def get_warehouse_inventory(
     conn = get_cockroach_db_connection("scm")
     try:
         cur = conn.cursor(cursor_factory=RealDictCursor)
-        query = "SELECT * FROM warehouse WHERE product_id = %s"
+        query = "SELECT * FROM warehouses WHERE product_id = %s"
         params = [product_id]
 
         if min_quantity is not None:
@@ -302,18 +459,18 @@ async def get_warehouse_inventory(
 
 
 @app.put("/api/warehouse/inventory")
-async def update_inventory(warehouse_id: int, product_id: int, quantity_change: float):
+async def update_inventory(warehouse_id: UUID, product_id: UUID, quantity_change: float):
     conn = get_cockroach_db_connection("scm")
     try:
         cur = conn.cursor()
         cur.execute(
             """
-            UPDATE warehouse 
+            UPDATE warehouses 
             SET quantity = quantity + %s 
             WHERE warehouse_id = %s AND product_id = %s
             RETURNING quantity
         """,
-            (quantity_change, warehouse_id, product_id),
+            (quantity_change, str(warehouse_id), str(product_id)),
         )
 
         result = cur.fetchone()

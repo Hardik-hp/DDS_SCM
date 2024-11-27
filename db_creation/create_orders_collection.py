@@ -17,6 +17,11 @@ def create_orders_collection():
 
     try:
         db = client["scm"]
+
+        if "orders" in db.list_collection_names():
+            db["orders"].drop()
+            print("Existing 'orders' collection dropped.")
+        
         orders_collection = db["orders"]
         # Sample data to insert
         with open("./orders_data.json", "r") as file:
@@ -24,7 +29,7 @@ def create_orders_collection():
             # Insert the sample data into the collection
             orders_collection.insert_many(sample_orders)
 
-            print("Orders collection created successfully with 10 sample records!")
+            print("Orders collection created successfully with sample records!")
     except Exception as e:
         print("An error occurred while creating the database or inserting data:", e)
 

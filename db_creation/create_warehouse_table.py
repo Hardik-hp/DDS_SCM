@@ -11,6 +11,7 @@ def create_warehouse_table():
                     warehouse_id UUID DEFAULT gen_random_uuid(),
                     product_id UUID,
                     quantity INT,
+                    supplier_id UUID,
                     region STRING NOT NULL,
                     PRIMARY KEY (region, warehouse_id, product_id)
                 ) LOCALITY REGIONAL BY ROW;
