@@ -459,7 +459,7 @@ async def get_warehouse_inventory(
 
 
 @app.put("/api/warehouse/inventory")
-async def update_inventory(warehouse_id: UUID, product_id: UUID, quantity_change: float):
+async def update_inventory(warehouse_id: UUID, product_id: UUID, quantity_change: float, supplier_id: UUID):
     conn = get_cockroach_db_connection("scm")
     try:
         cur = conn.cursor()
@@ -467,10 +467,10 @@ async def update_inventory(warehouse_id: UUID, product_id: UUID, quantity_change
             """
             UPDATE warehouses 
             SET quantity = quantity + %s 
-            WHERE warehouse_id = %s AND product_id = %s
+            WHERE warehouse_id = %s AND product_id = %s AND supplier_id = %s
             RETURNING quantity
         """,
-            (quantity_change, str(warehouse_id), str(product_id)),
+            (quantity_change, str(warehouse_id), str(product_id), str(supplier_id)),
         )
 
         result = cur.fetchone()
