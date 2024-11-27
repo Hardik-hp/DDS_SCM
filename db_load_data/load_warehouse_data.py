@@ -10,9 +10,9 @@ def load_warehouse_data(conn, csv_file_path):
             reader = csv.DictReader(file)
             for row in reader:
                 cur.execute("""
-                    INSERT INTO warehouses (warehouse_id, product_id, quantity, region)
-                    VALUES (%s, %s, %s, %s);
-                """, (row["warehouse_id"], row["product_id"], int(row["quantity"]), row["region"]))
+                    INSERT INTO warehouses (warehouse_id, product_id, quantity, supplier_id, region)
+                    VALUES (%s, %s, %s, %s, %s);
+                """, (row["warehouse_id"], row["product_id"], int(row["quantity"]),row["supplier_id"], row["region"]), )
         conn.commit()
         print("Warehouse data loaded successfully.")
     except Exception as e:
