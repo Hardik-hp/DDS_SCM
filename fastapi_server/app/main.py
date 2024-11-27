@@ -1,6 +1,6 @@
 import traceback
 import uuid
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, Query
 from datetime import datetime, timedelta
 import psycopg2
 from psycopg2.extras import RealDictCursor
@@ -26,6 +26,12 @@ class ShipmentUpdate(BaseModel):
     shipment_ids: List[str]
     status: str
 
+# Pydantic model for request validation
+class ProductCreate(BaseModel):
+    name: str = Field(..., max_length=255)
+    description: Optional[str] = Field(None, max_length=500)
+    price: float = Field(..., ge=0.0)
+    region: str = Field(..., max_length=50)
 
 # db.connect_to_db("scm")
 
@@ -66,6 +72,76 @@ def get_mongo_db_connection():
 @app.get("/health")
 async def health_check():
     return {"status": "ok"}
+
+@app.post("/api/products")
+async def create_product(product: ProductCreate):
+    conn = get_cockroach_db_connection("scm")
+    try:
+        cur = conn.cursor()
+        # Generate a unique product_id
+        product_id = uuid4()
+        # SQL query to insert a new product
+        cur.execute(
+            """
+            INSERT INTO products (product_id, name, description, price, region)
+            VALUES (%s, %s, %s, %s, %s)
+            RETURNING product_id, name, description, price, region
+            """,
+            (
+                str(product_id),  # Convert UUID to string
+                product.name,
+                product.description,
+                product.price,
+                product.region,
+            ),
+        )
+
+        # Fetch the created product details
+        created_product = cur.fetchone()
+        conn.commit()
+
+        return {
+            "message": "Product created successfully",
+            "product": created_product,
+        }
+    except Exception as e:
+        conn.rollback()
+        raise HTTPException(
+            status_code=500,
+            detail=f"Failed to create product: {str(e)}"
+        )
+    finally:
+        cur.close()
+        conn.close()
+
+@app.get("/api/products/search")
+async def search_products(name: str = Query(..., min_length=1, description="Name or part of the product name to search")):
+    conn = get_cockroach_db_connection("scm")
+    try:
+        cur = conn.cursor()
+
+        # Use a SQL query with a LIKE clause for partial matching
+        search_query = f"%{name}%"  # Add wildcards for partial match
+        cur.execute(
+            """
+            SELECT product_id, name, description, price, region
+            FROM products
+            WHERE name ILIKE %s
+            """,
+            (search_query,),
+        )
+
+        # Fetch all matching products
+        products = cur.fetchall()
+        if not products:
+            raise HTTPException(status_code=404, detail="No products found matching the search criteria")
+
+        return {"message": "Products found", "products": products}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to search products: {str(e)}")
+    finally:
+        cur.close()
+        conn.close()
 
 # Sample Monogo API
 @app.get("/orders")
