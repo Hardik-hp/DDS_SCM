@@ -1,3 +1,5 @@
+import traceback
+import uuid
 from fastapi import FastAPI, HTTPException
 from datetime import datetime, timedelta
 import psycopg2
@@ -19,7 +21,6 @@ class OrderCreate(BaseModel):
     retailer_id: UUID = Field(default_factory=uuid4)
     product_id: UUID = Field(default_factory=uuid4)
     quantity: float
-    shipping_address: str
 
 class ShipmentUpdate(BaseModel):
     shipment_ids: List[str]
@@ -79,6 +80,24 @@ async def get_orders():
         client.close()
         print("Connection to MongoDB closed.")
 
+# Get Order by Order ID
+@app.get("/orders/{order_id}")
+async def get_order_by_id(order_id: str):
+    client = get_mongo_db_connection()
+    try:
+        db = client["scm"]
+        orders_collection = db["orders"]
+        
+        # Find the order by order_id
+        order = orders_collection.find_one({"order_id": order_id})
+        
+        if not order:
+            raise HTTPException(status_code=404, detail="Order not found")
+        
+        return JSONResponse(content=json.loads(json_util.dumps(order)))
+    finally:
+        client.close()
+        print("Connection to MongoDB closed.")
 
 # 1. Shipment Management APIs
 @app.get("/api/shipments/outstanding")
@@ -141,7 +160,7 @@ async def update_shipment_status(update: ShipmentUpdate):
 
 
 @app.post("/api/shipments/create")
-async def create_shipment(order_id: int):
+async def create_shipment(order_id: int, region: str):
     conn = get_cockroach_db_connection("scm")
     try:
         cur = conn.cursor(cursor_factory=RealDictCursor)
@@ -152,17 +171,18 @@ async def create_shipment(order_id: int):
 
         cur.execute(
             """
-            INSERT INTO shipments (carrier, tracking_number, status, shipment_date, delivery_date, order_id)
-            VALUES (%s, %s, %s, %s, %s, %s)
+            INSERT INTO shipments (carrier, tracking_number, status, shipment_date, delivery_date, order_id, region)
+            VALUES (%s, %s, %s, %s, %s, %s, %s)
             RETURNING *
         """,
             (
                 random.choice(carriers),
                 tracking_number,
-                "In Transit",
+                "Pending",
                 datetime.now(),
                 delivery_date,
-                order_id,
+                str(order_id),
+                region,
             ),
         )
 
@@ -181,6 +201,8 @@ async def create_shipment(order_id: int):
 @app.post("/api/orders")
 async def create_order(order: OrderCreate):
     conn = get_cockroach_db_connection("scm")
+    client = get_mongo_db_connection()
+        
     try:
         cur = conn.cursor(cursor_factory=RealDictCursor)
 
@@ -188,48 +210,59 @@ async def create_order(order: OrderCreate):
         cur.execute(
             """
             SELECT warehouse_id, quantity 
-            FROM warehouse 
+            FROM warehouses
             WHERE product_id = %s AND quantity >= %s 
             LIMIT 1
         """,
-            (order.product_id, order.quantity),
+            (str(order.product_id), order.quantity),
         )
 
         warehouse_info = cur.fetchone()
         if not warehouse_info:
             raise HTTPException(status_code=400, detail="Insufficient inventory")
 
-        # Create order
+        # Check retailer
         cur.execute(
             """
-            INSERT INTO orders (retailer_id, product_id, order_date, status, quantity, shipping_address)
-            VALUES (%s, %s, %s, %s, %s, %s)
-            RETURNING order_id
+            SELECT * 
+            from retailers
+            WHERE retailer_id = %s
         """,
-            (
-                order.retailer_id,
-                order.product_id,
-                datetime.now(),
-                "Pending",
-                order.quantity,
-                order.shipping_address,
-            ),
+            (str(order.retailer_id),)
         )
+        retailer = cur.fetchone()
+        if not retailer:
+            raise HTTPException(status_code=400, detail="Unregistered Retailer")
 
-        order_id = cur.fetchone()["order_id"]
+        # Create order
+        db = client["scm"]
+        orders_collection = db["orders"]
+        order_id = str(uuid.uuid4())
+        order_document = {
+            "order_id": order_id,
+            "retailer_id": str(order.retailer_id),
+            "product_id": str(order.product_id),
+            "order_date": datetime.now(),
+            "status": "Pending",
+            "quantity": order.quantity,
+            "shipping_address": retailer["address"],
+            "region": retailer["region"]
+        }
+        # Insert the order into MongoDB
+        orders_collection.insert_one(order_document)
 
         # Update inventory
         cur.execute(
             """
-            UPDATE warehouse 
+            UPDATE warehouses 
             SET quantity = quantity - %s 
             WHERE warehouse_id = %s AND product_id = %s
         """,
-            (order.quantity, warehouse_info["warehouse_id"], order.product_id),
+            (order.quantity, str(warehouse_info["warehouse_id"]), str(order.product_id)),
         )
 
         # Create shipment
-        shipment = await create_shipment(order_id)
+        shipment = await create_shipment(order_id, retailer["region"])
 
         conn.commit()
         return {"order_id": order_id, "shipment": shipment}
