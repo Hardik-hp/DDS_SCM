@@ -303,6 +303,25 @@ async def create_shipment(order_id: int, region: str):
         cur.close()
         conn.close()
 
+@app.get("/api/shipments/track/{tracking_number}")
+async def get_outstanding_deliveries(tracking_number: str):
+    conn = get_cockroach_db_connection("scm")
+    try:
+        cur = conn.cursor(cursor_factory=RealDictCursor)
+        cur.execute(
+            """
+            SELECT *
+            FROM shipments
+            WHERE tracking_number = %s
+        """,
+            (tracking_number,),
+        )
+        shipments = cur.fetchone()
+        return {"shipments": shipments}
+    finally:
+        cur.close()
+        conn.close()
+
 # 2. Order Creation with Inventory Check
 @app.post("/api/orders")
 async def create_order(order: OrderCreate):
