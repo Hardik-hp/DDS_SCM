@@ -1,6 +1,6 @@
 import traceback
 import uuid
-from fastapi import FastAPI, HTTPException, Query
+from fastapi import FastAPI, HTTPException, Query, logger
 from datetime import datetime, timedelta
 import psycopg2
 from psycopg2.extras import RealDictCursor
@@ -23,7 +23,7 @@ class OrderCreate(BaseModel):
     quantity: float
 
 class ShipmentUpdate(BaseModel):
-    shipment_ids: List[str]
+    shipment_ids: List[UUID]
     status: str
 
 # Pydantic model for request validation
@@ -72,7 +72,7 @@ def get_mongo_db_connection():
 @app.get("/health")
 async def health_check():
     return {"status": "ok"}
-
+# added
 @app.post("/api/products")
 async def create_product(product: ProductCreate):
     conn = get_cockroach_db_connection("scm")
@@ -113,7 +113,7 @@ async def create_product(product: ProductCreate):
     finally:
         cur.close()
         conn.close()
-
+# added
 @app.get("/api/products/search")
 async def search_products(name: str = Query(..., min_length=1, description="Name or part of the product name to search")):
     conn = get_cockroach_db_connection("scm")
@@ -142,10 +142,10 @@ async def search_products(name: str = Query(..., min_length=1, description="Name
     finally:
         cur.close()
         conn.close()
-
+# added
 # Sample Monogo API
 @app.get("/orders")
-async def get_orders():
+async def get_all_orders():
     client = get_mongo_db_connection()
     try:
         db = client["scm"]
@@ -155,7 +155,7 @@ async def get_orders():
     finally:
         client.close()
         print("Connection to MongoDB closed.")
-
+# added
 # Get Order by Order ID
 @app.get("/orders/{order_id}")
 async def get_order_by_id(order_id: str):
@@ -174,7 +174,26 @@ async def get_order_by_id(order_id: str):
     finally:
         client.close()
         print("Connection to MongoDB closed.")
-
+# added
+@app.get("/api/orders/search")
+async def search_orders(retailer_id: str = Query(..., min_length=1, description="Name or part of the product name to search"),
+                        status: str = Query(None, description="Order status to filter by (e.g., Pending, Completed)")):
+    client = get_mongo_db_connection()
+    try:
+        db = client["scm"]
+        orders_collection = db["orders"]
+        
+        # Find the order by order_id
+        orders = orders_collection.find({"retailer_id": retailer_id, "status": status})
+        
+        if not orders:
+            raise HTTPException(status_code=404, detail="Orders not found")
+        
+        return JSONResponse(content=json.loads(json_util.dumps(orders)))
+    finally:
+        client.close()
+        print("Connection to MongoDB closed.")
+# added
 # 1. Shipment Management APIs
 @app.get("/api/shipments/outstanding")
 async def get_outstanding_deliveries():
@@ -183,10 +202,9 @@ async def get_outstanding_deliveries():
         cur = conn.cursor(cursor_factory=RealDictCursor)
         cur.execute(
             """
-            SELECT s.*, o.retailer_id, o.product_id 
-            FROM shipments s
-            JOIN orders o ON s.order_id = o.order_id
-            WHERE s.status != 'Delivered'
+            SELECT *
+            FROM shipments
+            WHERE status != 'Delivered'
         """
         )
         shipments = cur.fetchall()
@@ -195,13 +213,17 @@ async def get_outstanding_deliveries():
         cur.close()
         conn.close()
 
-
+# added
 @app.put("/api/shipments/update-status")
 async def update_shipment_status(update: ShipmentUpdate):
     conn = get_cockroach_db_connection("scm")
+    client = get_mongo_db_connection()
     try:
+        db = client["scm"]
+        orders_collection = db["orders"]
+
         cur = conn.cursor()
-        # Update shipments
+        # Update shipments in CockroachDB
         cur.execute(
             """
             UPDATE shipments 
@@ -209,31 +231,47 @@ async def update_shipment_status(update: ShipmentUpdate):
             WHERE shipment_id = ANY(%s)
             RETURNING order_id
         """,
-            (update.status, datetime.now(), update.shipment_ids),
+            (update.status, datetime.now(), [str(s) for s in update.shipment_ids]),
         )
 
-        order_ids = [row[0] for row in cur.fetchall()]
+        # Fetch affected order IDs
+        rows = cur.fetchall()
+        order_ids = [str(row[0]) for row in rows]
 
-        # Update related orders
+        # Update related orders in MongoDB
         if order_ids:
-            cur.execute(
-                """
-                UPDATE orders 
-                SET status = %s 
-                WHERE order_id = ANY(%s)
-            """,
-                (update.status, order_ids),
+            update_result = orders_collection.update_many(
+                {"order_id": {"$in": order_ids}},  # Filter orders by order_id
+                {"$set": {"status": update.status}}  # Update the status
             )
+            if update_result.matched_count == 0:
+                raise HTTPException(status_code=404, detail="No matching orders found in MongoDB")
 
         conn.commit()
-        return {"message": "Successfully updated shipments and orders"}
+        return {
+            "message": "Successfully updated shipments and orders",
+            "updated_shipments": len(update.shipment_ids),
+            "updated_orders": update_result.matched_count if order_ids else 0,
+        }
     except Exception as e:
         conn.rollback()
-        raise HTTPException(status_code=500, detail=str(e))
+        # Capture full traceback and log it
+        error_details = traceback.format_exc()
+        print("Error occurred during operation: %s", error_details)
+
+        # Provide detailed error response for the client (customize as needed)
+        raise HTTPException(
+            status_code=500,
+            detail={
+                "error": str(e),
+                "context": "An unexpected error occurred while processing your request. Please check the server logs for more details.",
+            }
+        )
+        # raise HTTPException(status_code=500, detail=str(e))
     finally:
         cur.close()
         conn.close()
-
+        client.close()
 
 @app.post("/api/shipments/create")
 async def create_shipment(order_id: int, region: str):
