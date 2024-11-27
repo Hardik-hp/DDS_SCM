@@ -72,7 +72,6 @@ def get_mongo_db_connection():
 @app.get("/health")
 async def health_check():
     return {"status": "ok"}
-# added
 @app.post("/api/products")
 async def create_product(product: ProductCreate):
     conn = get_cockroach_db_connection("scm")
@@ -113,7 +112,6 @@ async def create_product(product: ProductCreate):
     finally:
         cur.close()
         conn.close()
-# added
 @app.get("/api/products/search")
 async def search_products(name: str = Query(..., min_length=1, description="Name or part of the product name to search")):
     conn = get_cockroach_db_connection("scm")
@@ -142,7 +140,6 @@ async def search_products(name: str = Query(..., min_length=1, description="Name
     finally:
         cur.close()
         conn.close()
-# added
 # Sample Monogo API
 @app.get("/orders")
 async def get_all_orders():
@@ -155,7 +152,6 @@ async def get_all_orders():
     finally:
         client.close()
         print("Connection to MongoDB closed.")
-# added
 # Get Order by Order ID
 @app.get("/orders/{order_id}")
 async def get_order_by_id(order_id: str):
@@ -174,7 +170,6 @@ async def get_order_by_id(order_id: str):
     finally:
         client.close()
         print("Connection to MongoDB closed.")
-# added
 @app.get("/api/orders/search")
 async def search_orders(retailer_id: str = Query(..., min_length=1, description="Name or part of the product name to search"),
                         status: str = Query(None, description="Order status to filter by (e.g., Pending, Completed)")):
@@ -193,7 +188,6 @@ async def search_orders(retailer_id: str = Query(..., min_length=1, description=
     finally:
         client.close()
         print("Connection to MongoDB closed.")
-# added
 # 1. Shipment Management APIs
 @app.get("/api/shipments/outstanding")
 async def get_outstanding_deliveries():
@@ -213,7 +207,6 @@ async def get_outstanding_deliveries():
         cur.close()
         conn.close()
 
-# added
 @app.put("/api/shipments/update-status")
 async def update_shipment_status(update: ShipmentUpdate):
     conn = get_cockroach_db_connection("scm")
@@ -309,7 +302,6 @@ async def create_shipment(order_id: int, region: str):
     finally:
         cur.close()
         conn.close()
-
 
 # 2. Order Creation with Inventory Check
 @app.post("/api/orders")
@@ -424,7 +416,6 @@ async def get_resource(resource: str, id: UUID):
         cur.close()
         conn.close()
 
-
 # 4. Warehouse Operations
 @app.get("/api/warehouse/inventory/{product_id}")
 async def get_warehouse_inventory(
@@ -433,7 +424,7 @@ async def get_warehouse_inventory(
     conn = get_cockroach_db_connection("scm")
     try:
         cur = conn.cursor(cursor_factory=RealDictCursor)
-        query = "SELECT * FROM warehouse WHERE product_id = %s"
+        query = "SELECT * FROM warehouses WHERE product_id = %s"
         params = [product_id]
 
         if min_quantity is not None:
@@ -449,18 +440,18 @@ async def get_warehouse_inventory(
 
 
 @app.put("/api/warehouse/inventory")
-async def update_inventory(warehouse_id: int, product_id: int, quantity_change: float):
+async def update_inventory(warehouse_id: UUID, product_id: UUID, quantity_change: float):
     conn = get_cockroach_db_connection("scm")
     try:
         cur = conn.cursor()
         cur.execute(
             """
-            UPDATE warehouse 
+            UPDATE warehouses 
             SET quantity = quantity + %s 
             WHERE warehouse_id = %s AND product_id = %s
             RETURNING quantity
         """,
-            (quantity_change, warehouse_id, product_id),
+            (quantity_change, str(warehouse_id), str(product_id)),
         )
 
         result = cur.fetchone()
