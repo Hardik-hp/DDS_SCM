@@ -7,7 +7,7 @@
 	  "status": "Shipped",
 	  "quantity": 27,
 	  "shipping_address": "762 Kevin Springs, Sydneyberg, MI 38238",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "d0e20748-27ba-4e8d-a298-08b7f3ca5264",
@@ -17,7 +17,7 @@
 	  "status": "Pending",
 	  "quantity": 3,
 	  "shipping_address": "762 Kevin Springs, Sydneyberg, MI 38238",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "3617b791-a26e-444b-90cb-5498e4829d94",
@@ -27,7 +27,7 @@
 	  "status": "Delivered",
 	  "quantity": 34,
 	  "shipping_address": "762 Kevin Springs, Sydneyberg, MI 38238",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "88b3a6e8-8972-4e95-9689-29625f74dde6",
@@ -37,7 +37,7 @@
 	  "status": "Pending",
 	  "quantity": 9,
 	  "shipping_address": "762 Kevin Springs, Sydneyberg, MI 38238",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "77405568-0e2b-4cfa-b83f-803570ca785a",
@@ -47,7 +47,7 @@
 	  "status": "Pending",
 	  "quantity": 31,
 	  "shipping_address": "762 Kevin Springs, Sydneyberg, MI 38238",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "890892fd-fa1c-408c-bc94-ee406740dfa9",
@@ -57,7 +57,7 @@
 	  "status": "Pending",
 	  "quantity": 16,
 	  "shipping_address": "50200 John Club Apt. 580, Lake Martin, WY 39582",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "01ef60fe-733f-4f23-8314-8783169c2fc3",
@@ -67,7 +67,7 @@
 	  "status": "Pending",
 	  "quantity": 71,
 	  "shipping_address": "50200 John Club Apt. 580, Lake Martin, WY 39582",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "390576c4-3564-462d-953f-6d7b13d94bfb",
@@ -77,7 +77,7 @@
 	  "status": "Delivered",
 	  "quantity": 64,
 	  "shipping_address": "50200 John Club Apt. 580, Lake Martin, WY 39582",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "bbb60d0e-3ead-47f9-8d05-bccc266f9de1",
@@ -87,7 +87,7 @@
 	  "status": "Delivered",
 	  "quantity": 98,
 	  "shipping_address": "50200 John Club Apt. 580, Lake Martin, WY 39582",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "2677dacd-fe17-4ace-b4e3-500cabf216bd",
@@ -97,7 +97,7 @@
 	  "status": "Delivered",
 	  "quantity": 100,
 	  "shipping_address": "50200 John Club Apt. 580, Lake Martin, WY 39582",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "4f7b8be9-1546-418f-ab21-cf51f608c01c",
@@ -107,7 +107,7 @@
 	  "status": "Shipped",
 	  "quantity": 90,
 	  "shipping_address": "510 Anthony Heights Suite 222, West Ashleyshire, AZ 81428",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "2750c8d5-2d05-4a5f-b85a-0440fb1166c9",
@@ -117,7 +117,7 @@
 	  "status": "Delivered",
 	  "quantity": 94,
 	  "shipping_address": "510 Anthony Heights Suite 222, West Ashleyshire, AZ 81428",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "486386ee-32b9-4ecd-9d79-5c6673fcc8ee",
@@ -127,7 +127,7 @@
 	  "status": "Delivered",
 	  "quantity": 36,
 	  "shipping_address": "510 Anthony Heights Suite 222, West Ashleyshire, AZ 81428",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "7adcd3aa-b932-4b43-986e-70dce3eb423c",
@@ -137,7 +137,7 @@
 	  "status": "Pending",
 	  "quantity": 58,
 	  "shipping_address": "510 Anthony Heights Suite 222, West Ashleyshire, AZ 81428",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "e12fcf4e-0877-4703-81c0-0d982fdf8a2e",
@@ -147,7 +147,7 @@
 	  "status": "Delivered",
 	  "quantity": 8,
 	  "shipping_address": "510 Anthony Heights Suite 222, West Ashleyshire, AZ 81428",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "ff22c59c-f892-4e18-9d76-91daeed01d5c",
@@ -157,7 +157,7 @@
 	  "status": "Shipped",
 	  "quantity": 25,
 	  "shipping_address": "7229 Norris Village, South Edwinville, NJ 03013",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "217d1527-7181-47b2-87d9-f9237bb01c80",
@@ -167,7 +167,7 @@
 	  "status": "Shipped",
 	  "quantity": 83,
 	  "shipping_address": "7229 Norris Village, South Edwinville, NJ 03013",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "25a6102e-907f-42a6-96b6-34825dee0e83",
@@ -177,7 +177,7 @@
 	  "status": "Delivered",
 	  "quantity": 76,
 	  "shipping_address": "7229 Norris Village, South Edwinville, NJ 03013",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "9380c914-51eb-43aa-af1d-4f9f9c1cc0e4",
@@ -187,7 +187,7 @@
 	  "status": "Shipped",
 	  "quantity": 60,
 	  "shipping_address": "7229 Norris Village, South Edwinville, NJ 03013",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "cb9b7a4f-eba9-4d3d-897c-e8d4f94158c5",
@@ -197,7 +197,7 @@
 	  "status": "Delivered",
 	  "quantity": 52,
 	  "shipping_address": "7229 Norris Village, South Edwinville, NJ 03013",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "d8759b39-b901-4fd4-8474-02248bcd84df",
@@ -207,7 +207,7 @@
 	  "status": "Pending",
 	  "quantity": 50,
 	  "shipping_address": "720 Holly Extensions, West Erin, FL 65218",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "ceea1540-d3fb-4d1c-9339-5e0d7afb9148",
@@ -217,7 +217,7 @@
 	  "status": "Delivered",
 	  "quantity": 75,
 	  "shipping_address": "720 Holly Extensions, West Erin, FL 65218",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "a4dffbdd-29ef-4ee0-aab3-b0fc6a370bd9",
@@ -227,7 +227,7 @@
 	  "status": "Delivered",
 	  "quantity": 48,
 	  "shipping_address": "720 Holly Extensions, West Erin, FL 65218",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "8e40eef9-690e-4869-aa40-1a317b0adfef",
@@ -237,7 +237,7 @@
 	  "status": "Delivered",
 	  "quantity": 12,
 	  "shipping_address": "720 Holly Extensions, West Erin, FL 65218",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "0ac4c238-f7d4-47f0-87ec-ca0e8abbfe86",
@@ -247,7 +247,7 @@
 	  "status": "Shipped",
 	  "quantity": 4,
 	  "shipping_address": "720 Holly Extensions, West Erin, FL 65218",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "0941c7d2-47b7-44cc-8254-ef8b90ebb077",
@@ -257,7 +257,7 @@
 	  "status": "Delivered",
 	  "quantity": 67,
 	  "shipping_address": "6225 Williams Summit Apt. 974, Carlfurt, KS 27216",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "e6e68ddc-5978-4bd7-83a5-147afe04e7a3",
@@ -267,7 +267,7 @@
 	  "status": "Pending",
 	  "quantity": 20,
 	  "shipping_address": "6225 Williams Summit Apt. 974, Carlfurt, KS 27216",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "433cae44-f261-48a0-b903-c9fa96af05f6",
@@ -277,7 +277,7 @@
 	  "status": "Pending",
 	  "quantity": 89,
 	  "shipping_address": "6225 Williams Summit Apt. 974, Carlfurt, KS 27216",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "3d425faa-fb49-4b50-ad92-f2944a97831d",
@@ -287,7 +287,7 @@
 	  "status": "Shipped",
 	  "quantity": 6,
 	  "shipping_address": "6225 Williams Summit Apt. 974, Carlfurt, KS 27216",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "f38ff772-0832-427b-af1c-e02f89bcb116",
@@ -297,7 +297,7 @@
 	  "status": "Delivered",
 	  "quantity": 13,
 	  "shipping_address": "6225 Williams Summit Apt. 974, Carlfurt, KS 27216",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "6d19c954-170e-4f10-b173-dbf320c5463e",
@@ -307,7 +307,7 @@
 	  "status": "Pending",
 	  "quantity": 21,
 	  "shipping_address": "USNS Meyer, FPO AE 54915",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "1b57deae-3ba5-46f9-bec3-c31a0684faf5",
@@ -317,7 +317,7 @@
 	  "status": "Pending",
 	  "quantity": 33,
 	  "shipping_address": "USNS Meyer, FPO AE 54915",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "4e47f81b-cc77-43ab-bf3d-d7b430d33e1b",
@@ -327,7 +327,7 @@
 	  "status": "Delivered",
 	  "quantity": 20,
 	  "shipping_address": "USNS Meyer, FPO AE 54915",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "958510d4-eb90-4867-80e6-ac8684b62621",
@@ -337,7 +337,7 @@
 	  "status": "Pending",
 	  "quantity": 82,
 	  "shipping_address": "USNS Meyer, FPO AE 54915",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "cc06288e-9088-4161-a5b1-5b8aa71eb963",
@@ -347,7 +347,7 @@
 	  "status": "Pending",
 	  "quantity": 91,
 	  "shipping_address": "USNS Meyer, FPO AE 54915",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "0da6f19d-07e6-49f0-9079-3fb6987568a8",
@@ -357,7 +357,7 @@
 	  "status": "Shipped",
 	  "quantity": 94,
 	  "shipping_address": "60732 Smith Fields, South Troychester, MN 47569",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "bc108cea-66dc-417c-ad2f-e097cbd7b84f",
@@ -367,7 +367,7 @@
 	  "status": "Delivered",
 	  "quantity": 51,
 	  "shipping_address": "60732 Smith Fields, South Troychester, MN 47569",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "243a8b01-3f82-4635-aa7c-ad507c560b15",
@@ -377,7 +377,7 @@
 	  "status": "Shipped",
 	  "quantity": 87,
 	  "shipping_address": "60732 Smith Fields, South Troychester, MN 47569",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "731e1474-165b-44db-a2a1-527792edddd1",
@@ -387,7 +387,7 @@
 	  "status": "Shipped",
 	  "quantity": 74,
 	  "shipping_address": "60732 Smith Fields, South Troychester, MN 47569",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "49b7f0b1-501e-4fe9-8139-6f181b6896f0",
@@ -397,7 +397,7 @@
 	  "status": "Delivered",
 	  "quantity": 8,
 	  "shipping_address": "60732 Smith Fields, South Troychester, MN 47569",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "1e129e3b-34ff-4b3a-8867-cc4c1d5aeb97",
@@ -407,7 +407,7 @@
 	  "status": "Pending",
 	  "quantity": 16,
 	  "shipping_address": "141 Roy Via, Lake Nicoleland, VT 68436",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "c8e3d9db-f1d1-42f8-aa65-9add37e06b35",
@@ -417,7 +417,7 @@
 	  "status": "Delivered",
 	  "quantity": 47,
 	  "shipping_address": "141 Roy Via, Lake Nicoleland, VT 68436",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "226ebce6-abb7-4c4e-a372-5277384f840c",
@@ -427,7 +427,7 @@
 	  "status": "Shipped",
 	  "quantity": 27,
 	  "shipping_address": "141 Roy Via, Lake Nicoleland, VT 68436",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "b293d3e2-c375-4341-a9e3-ca9e12dc1e18",
@@ -437,7 +437,7 @@
 	  "status": "Pending",
 	  "quantity": 85,
 	  "shipping_address": "141 Roy Via, Lake Nicoleland, VT 68436",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "e7bf9986-e708-4773-b809-0925c0874cbe",
@@ -447,7 +447,7 @@
 	  "status": "Shipped",
 	  "quantity": 32,
 	  "shipping_address": "141 Roy Via, Lake Nicoleland, VT 68436",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "b715e9f7-60d4-4a7d-882c-f9a1204b6f66",
@@ -457,7 +457,7 @@
 	  "status": "Pending",
 	  "quantity": 87,
 	  "shipping_address": "18194 Lee Road Suite 627, Smithstad, AZ 95902",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "4e3c155e-2c20-4862-abfc-ef71c962ac7e",
@@ -467,7 +467,7 @@
 	  "status": "Pending",
 	  "quantity": 28,
 	  "shipping_address": "18194 Lee Road Suite 627, Smithstad, AZ 95902",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "fbcc8e21-d921-48aa-b0bb-e7e380c91eba",
@@ -477,7 +477,7 @@
 	  "status": "Pending",
 	  "quantity": 94,
 	  "shipping_address": "18194 Lee Road Suite 627, Smithstad, AZ 95902",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "f229771a-c513-4224-8d74-2fc7cbf2be16",
@@ -487,7 +487,7 @@
 	  "status": "Pending",
 	  "quantity": 37,
 	  "shipping_address": "18194 Lee Road Suite 627, Smithstad, AZ 95902",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "621c85eb-6c6b-410d-a431-ba401100369c",
@@ -497,7 +497,7 @@
 	  "status": "Delivered",
 	  "quantity": 91,
 	  "shipping_address": "18194 Lee Road Suite 627, Smithstad, AZ 95902",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "0b55459b-f91a-4d60-9d8c-4fbc4400fb57",
@@ -507,7 +507,7 @@
 	  "status": "Delivered",
 	  "quantity": 60,
 	  "shipping_address": "839 Matthews Corner Apt. 351, South Nancy, NH 08697",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "ecd021d1-21d5-460d-8771-c5a338ef57a7",
@@ -517,7 +517,7 @@
 	  "status": "Shipped",
 	  "quantity": 60,
 	  "shipping_address": "839 Matthews Corner Apt. 351, South Nancy, NH 08697",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "54f78b77-4766-409a-8ac3-cf94598df9f0",
@@ -527,7 +527,7 @@
 	  "status": "Delivered",
 	  "quantity": 19,
 	  "shipping_address": "839 Matthews Corner Apt. 351, South Nancy, NH 08697",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "e5543383-830b-4f06-8b67-921c3dab35bb",
@@ -537,7 +537,7 @@
 	  "status": "Delivered",
 	  "quantity": 53,
 	  "shipping_address": "839 Matthews Corner Apt. 351, South Nancy, NH 08697",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "ef4764bf-69a5-4f2b-a9ab-cbf2a6d2766c",
@@ -547,7 +547,7 @@
 	  "status": "Pending",
 	  "quantity": 43,
 	  "shipping_address": "839 Matthews Corner Apt. 351, South Nancy, NH 08697",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "21a54d53-1aa2-43af-92fa-47e1a56d3565",
@@ -557,7 +557,7 @@
 	  "status": "Pending",
 	  "quantity": 82,
 	  "shipping_address": "09216 Laura Ridges Suite 562, New Sarah, DC 59688",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "54a71526-5b24-4e80-81ce-7e9e55c485b4",
@@ -567,7 +567,7 @@
 	  "status": "Delivered",
 	  "quantity": 73,
 	  "shipping_address": "09216 Laura Ridges Suite 562, New Sarah, DC 59688",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "be899225-17b2-47e2-b47c-5a013816bc76",
@@ -577,7 +577,7 @@
 	  "status": "Pending",
 	  "quantity": 79,
 	  "shipping_address": "09216 Laura Ridges Suite 562, New Sarah, DC 59688",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "aeb4d5ec-adf3-4c9d-af39-62c5b7131b73",
@@ -587,7 +587,7 @@
 	  "status": "Pending",
 	  "quantity": 60,
 	  "shipping_address": "09216 Laura Ridges Suite 562, New Sarah, DC 59688",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "31111b3c-376f-40b3-86dd-3d01624f5dc6",
@@ -597,7 +597,7 @@
 	  "status": "Shipped",
 	  "quantity": 57,
 	  "shipping_address": "09216 Laura Ridges Suite 562, New Sarah, DC 59688",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "7a51141c-78c4-436b-81b6-6a79cf0bcea8",
@@ -607,7 +607,7 @@
 	  "status": "Shipped",
 	  "quantity": 67,
 	  "shipping_address": "083 Jonathan Islands, West Emilytown, NE 75142",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "831eb866-c64d-4bbd-b1b0-29d2060344af",
@@ -617,7 +617,7 @@
 	  "status": "Pending",
 	  "quantity": 86,
 	  "shipping_address": "083 Jonathan Islands, West Emilytown, NE 75142",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "59d601b1-abd4-4845-ab94-06db4ae5b112",
@@ -627,7 +627,7 @@
 	  "status": "Delivered",
 	  "quantity": 97,
 	  "shipping_address": "083 Jonathan Islands, West Emilytown, NE 75142",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "eb3fd85d-0f0a-494b-90ec-506f00b86569",
@@ -637,7 +637,7 @@
 	  "status": "Pending",
 	  "quantity": 65,
 	  "shipping_address": "083 Jonathan Islands, West Emilytown, NE 75142",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "d000b312-1a5a-4dbf-9853-05af2e7d85ce",
@@ -647,7 +647,7 @@
 	  "status": "Delivered",
 	  "quantity": 55,
 	  "shipping_address": "083 Jonathan Islands, West Emilytown, NE 75142",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "d88e5d3f-d46e-4d54-afc2-8ae56d9dd7ee",
@@ -657,7 +657,7 @@
 	  "status": "Shipped",
 	  "quantity": 27,
 	  "shipping_address": "590 Matthew Trail Apt. 630, Marshallshire, GA 85213",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "321d3509-5537-4d61-96ad-b60df3733a47",
@@ -667,7 +667,7 @@
 	  "status": "Shipped",
 	  "quantity": 82,
 	  "shipping_address": "590 Matthew Trail Apt. 630, Marshallshire, GA 85213",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "9a43eca7-0200-468f-a203-d9fe923584a9",
@@ -677,7 +677,7 @@
 	  "status": "Delivered",
 	  "quantity": 41,
 	  "shipping_address": "590 Matthew Trail Apt. 630, Marshallshire, GA 85213",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "05b93804-c3ce-4239-a38e-71d524e42c69",
@@ -687,7 +687,7 @@
 	  "status": "Shipped",
 	  "quantity": 15,
 	  "shipping_address": "590 Matthew Trail Apt. 630, Marshallshire, GA 85213",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "a5b10d86-caa1-493f-9dd3-cd6d441e6cc0",
@@ -697,7 +697,7 @@
 	  "status": "Delivered",
 	  "quantity": 48,
 	  "shipping_address": "590 Matthew Trail Apt. 630, Marshallshire, GA 85213",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "9bc13c7a-7430-4d74-8f6d-d0709ce00262",
@@ -707,7 +707,7 @@
 	  "status": "Shipped",
 	  "quantity": 39,
 	  "shipping_address": "223 Albert Via Apt. 632, Juliashire, AR 18010",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "be9344a7-33f7-460e-812f-63771bcfc82c",
@@ -717,7 +717,7 @@
 	  "status": "Delivered",
 	  "quantity": 40,
 	  "shipping_address": "223 Albert Via Apt. 632, Juliashire, AR 18010",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "e14b48cc-3674-4133-ab39-b6ed1642ae5b",
@@ -727,7 +727,7 @@
 	  "status": "Shipped",
 	  "quantity": 14,
 	  "shipping_address": "223 Albert Via Apt. 632, Juliashire, AR 18010",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "80e92c47-7a32-4362-80fa-8160a2e396b9",
@@ -737,7 +737,7 @@
 	  "status": "Shipped",
 	  "quantity": 57,
 	  "shipping_address": "223 Albert Via Apt. 632, Juliashire, AR 18010",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "542abd8c-ad2a-4b9a-baeb-4d58ca6f69c8",
@@ -747,7 +747,7 @@
 	  "status": "Shipped",
 	  "quantity": 94,
 	  "shipping_address": "223 Albert Via Apt. 632, Juliashire, AR 18010",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "ac5a9cd4-b5a5-4bc8-9c53-1ac388beaed9",
@@ -757,7 +757,7 @@
 	  "status": "Shipped",
 	  "quantity": 21,
 	  "shipping_address": "6618 Munoz Pass, Joshuafort, AK 78764",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "41be3e70-46de-4366-a853-7612f393f557",
@@ -767,7 +767,7 @@
 	  "status": "Shipped",
 	  "quantity": 11,
 	  "shipping_address": "6618 Munoz Pass, Joshuafort, AK 78764",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "a54bbc38-3c25-4e51-8ad7-9a3fb63723a3",
@@ -777,7 +777,7 @@
 	  "status": "Delivered",
 	  "quantity": 92,
 	  "shipping_address": "6618 Munoz Pass, Joshuafort, AK 78764",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "b339c6fd-5952-462b-926d-7eee70565d83",
@@ -787,7 +787,7 @@
 	  "status": "Shipped",
 	  "quantity": 20,
 	  "shipping_address": "6618 Munoz Pass, Joshuafort, AK 78764",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "5d39b6ea-8ab7-4224-83c1-7ed3e3fb00d4",
@@ -797,7 +797,7 @@
 	  "status": "Delivered",
 	  "quantity": 99,
 	  "shipping_address": "6618 Munoz Pass, Joshuafort, AK 78764",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "6bb023f1-50b2-4d0d-83b6-d56480317846",
@@ -807,7 +807,7 @@
 	  "status": "Shipped",
 	  "quantity": 39,
 	  "shipping_address": "8610 Manning Pike, Jasonview, MN 35901",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "0d9f021e-6b74-41c4-b434-5f50645124d0",
@@ -817,7 +817,7 @@
 	  "status": "Pending",
 	  "quantity": 63,
 	  "shipping_address": "8610 Manning Pike, Jasonview, MN 35901",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "47ae9603-a0a5-4d89-ab55-48d126cf3b7a",
@@ -827,7 +827,7 @@
 	  "status": "Pending",
 	  "quantity": 17,
 	  "shipping_address": "8610 Manning Pike, Jasonview, MN 35901",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "c567d22a-cfa9-43b1-b0da-188164f4407e",
@@ -837,7 +837,7 @@
 	  "status": "Pending",
 	  "quantity": 80,
 	  "shipping_address": "8610 Manning Pike, Jasonview, MN 35901",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "38e2e658-d233-482f-8000-f0b7eb596dc7",
@@ -847,7 +847,7 @@
 	  "status": "Shipped",
 	  "quantity": 38,
 	  "shipping_address": "8610 Manning Pike, Jasonview, MN 35901",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "0aaae51f-51ef-4076-92b7-9e34259b0112",
@@ -857,7 +857,7 @@
 	  "status": "Pending",
 	  "quantity": 76,
 	  "shipping_address": "4664 Sanchez Plaza, Pamelaborough, MT 51454",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "0f9c44ba-54d6-4448-8821-07c0e422506a",
@@ -867,7 +867,7 @@
 	  "status": "Shipped",
 	  "quantity": 31,
 	  "shipping_address": "4664 Sanchez Plaza, Pamelaborough, MT 51454",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "3cc20e9c-0129-4460-a0ff-3802941def33",
@@ -877,7 +877,7 @@
 	  "status": "Pending",
 	  "quantity": 73,
 	  "shipping_address": "4664 Sanchez Plaza, Pamelaborough, MT 51454",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "a6de7791-b004-4623-b5b6-2f4d40532724",
@@ -887,7 +887,7 @@
 	  "status": "Shipped",
 	  "quantity": 11,
 	  "shipping_address": "4664 Sanchez Plaza, Pamelaborough, MT 51454",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "5ab6c186-4a28-4825-8477-df2286f1fff5",
@@ -897,7 +897,7 @@
 	  "status": "Delivered",
 	  "quantity": 40,
 	  "shipping_address": "4664 Sanchez Plaza, Pamelaborough, MT 51454",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "91e81464-536c-40ac-9572-226a84ec31e0",
@@ -907,7 +907,7 @@
 	  "status": "Shipped",
 	  "quantity": 24,
 	  "shipping_address": "16934 Katherine Trail Apt. 908, Veronicatown, GA 47947",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "5ca09998-41d8-4711-a4dd-b8b8b7dcd3ae",
@@ -917,7 +917,7 @@
 	  "status": "Delivered",
 	  "quantity": 79,
 	  "shipping_address": "16934 Katherine Trail Apt. 908, Veronicatown, GA 47947",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "672207da-5c74-4c10-bdc0-d329278ddef4",
@@ -927,7 +927,7 @@
 	  "status": "Delivered",
 	  "quantity": 78,
 	  "shipping_address": "16934 Katherine Trail Apt. 908, Veronicatown, GA 47947",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "a5586003-bf3c-4220-b72c-cd19a6555215",
@@ -937,7 +937,7 @@
 	  "status": "Shipped",
 	  "quantity": 62,
 	  "shipping_address": "16934 Katherine Trail Apt. 908, Veronicatown, GA 47947",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "27eb9bbd-0c0c-4b2e-9abf-c3468540281a",
@@ -947,7 +947,7 @@
 	  "status": "Shipped",
 	  "quantity": 83,
 	  "shipping_address": "16934 Katherine Trail Apt. 908, Veronicatown, GA 47947",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "ba310048-166b-4d35-b4dc-09249385e517",
@@ -957,7 +957,7 @@
 	  "status": "Delivered",
 	  "quantity": 91,
 	  "shipping_address": "7891 Sara Key, South Zachary, NV 63674",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "acf1d3e0-f405-4a93-a2c1-915085fce4f0",
@@ -967,7 +967,7 @@
 	  "status": "Shipped",
 	  "quantity": 98,
 	  "shipping_address": "7891 Sara Key, South Zachary, NV 63674",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "b5bff1ff-fdfb-47dd-bd3a-ca1e753f46fa",
@@ -977,7 +977,7 @@
 	  "status": "Delivered",
 	  "quantity": 95,
 	  "shipping_address": "7891 Sara Key, South Zachary, NV 63674",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "abd6db48-eda8-44f2-8664-58ec9703967c",
@@ -987,7 +987,7 @@
 	  "status": "Delivered",
 	  "quantity": 18,
 	  "shipping_address": "7891 Sara Key, South Zachary, NV 63674",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "4f71c84c-560d-4584-84f1-5af8acf8bfce",
@@ -997,7 +997,7 @@
 	  "status": "Delivered",
 	  "quantity": 96,
 	  "shipping_address": "7891 Sara Key, South Zachary, NV 63674",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "695f1aae-f26b-4999-af6a-5ddfcd353a7e",
@@ -1007,7 +1007,7 @@
 	  "status": "Pending",
 	  "quantity": 88,
 	  "shipping_address": "277 Amber Roads Apt. 021, East Thomastown, MS 67050",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "b982b92d-4933-418d-908b-8a1b7745bdc8",
@@ -1017,7 +1017,7 @@
 	  "status": "Pending",
 	  "quantity": 44,
 	  "shipping_address": "277 Amber Roads Apt. 021, East Thomastown, MS 67050",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "486d3e5a-1967-49eb-a6cd-1ec51356b6f1",
@@ -1027,7 +1027,7 @@
 	  "status": "Shipped",
 	  "quantity": 9,
 	  "shipping_address": "277 Amber Roads Apt. 021, East Thomastown, MS 67050",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "4665b9de-063a-4543-ae2b-f304d19787c8",
@@ -1037,7 +1037,7 @@
 	  "status": "Pending",
 	  "quantity": 89,
 	  "shipping_address": "277 Amber Roads Apt. 021, East Thomastown, MS 67050",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "063dbded-4cc8-48ac-8d99-e52c5d90c299",
@@ -1047,7 +1047,7 @@
 	  "status": "Pending",
 	  "quantity": 1,
 	  "shipping_address": "277 Amber Roads Apt. 021, East Thomastown, MS 67050",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "5c0ae9f4-2807-44c2-abb7-4fc20f57917d",
@@ -1057,7 +1057,7 @@
 	  "status": "Delivered",
 	  "quantity": 60,
 	  "shipping_address": "718 Jordan Cliffs, Hendersonville, MT 75526",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "2602301b-acce-46c2-a2bf-aea80e686428",
@@ -1067,7 +1067,7 @@
 	  "status": "Delivered",
 	  "quantity": 18,
 	  "shipping_address": "718 Jordan Cliffs, Hendersonville, MT 75526",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "5e01d4c4-c658-4594-ba1c-b0aa77af0de6",
@@ -1077,7 +1077,7 @@
 	  "status": "Delivered",
 	  "quantity": 10,
 	  "shipping_address": "718 Jordan Cliffs, Hendersonville, MT 75526",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "5d5f640e-c52b-472d-81ed-ba5e6c5a6d5e",
@@ -1087,7 +1087,7 @@
 	  "status": "Pending",
 	  "quantity": 31,
 	  "shipping_address": "718 Jordan Cliffs, Hendersonville, MT 75526",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "1a599e4a-1180-458e-959d-4cd62507afce",
@@ -1097,7 +1097,7 @@
 	  "status": "Delivered",
 	  "quantity": 3,
 	  "shipping_address": "718 Jordan Cliffs, Hendersonville, MT 75526",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "01c80d3c-fef4-436d-bc7a-9d72a3d56d17",
@@ -1107,7 +1107,7 @@
 	  "status": "Delivered",
 	  "quantity": 98,
 	  "shipping_address": "92165 Alexander Run, Martinezborough, SD 39210",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "25ddf5d7-1822-45c4-b0e5-c88e9cd2d459",
@@ -1117,7 +1117,7 @@
 	  "status": "Delivered",
 	  "quantity": 46,
 	  "shipping_address": "92165 Alexander Run, Martinezborough, SD 39210",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "8ead4b83-6a08-485f-904d-90f5fdfea62c",
@@ -1127,7 +1127,7 @@
 	  "status": "Delivered",
 	  "quantity": 35,
 	  "shipping_address": "92165 Alexander Run, Martinezborough, SD 39210",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "e065a572-14d5-4872-b07d-7ebe52cbb196",
@@ -1137,7 +1137,7 @@
 	  "status": "Pending",
 	  "quantity": 47,
 	  "shipping_address": "92165 Alexander Run, Martinezborough, SD 39210",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "f6c6d060-9e86-4dbe-b814-f55f06d10d64",
@@ -1147,7 +1147,7 @@
 	  "status": "Pending",
 	  "quantity": 55,
 	  "shipping_address": "92165 Alexander Run, Martinezborough, SD 39210",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "b79dcf5d-8987-4888-8fc0-e7bdde9ba0c9",
@@ -1157,7 +1157,7 @@
 	  "status": "Pending",
 	  "quantity": 23,
 	  "shipping_address": "7325 Alyssa Junctions, West David, CA 63908",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "ca27b59b-beea-4570-b616-8941d409eabb",
@@ -1167,7 +1167,7 @@
 	  "status": "Shipped",
 	  "quantity": 49,
 	  "shipping_address": "7325 Alyssa Junctions, West David, CA 63908",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "51048d48-63f0-400f-9c4e-d8318adad402",
@@ -1177,7 +1177,7 @@
 	  "status": "Delivered",
 	  "quantity": 20,
 	  "shipping_address": "7325 Alyssa Junctions, West David, CA 63908",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "5954cc59-5c48-49ba-810f-d91a2b5e7a64",
@@ -1187,7 +1187,7 @@
 	  "status": "Shipped",
 	  "quantity": 99,
 	  "shipping_address": "7325 Alyssa Junctions, West David, CA 63908",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "31eaaaf3-1bb2-4c25-9860-4c36f10113c1",
@@ -1197,7 +1197,7 @@
 	  "status": "Pending",
 	  "quantity": 59,
 	  "shipping_address": "7325 Alyssa Junctions, West David, CA 63908",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "9cb467cb-5299-4b11-9a0e-0bf0363a9043",
@@ -1207,7 +1207,7 @@
 	  "status": "Delivered",
 	  "quantity": 9,
 	  "shipping_address": "USCGC Flores, FPO AP 31182",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "28fdda90-dd40-42cf-b96f-85424b926d7d",
@@ -1217,7 +1217,7 @@
 	  "status": "Shipped",
 	  "quantity": 52,
 	  "shipping_address": "USCGC Flores, FPO AP 31182",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "90295c38-ea13-43cf-acf2-204231abeeb2",
@@ -1227,7 +1227,7 @@
 	  "status": "Pending",
 	  "quantity": 65,
 	  "shipping_address": "USCGC Flores, FPO AP 31182",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "5b923685-f387-4493-b08c-3346af6c457d",
@@ -1237,7 +1237,7 @@
 	  "status": "Shipped",
 	  "quantity": 9,
 	  "shipping_address": "USCGC Flores, FPO AP 31182",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "08acc2d0-da83-4033-9b7c-6df2e00f415e",
@@ -1247,7 +1247,7 @@
 	  "status": "Delivered",
 	  "quantity": 90,
 	  "shipping_address": "USCGC Flores, FPO AP 31182",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "368ede24-06b6-4f18-9a04-e6e71b272a24",
@@ -1257,7 +1257,7 @@
 	  "status": "Delivered",
 	  "quantity": 98,
 	  "shipping_address": "4280 Ethan Hill, Harrytown, IA 20127",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "d38f5356-54f4-4591-895c-61bea9a155e1",
@@ -1267,7 +1267,7 @@
 	  "status": "Delivered",
 	  "quantity": 27,
 	  "shipping_address": "4280 Ethan Hill, Harrytown, IA 20127",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "aec29a6d-fd84-4377-99f8-2372140db2d6",
@@ -1277,7 +1277,7 @@
 	  "status": "Pending",
 	  "quantity": 22,
 	  "shipping_address": "4280 Ethan Hill, Harrytown, IA 20127",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "0ddc18dd-d718-4ae1-ab2b-dcc81a074f4f",
@@ -1287,7 +1287,7 @@
 	  "status": "Pending",
 	  "quantity": 52,
 	  "shipping_address": "4280 Ethan Hill, Harrytown, IA 20127",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "89c5b4c9-a685-4b10-84ad-358bf13785ad",
@@ -1297,7 +1297,7 @@
 	  "status": "Delivered",
 	  "quantity": 67,
 	  "shipping_address": "4280 Ethan Hill, Harrytown, IA 20127",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "9cf2694d-0ecf-421f-ba1f-a64d5b3b5076",
@@ -1307,7 +1307,7 @@
 	  "status": "Delivered",
 	  "quantity": 51,
 	  "shipping_address": "PSC 4282, Box 8239, APO AA 15847",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "6197e93a-2fe4-4220-849c-d23442c17df8",
@@ -1317,7 +1317,7 @@
 	  "status": "Delivered",
 	  "quantity": 1,
 	  "shipping_address": "PSC 4282, Box 8239, APO AA 15847",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "be6c2ebf-6778-4270-ae59-946eb54405fe",
@@ -1327,7 +1327,7 @@
 	  "status": "Pending",
 	  "quantity": 5,
 	  "shipping_address": "PSC 4282, Box 8239, APO AA 15847",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "3a8f3d31-d8cf-4d0f-a2c2-97733b015885",
@@ -1337,7 +1337,7 @@
 	  "status": "Delivered",
 	  "quantity": 79,
 	  "shipping_address": "PSC 4282, Box 8239, APO AA 15847",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "17e488fd-68be-4e9b-ad8b-17fd63187009",
@@ -1347,7 +1347,7 @@
 	  "status": "Pending",
 	  "quantity": 62,
 	  "shipping_address": "PSC 4282, Box 8239, APO AA 15847",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "671476a0-fd70-4935-9fa4-b9aede1bddd6",
@@ -1357,7 +1357,7 @@
 	  "status": "Delivered",
 	  "quantity": 100,
 	  "shipping_address": "30704 Chapman Pike, Lake Jonathanberg, MN 13047",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "1cbd74fd-9a2f-4afe-aaab-febe701d9fc8",
@@ -1367,7 +1367,7 @@
 	  "status": "Shipped",
 	  "quantity": 60,
 	  "shipping_address": "30704 Chapman Pike, Lake Jonathanberg, MN 13047",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "505e02da-267d-4555-afa9-78096ecc2b63",
@@ -1377,7 +1377,7 @@
 	  "status": "Shipped",
 	  "quantity": 20,
 	  "shipping_address": "30704 Chapman Pike, Lake Jonathanberg, MN 13047",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "6279219f-908e-47f1-b159-efe4101dd5f8",
@@ -1387,7 +1387,7 @@
 	  "status": "Shipped",
 	  "quantity": 17,
 	  "shipping_address": "30704 Chapman Pike, Lake Jonathanberg, MN 13047",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "bad7867c-e1f6-4479-bd08-0eb4279ea174",
@@ -1397,7 +1397,7 @@
 	  "status": "Delivered",
 	  "quantity": 2,
 	  "shipping_address": "30704 Chapman Pike, Lake Jonathanberg, MN 13047",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "88e5fe57-fc94-4909-9fa7-f249229efdff",
@@ -1407,7 +1407,7 @@
 	  "status": "Delivered",
 	  "quantity": 66,
 	  "shipping_address": "8216 Laura Drives Apt. 767, Bradleyborough, NY 67778",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "3913716a-f8df-4836-bf14-4a51f66773bc",
@@ -1417,7 +1417,7 @@
 	  "status": "Pending",
 	  "quantity": 42,
 	  "shipping_address": "8216 Laura Drives Apt. 767, Bradleyborough, NY 67778",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "9340365e-3de4-4628-b684-db80e7ca54db",
@@ -1427,7 +1427,7 @@
 	  "status": "Pending",
 	  "quantity": 92,
 	  "shipping_address": "8216 Laura Drives Apt. 767, Bradleyborough, NY 67778",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "842331ed-8f8f-49cb-9a7b-71c380ae3dd9",
@@ -1437,7 +1437,7 @@
 	  "status": "Delivered",
 	  "quantity": 20,
 	  "shipping_address": "8216 Laura Drives Apt. 767, Bradleyborough, NY 67778",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "50d8409d-869b-487c-8c87-49def7eca4a9",
@@ -1447,7 +1447,7 @@
 	  "status": "Shipped",
 	  "quantity": 52,
 	  "shipping_address": "8216 Laura Drives Apt. 767, Bradleyborough, NY 67778",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "a7073b3e-e0ab-499d-a1de-29540b389999",
@@ -1457,7 +1457,7 @@
 	  "status": "Delivered",
 	  "quantity": 18,
 	  "shipping_address": "502 Rodriguez Trail Apt. 462, Williamton, MN 61785",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "3bf0c7d2-01b0-49f9-b59c-cc92cfbdfd04",
@@ -1467,7 +1467,7 @@
 	  "status": "Shipped",
 	  "quantity": 47,
 	  "shipping_address": "502 Rodriguez Trail Apt. 462, Williamton, MN 61785",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "3e8740fd-9698-495d-94e9-f1502d568393",
@@ -1477,7 +1477,7 @@
 	  "status": "Pending",
 	  "quantity": 55,
 	  "shipping_address": "502 Rodriguez Trail Apt. 462, Williamton, MN 61785",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "1d63414d-e12e-4df2-8f9c-8f7c1c2bc80a",
@@ -1487,7 +1487,7 @@
 	  "status": "Shipped",
 	  "quantity": 93,
 	  "shipping_address": "502 Rodriguez Trail Apt. 462, Williamton, MN 61785",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "a21ccb71-9d38-4dc7-be9b-a1de8fbcb85a",
@@ -1497,7 +1497,7 @@
 	  "status": "Delivered",
 	  "quantity": 73,
 	  "shipping_address": "502 Rodriguez Trail Apt. 462, Williamton, MN 61785",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "ea27eca4-ac4a-4b6d-a5fb-8f8c6d0a68c3",
@@ -1507,7 +1507,7 @@
 	  "status": "Shipped",
 	  "quantity": 66,
 	  "shipping_address": "2762 Timothy Vista Apt. 527, Robertmouth, AR 11815",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "00b94977-c488-47e8-8dba-7947758d014e",
@@ -1517,7 +1517,7 @@
 	  "status": "Pending",
 	  "quantity": 64,
 	  "shipping_address": "2762 Timothy Vista Apt. 527, Robertmouth, AR 11815",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "3390a475-628b-471f-9b72-5d826620e3b5",
@@ -1527,7 +1527,7 @@
 	  "status": "Delivered",
 	  "quantity": 68,
 	  "shipping_address": "2762 Timothy Vista Apt. 527, Robertmouth, AR 11815",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "1a7f61a6-01a8-4598-a752-abe09f4af224",
@@ -1537,7 +1537,7 @@
 	  "status": "Pending",
 	  "quantity": 24,
 	  "shipping_address": "2762 Timothy Vista Apt. 527, Robertmouth, AR 11815",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "65705b61-9874-4c39-8132-ed0741598156",
@@ -1547,7 +1547,7 @@
 	  "status": "Shipped",
 	  "quantity": 26,
 	  "shipping_address": "2762 Timothy Vista Apt. 527, Robertmouth, AR 11815",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "bc3ce58a-a856-4180-83fc-ec71fc346652",
@@ -1557,7 +1557,7 @@
 	  "status": "Pending",
 	  "quantity": 18,
 	  "shipping_address": "0750 Nichols Ways Apt. 654, Riddlehaven, ID 40477",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "7dfbf224-7cfa-4525-8efd-15f1444387f4",
@@ -1567,7 +1567,7 @@
 	  "status": "Shipped",
 	  "quantity": 48,
 	  "shipping_address": "0750 Nichols Ways Apt. 654, Riddlehaven, ID 40477",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "990af601-3fe0-49d9-b5be-d098ce688da8",
@@ -1577,7 +1577,7 @@
 	  "status": "Shipped",
 	  "quantity": 93,
 	  "shipping_address": "0750 Nichols Ways Apt. 654, Riddlehaven, ID 40477",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "2158dea6-3b5b-461d-9256-1d6291e6e52d",
@@ -1587,7 +1587,7 @@
 	  "status": "Pending",
 	  "quantity": 22,
 	  "shipping_address": "0750 Nichols Ways Apt. 654, Riddlehaven, ID 40477",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "c71ce86b-234b-49ce-b770-0ad50c0c9078",
@@ -1597,7 +1597,7 @@
 	  "status": "Pending",
 	  "quantity": 14,
 	  "shipping_address": "0750 Nichols Ways Apt. 654, Riddlehaven, ID 40477",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "09128e0a-255b-406c-b9c4-4edbbe31fa6a",
@@ -1607,7 +1607,7 @@
 	  "status": "Pending",
 	  "quantity": 97,
 	  "shipping_address": "1778 Brown Harbor, South Travis, MA 05699",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "e8426d66-fe5d-4a9e-85bb-e19adc44a9b9",
@@ -1617,7 +1617,7 @@
 	  "status": "Shipped",
 	  "quantity": 39,
 	  "shipping_address": "1778 Brown Harbor, South Travis, MA 05699",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "0928b257-0d4c-4322-87d8-c24b8a7796bf",
@@ -1627,7 +1627,7 @@
 	  "status": "Delivered",
 	  "quantity": 43,
 	  "shipping_address": "1778 Brown Harbor, South Travis, MA 05699",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "25c30270-9334-46b3-ba22-ae238a2ad866",
@@ -1637,7 +1637,7 @@
 	  "status": "Delivered",
 	  "quantity": 89,
 	  "shipping_address": "1778 Brown Harbor, South Travis, MA 05699",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "ca6b0401-3750-45cb-ba3a-07cddc442ad6",
@@ -1647,7 +1647,7 @@
 	  "status": "Pending",
 	  "quantity": 20,
 	  "shipping_address": "1778 Brown Harbor, South Travis, MA 05699",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "be674c50-7a49-411a-befc-276bcf742e10",
@@ -1657,7 +1657,7 @@
 	  "status": "Pending",
 	  "quantity": 67,
 	  "shipping_address": "7165 Garner Villages, Brownchester, TX 11769",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "c0be5e40-5fef-4566-bf38-7066c2ce333c",
@@ -1667,7 +1667,7 @@
 	  "status": "Shipped",
 	  "quantity": 93,
 	  "shipping_address": "7165 Garner Villages, Brownchester, TX 11769",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "250cf3d5-91a2-4bb7-b83d-e37d76afc45a",
@@ -1677,7 +1677,7 @@
 	  "status": "Delivered",
 	  "quantity": 2,
 	  "shipping_address": "7165 Garner Villages, Brownchester, TX 11769",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "fbc45d0e-5efa-4472-b142-8fb4ae2127dd",
@@ -1687,7 +1687,7 @@
 	  "status": "Pending",
 	  "quantity": 49,
 	  "shipping_address": "7165 Garner Villages, Brownchester, TX 11769",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "5b95019a-ae63-4651-b638-f013b7a11d4a",
@@ -1697,7 +1697,7 @@
 	  "status": "Shipped",
 	  "quantity": 45,
 	  "shipping_address": "7165 Garner Villages, Brownchester, TX 11769",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "d26c0f3a-40b9-4abe-ae02-0b663ed0c5d1",
@@ -1707,7 +1707,7 @@
 	  "status": "Pending",
 	  "quantity": 94,
 	  "shipping_address": "2183 Kerry Prairie, Markshire, FL 28501",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "9f0f27f3-9e3c-4b65-b2f0-2b517cbfedd7",
@@ -1717,7 +1717,7 @@
 	  "status": "Delivered",
 	  "quantity": 36,
 	  "shipping_address": "2183 Kerry Prairie, Markshire, FL 28501",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "20c2af9a-2f58-4e9f-9405-feec6bf1393a",
@@ -1727,7 +1727,7 @@
 	  "status": "Pending",
 	  "quantity": 73,
 	  "shipping_address": "2183 Kerry Prairie, Markshire, FL 28501",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "600dbb9c-a86a-4c9d-9f2e-88f4d67176a6",
@@ -1737,7 +1737,7 @@
 	  "status": "Delivered",
 	  "quantity": 8,
 	  "shipping_address": "2183 Kerry Prairie, Markshire, FL 28501",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "4aece777-844c-4036-9598-5e2d8f266a7f",
@@ -1747,7 +1747,7 @@
 	  "status": "Shipped",
 	  "quantity": 98,
 	  "shipping_address": "2183 Kerry Prairie, Markshire, FL 28501",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "d96bbe4c-2bc1-4dff-b073-22757a98e23b",
@@ -1757,7 +1757,7 @@
 	  "status": "Shipped",
 	  "quantity": 11,
 	  "shipping_address": "99374 Amanda Freeway, Lake Justin, DE 60846",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "43835f13-175b-48b2-9920-078116075082",
@@ -1767,7 +1767,7 @@
 	  "status": "Shipped",
 	  "quantity": 77,
 	  "shipping_address": "99374 Amanda Freeway, Lake Justin, DE 60846",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "90b3a102-2506-497a-9f6f-90da06db6f6d",
@@ -1777,7 +1777,7 @@
 	  "status": "Shipped",
 	  "quantity": 50,
 	  "shipping_address": "99374 Amanda Freeway, Lake Justin, DE 60846",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "9fd0fad9-a822-412d-8fe6-4c5bfb300934",
@@ -1787,7 +1787,7 @@
 	  "status": "Delivered",
 	  "quantity": 59,
 	  "shipping_address": "99374 Amanda Freeway, Lake Justin, DE 60846",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "3812f9f3-91b6-483c-be35-1842cb72f0cc",
@@ -1797,7 +1797,7 @@
 	  "status": "Delivered",
 	  "quantity": 81,
 	  "shipping_address": "99374 Amanda Freeway, Lake Justin, DE 60846",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "f0d814ba-e1c8-44ef-8ed7-784a5a0d8d34",
@@ -1807,7 +1807,7 @@
 	  "status": "Pending",
 	  "quantity": 14,
 	  "shipping_address": "503 Allen Greens Apt. 451, New Eric, WA 29922",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "f20fa333-a472-4cf8-894c-206a7699221a",
@@ -1817,7 +1817,7 @@
 	  "status": "Delivered",
 	  "quantity": 69,
 	  "shipping_address": "503 Allen Greens Apt. 451, New Eric, WA 29922",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "89209d17-45d9-4d01-8072-5292e868cf78",
@@ -1827,7 +1827,7 @@
 	  "status": "Shipped",
 	  "quantity": 32,
 	  "shipping_address": "503 Allen Greens Apt. 451, New Eric, WA 29922",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "ba83e6d8-4a45-489f-b7e6-ea2cf53ce31b",
@@ -1837,7 +1837,7 @@
 	  "status": "Shipped",
 	  "quantity": 19,
 	  "shipping_address": "503 Allen Greens Apt. 451, New Eric, WA 29922",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "68fca099-d3b1-4295-a1f9-bbd1e46f704a",
@@ -1847,7 +1847,7 @@
 	  "status": "Pending",
 	  "quantity": 14,
 	  "shipping_address": "503 Allen Greens Apt. 451, New Eric, WA 29922",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "d48784c7-8f20-4d6c-ada7-085bcef2d235",
@@ -1857,7 +1857,7 @@
 	  "status": "Shipped",
 	  "quantity": 19,
 	  "shipping_address": "322 Cameron Stravenue Suite 618, Port Robert, MA 21297",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "a777f8a4-0b77-4844-8905-966ea80be7c7",
@@ -1867,7 +1867,7 @@
 	  "status": "Shipped",
 	  "quantity": 32,
 	  "shipping_address": "322 Cameron Stravenue Suite 618, Port Robert, MA 21297",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "c53ef960-d25c-4d4c-b7e3-706862a6639c",
@@ -1877,7 +1877,7 @@
 	  "status": "Pending",
 	  "quantity": 91,
 	  "shipping_address": "322 Cameron Stravenue Suite 618, Port Robert, MA 21297",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "a42d65d0-aef0-4ce0-bb9a-e90c6d957474",
@@ -1887,7 +1887,7 @@
 	  "status": "Delivered",
 	  "quantity": 35,
 	  "shipping_address": "322 Cameron Stravenue Suite 618, Port Robert, MA 21297",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "f994ac7d-2bdf-444f-9025-1fac8c06eb1a",
@@ -1897,7 +1897,7 @@
 	  "status": "Pending",
 	  "quantity": 91,
 	  "shipping_address": "322 Cameron Stravenue Suite 618, Port Robert, MA 21297",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "b3bff925-6671-4baf-82c3-4631e8a611c3",
@@ -1907,7 +1907,7 @@
 	  "status": "Pending",
 	  "quantity": 14,
 	  "shipping_address": "66825 Juan Vista Suite 574, Port Brendanport, AZ 36949",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "984f4c1c-aef5-4f78-ac24-f4b02fd8815b",
@@ -1917,7 +1917,7 @@
 	  "status": "Delivered",
 	  "quantity": 93,
 	  "shipping_address": "66825 Juan Vista Suite 574, Port Brendanport, AZ 36949",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "b270ca8c-bf84-44ea-a864-c26eebc86273",
@@ -1927,7 +1927,7 @@
 	  "status": "Shipped",
 	  "quantity": 74,
 	  "shipping_address": "66825 Juan Vista Suite 574, Port Brendanport, AZ 36949",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "e0138212-0693-4c94-8301-0fb4dbf03135",
@@ -1937,7 +1937,7 @@
 	  "status": "Shipped",
 	  "quantity": 53,
 	  "shipping_address": "66825 Juan Vista Suite 574, Port Brendanport, AZ 36949",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "16becd6d-eeaf-4b9a-aa01-79b6bea9fb5e",
@@ -1947,7 +1947,7 @@
 	  "status": "Shipped",
 	  "quantity": 41,
 	  "shipping_address": "66825 Juan Vista Suite 574, Port Brendanport, AZ 36949",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "8f6b0eaf-56f7-41be-a23a-347f7edf6319",
@@ -1957,7 +1957,7 @@
 	  "status": "Delivered",
 	  "quantity": 36,
 	  "shipping_address": "2483 Reeves Crescent Apt. 109, Sarahburgh, VA 40215",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "3faf41f0-d85f-466c-b43d-580af6ab626c",
@@ -1967,7 +1967,7 @@
 	  "status": "Shipped",
 	  "quantity": 48,
 	  "shipping_address": "2483 Reeves Crescent Apt. 109, Sarahburgh, VA 40215",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "1ff63df4-7f43-4ca3-87f7-95cfe2ea9aa5",
@@ -1977,7 +1977,7 @@
 	  "status": "Shipped",
 	  "quantity": 93,
 	  "shipping_address": "2483 Reeves Crescent Apt. 109, Sarahburgh, VA 40215",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "9ff19b42-a2f3-4cdf-842e-36b32e89a00a",
@@ -1987,7 +1987,7 @@
 	  "status": "Delivered",
 	  "quantity": 47,
 	  "shipping_address": "2483 Reeves Crescent Apt. 109, Sarahburgh, VA 40215",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "20a3b824-4db1-448d-9449-69a132ba6abb",
@@ -1997,7 +1997,7 @@
 	  "status": "Delivered",
 	  "quantity": 50,
 	  "shipping_address": "2483 Reeves Crescent Apt. 109, Sarahburgh, VA 40215",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "5a408c1f-a7b3-41d0-8b0c-a00bb9b13f4f",
@@ -2007,7 +2007,7 @@
 	  "status": "Pending",
 	  "quantity": 54,
 	  "shipping_address": "194 Sanders Isle Apt. 997, Jamesmouth, NM 58744",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "16dbc9d6-6638-44dd-a8cc-6edeb404c9e3",
@@ -2017,7 +2017,7 @@
 	  "status": "Shipped",
 	  "quantity": 48,
 	  "shipping_address": "194 Sanders Isle Apt. 997, Jamesmouth, NM 58744",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "4bfacac2-32bf-46e4-947d-4429ad50f2f1",
@@ -2027,7 +2027,7 @@
 	  "status": "Pending",
 	  "quantity": 43,
 	  "shipping_address": "194 Sanders Isle Apt. 997, Jamesmouth, NM 58744",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "d69a9698-9d8e-4ac3-9e02-f878a562472a",
@@ -2037,7 +2037,7 @@
 	  "status": "Shipped",
 	  "quantity": 90,
 	  "shipping_address": "194 Sanders Isle Apt. 997, Jamesmouth, NM 58744",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "96abeee1-8a96-4104-88dd-2fcc93474743",
@@ -2047,7 +2047,7 @@
 	  "status": "Delivered",
 	  "quantity": 90,
 	  "shipping_address": "194 Sanders Isle Apt. 997, Jamesmouth, NM 58744",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "addbbd8e-9663-4a28-a7b4-98ece6a09d9a",
@@ -2057,7 +2057,7 @@
 	  "status": "Shipped",
 	  "quantity": 60,
 	  "shipping_address": "468 Samuel Bypass Suite 702, New David, CA 05676",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "9d2584e0-b9ae-460c-8f4d-485dbaad8c7a",
@@ -2067,7 +2067,7 @@
 	  "status": "Shipped",
 	  "quantity": 26,
 	  "shipping_address": "468 Samuel Bypass Suite 702, New David, CA 05676",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "2fead7e9-1bb6-4fd4-b047-2fff56cd7ce1",
@@ -2077,7 +2077,7 @@
 	  "status": "Delivered",
 	  "quantity": 36,
 	  "shipping_address": "468 Samuel Bypass Suite 702, New David, CA 05676",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "0a2093a8-c7c0-414f-8bf0-7ede92ec9336",
@@ -2087,7 +2087,7 @@
 	  "status": "Delivered",
 	  "quantity": 78,
 	  "shipping_address": "468 Samuel Bypass Suite 702, New David, CA 05676",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "0b206e04-eddc-4623-9e1d-a1ee6edf479c",
@@ -2097,7 +2097,7 @@
 	  "status": "Delivered",
 	  "quantity": 58,
 	  "shipping_address": "468 Samuel Bypass Suite 702, New David, CA 05676",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "9199c7e8-0d2c-47b0-9e7f-3817351f0911",
@@ -2107,7 +2107,7 @@
 	  "status": "Pending",
 	  "quantity": 99,
 	  "shipping_address": "PSC 5416, Box 8874, APO AP 04630",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "689176a9-c39e-421d-8dac-2973970b3822",
@@ -2117,7 +2117,7 @@
 	  "status": "Pending",
 	  "quantity": 70,
 	  "shipping_address": "PSC 5416, Box 8874, APO AP 04630",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "de553eeb-4e3f-4bf6-a587-df380b39cdea",
@@ -2127,7 +2127,7 @@
 	  "status": "Pending",
 	  "quantity": 58,
 	  "shipping_address": "PSC 5416, Box 8874, APO AP 04630",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "3a2a5aec-fa58-4744-abcf-ea26f92fb515",
@@ -2137,7 +2137,7 @@
 	  "status": "Delivered",
 	  "quantity": 43,
 	  "shipping_address": "PSC 5416, Box 8874, APO AP 04630",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "e70801fd-5b6e-4db9-9a11-8bdbc4ebddfe",
@@ -2147,7 +2147,7 @@
 	  "status": "Pending",
 	  "quantity": 66,
 	  "shipping_address": "PSC 5416, Box 8874, APO AP 04630",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "1b14376a-4b8e-47a9-86c0-7c974cb9d16a",
@@ -2157,7 +2157,7 @@
 	  "status": "Pending",
 	  "quantity": 43,
 	  "shipping_address": "46165 Nicholas Green Apt. 493, West Richardchester, MO 68303",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "3cb52d3c-8c85-4518-ba3e-cbc4fc81b3ac",
@@ -2167,7 +2167,7 @@
 	  "status": "Shipped",
 	  "quantity": 23,
 	  "shipping_address": "46165 Nicholas Green Apt. 493, West Richardchester, MO 68303",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "e7a05d08-87b4-46b2-8202-f7bce905a11d",
@@ -2177,7 +2177,7 @@
 	  "status": "Delivered",
 	  "quantity": 8,
 	  "shipping_address": "46165 Nicholas Green Apt. 493, West Richardchester, MO 68303",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "d8b9e2f5-0710-4dd2-a339-7a04c74b2f2e",
@@ -2187,7 +2187,7 @@
 	  "status": "Pending",
 	  "quantity": 4,
 	  "shipping_address": "46165 Nicholas Green Apt. 493, West Richardchester, MO 68303",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "852ed4a3-99c4-474e-8c5d-9a4626484d7a",
@@ -2197,7 +2197,7 @@
 	  "status": "Pending",
 	  "quantity": 48,
 	  "shipping_address": "46165 Nicholas Green Apt. 493, West Richardchester, MO 68303",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "9a3695ab-bb4c-4d94-bdea-9233af5333af",
@@ -2207,7 +2207,7 @@
 	  "status": "Delivered",
 	  "quantity": 20,
 	  "shipping_address": "USNV Young, FPO AA 29080",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "bdbdf31b-8192-4469-b9b2-dd50aa7a48e4",
@@ -2217,7 +2217,7 @@
 	  "status": "Shipped",
 	  "quantity": 32,
 	  "shipping_address": "USNV Young, FPO AA 29080",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "767c2222-9d7f-4133-a6f4-e7353035d5df",
@@ -2227,7 +2227,7 @@
 	  "status": "Pending",
 	  "quantity": 31,
 	  "shipping_address": "USNV Young, FPO AA 29080",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "4e4e9ecf-32b9-4bda-95f1-521311f80c4d",
@@ -2237,7 +2237,7 @@
 	  "status": "Pending",
 	  "quantity": 32,
 	  "shipping_address": "USNV Young, FPO AA 29080",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "6525acb4-52d7-470e-a720-139f9261ce09",
@@ -2247,7 +2247,7 @@
 	  "status": "Delivered",
 	  "quantity": 71,
 	  "shipping_address": "USNV Young, FPO AA 29080",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "04ff11ae-4f69-46f5-9e92-7783acaa1664",
@@ -2257,7 +2257,7 @@
 	  "status": "Shipped",
 	  "quantity": 12,
 	  "shipping_address": "5071 Jon Rest, Rodgershaven, FL 59960",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "f4e5140a-bb9e-495a-ad97-881957b9e702",
@@ -2267,7 +2267,7 @@
 	  "status": "Pending",
 	  "quantity": 35,
 	  "shipping_address": "5071 Jon Rest, Rodgershaven, FL 59960",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "f9f0fdc1-54e6-4063-96d1-efc7cccb36c0",
@@ -2277,7 +2277,7 @@
 	  "status": "Delivered",
 	  "quantity": 31,
 	  "shipping_address": "5071 Jon Rest, Rodgershaven, FL 59960",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "ffc23784-ceaa-4c46-8521-1427176b44ff",
@@ -2287,7 +2287,7 @@
 	  "status": "Pending",
 	  "quantity": 10,
 	  "shipping_address": "5071 Jon Rest, Rodgershaven, FL 59960",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "fea47249-169e-48a3-9907-80cd9331b0d8",
@@ -2297,7 +2297,7 @@
 	  "status": "Delivered",
 	  "quantity": 18,
 	  "shipping_address": "5071 Jon Rest, Rodgershaven, FL 59960",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "521e4701-8202-4ea7-9225-9eabe1ad25dc",
@@ -2307,7 +2307,7 @@
 	  "status": "Delivered",
 	  "quantity": 1,
 	  "shipping_address": "875 Laura Key Apt. 946, South Jessicafort, IA 19193",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "95bc81b8-cc87-4ea7-98cd-cfe0e53945db",
@@ -2317,7 +2317,7 @@
 	  "status": "Shipped",
 	  "quantity": 64,
 	  "shipping_address": "875 Laura Key Apt. 946, South Jessicafort, IA 19193",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "56e5721d-2b37-4510-9302-9683073ce12c",
@@ -2327,7 +2327,7 @@
 	  "status": "Shipped",
 	  "quantity": 10,
 	  "shipping_address": "875 Laura Key Apt. 946, South Jessicafort, IA 19193",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "35da31f5-4a03-4cad-ad71-acc897ed7a00",
@@ -2337,7 +2337,7 @@
 	  "status": "Delivered",
 	  "quantity": 4,
 	  "shipping_address": "875 Laura Key Apt. 946, South Jessicafort, IA 19193",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "42601f13-7ae6-4fcd-98e6-e53d3a8c7579",
@@ -2347,7 +2347,7 @@
 	  "status": "Delivered",
 	  "quantity": 81,
 	  "shipping_address": "875 Laura Key Apt. 946, South Jessicafort, IA 19193",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "2972cd2f-c772-4a48-82fc-40bafa08ad0b",
@@ -2357,7 +2357,7 @@
 	  "status": "Shipped",
 	  "quantity": 28,
 	  "shipping_address": "113 Zamora Grove Suite 830, South Mary, RI 68159",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "2b9b5c90-b380-4f46-a7fc-93e0d989af9f",
@@ -2367,7 +2367,7 @@
 	  "status": "Delivered",
 	  "quantity": 50,
 	  "shipping_address": "113 Zamora Grove Suite 830, South Mary, RI 68159",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "dbb05f1a-2d83-482c-8048-3b3213e4c20b",
@@ -2377,7 +2377,7 @@
 	  "status": "Shipped",
 	  "quantity": 44,
 	  "shipping_address": "113 Zamora Grove Suite 830, South Mary, RI 68159",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "a9839ba8-10d0-49c9-bf19-1b539ac6d94c",
@@ -2387,7 +2387,7 @@
 	  "status": "Delivered",
 	  "quantity": 60,
 	  "shipping_address": "113 Zamora Grove Suite 830, South Mary, RI 68159",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "2ffa8a91-5314-4155-989a-3cb06d913b12",
@@ -2397,7 +2397,7 @@
 	  "status": "Delivered",
 	  "quantity": 85,
 	  "shipping_address": "113 Zamora Grove Suite 830, South Mary, RI 68159",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "ecf4e1d7-209c-4574-91b4-bf8abe16d582",
@@ -2407,7 +2407,7 @@
 	  "status": "Shipped",
 	  "quantity": 93,
 	  "shipping_address": "PSC 1708, Box 8337, APO AP 33923",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "81959c7f-099a-4837-aa10-fb962bc9fa65",
@@ -2417,7 +2417,7 @@
 	  "status": "Pending",
 	  "quantity": 39,
 	  "shipping_address": "PSC 1708, Box 8337, APO AP 33923",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "763e62d9-b2b2-4f81-ab82-6e7e1d3fc60f",
@@ -2427,7 +2427,7 @@
 	  "status": "Pending",
 	  "quantity": 12,
 	  "shipping_address": "PSC 1708, Box 8337, APO AP 33923",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "c526fbd6-512c-4301-968b-8b2cfbd0259f",
@@ -2437,7 +2437,7 @@
 	  "status": "Delivered",
 	  "quantity": 59,
 	  "shipping_address": "PSC 1708, Box 8337, APO AP 33923",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "0f666965-c88e-4e35-94b1-d8affc4259e3",
@@ -2447,7 +2447,7 @@
 	  "status": "Pending",
 	  "quantity": 28,
 	  "shipping_address": "PSC 1708, Box 8337, APO AP 33923",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "b352e4f9-d93b-4ca1-a712-5b3883781ff8",
@@ -2457,7 +2457,7 @@
 	  "status": "Delivered",
 	  "quantity": 89,
 	  "shipping_address": "271 Andrew Manors Suite 571, Christopherbury, MA 52322",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "f1cb28f0-e5f2-421b-b7b4-d71768f1328d",
@@ -2467,7 +2467,7 @@
 	  "status": "Shipped",
 	  "quantity": 33,
 	  "shipping_address": "271 Andrew Manors Suite 571, Christopherbury, MA 52322",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "dcb39a1c-2cea-420e-9cf7-ad92e7fe6a9a",
@@ -2477,7 +2477,7 @@
 	  "status": "Shipped",
 	  "quantity": 66,
 	  "shipping_address": "271 Andrew Manors Suite 571, Christopherbury, MA 52322",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "7c8bdf69-b4f8-4911-9a8a-cd48b3e5f9fb",
@@ -2487,7 +2487,7 @@
 	  "status": "Delivered",
 	  "quantity": 26,
 	  "shipping_address": "271 Andrew Manors Suite 571, Christopherbury, MA 52322",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "8c54d6e2-c247-4dfd-8f64-1e806fda3f58",
@@ -2497,7 +2497,7 @@
 	  "status": "Shipped",
 	  "quantity": 45,
 	  "shipping_address": "271 Andrew Manors Suite 571, Christopherbury, MA 52322",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "c7fe6483-4834-4137-bd80-aece0c4ba7d6",
@@ -2507,7 +2507,7 @@
 	  "status": "Delivered",
 	  "quantity": 95,
 	  "shipping_address": "23518 Peterson Estates, Goodwinland, WV 50979",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "86f325eb-e8b4-41cd-8d74-e0e77b24747d",
@@ -2517,7 +2517,7 @@
 	  "status": "Pending",
 	  "quantity": 99,
 	  "shipping_address": "23518 Peterson Estates, Goodwinland, WV 50979",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "22194b4d-dbd9-4493-a407-d17a7a65ca88",
@@ -2527,7 +2527,7 @@
 	  "status": "Delivered",
 	  "quantity": 74,
 	  "shipping_address": "23518 Peterson Estates, Goodwinland, WV 50979",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "dce81a2b-4588-4c9f-81e8-cdcc932e95c9",
@@ -2537,7 +2537,7 @@
 	  "status": "Delivered",
 	  "quantity": 18,
 	  "shipping_address": "23518 Peterson Estates, Goodwinland, WV 50979",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "62df8a16-66fb-4f30-b243-8c057c2afb78",
@@ -2547,7 +2547,7 @@
 	  "status": "Pending",
 	  "quantity": 62,
 	  "shipping_address": "23518 Peterson Estates, Goodwinland, WV 50979",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "9fc4c73d-31f7-4c7c-b75c-0b82eb2fb08d",
@@ -2557,7 +2557,7 @@
 	  "status": "Shipped",
 	  "quantity": 22,
 	  "shipping_address": "8891 Carolyn Center, New Sarah, MI 45346",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "a241bae4-9c58-44f9-8add-c1fac1499985",
@@ -2567,7 +2567,7 @@
 	  "status": "Pending",
 	  "quantity": 36,
 	  "shipping_address": "8891 Carolyn Center, New Sarah, MI 45346",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "18469d9b-43eb-42e6-a979-0ab9717969b8",
@@ -2577,7 +2577,7 @@
 	  "status": "Pending",
 	  "quantity": 11,
 	  "shipping_address": "8891 Carolyn Center, New Sarah, MI 45346",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "5e3e6008-b0ec-4dcd-837d-2320c0afc4d5",
@@ -2587,7 +2587,7 @@
 	  "status": "Shipped",
 	  "quantity": 43,
 	  "shipping_address": "8891 Carolyn Center, New Sarah, MI 45346",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "0f1f268a-ad39-40d0-97af-273518f9712d",
@@ -2597,7 +2597,7 @@
 	  "status": "Delivered",
 	  "quantity": 96,
 	  "shipping_address": "8891 Carolyn Center, New Sarah, MI 45346",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "bc8c4b67-f351-491e-a9de-811f7e54f922",
@@ -2607,7 +2607,7 @@
 	  "status": "Pending",
 	  "quantity": 78,
 	  "shipping_address": "88871 Rose Estate, West Jared, LA 99421",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "d0477983-fe34-4793-a76b-ee0b4649f99a",
@@ -2617,7 +2617,7 @@
 	  "status": "Shipped",
 	  "quantity": 21,
 	  "shipping_address": "88871 Rose Estate, West Jared, LA 99421",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "56964928-ee93-44fd-8019-1eb8a91ebe57",
@@ -2627,7 +2627,7 @@
 	  "status": "Delivered",
 	  "quantity": 55,
 	  "shipping_address": "88871 Rose Estate, West Jared, LA 99421",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "130181f6-82e3-4214-90d8-dc478221d046",
@@ -2637,7 +2637,7 @@
 	  "status": "Shipped",
 	  "quantity": 59,
 	  "shipping_address": "88871 Rose Estate, West Jared, LA 99421",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "5d8e3b33-39ba-4ca0-adfa-ffd6f112dc64",
@@ -2647,7 +2647,7 @@
 	  "status": "Shipped",
 	  "quantity": 77,
 	  "shipping_address": "88871 Rose Estate, West Jared, LA 99421",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "2aabd372-d187-404c-854e-df9fb6c07726",
@@ -2657,7 +2657,7 @@
 	  "status": "Delivered",
 	  "quantity": 78,
 	  "shipping_address": "2012 Barbara Stravenue Apt. 521, New Scott, UT 50131",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "5e9b00a1-ee3a-4be7-b216-62cfb9eb3339",
@@ -2667,7 +2667,7 @@
 	  "status": "Shipped",
 	  "quantity": 56,
 	  "shipping_address": "2012 Barbara Stravenue Apt. 521, New Scott, UT 50131",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "ecb310b1-70b5-49da-b132-ea7298454f10",
@@ -2677,7 +2677,7 @@
 	  "status": "Pending",
 	  "quantity": 36,
 	  "shipping_address": "2012 Barbara Stravenue Apt. 521, New Scott, UT 50131",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "9bb9a91f-09be-492f-85b7-2fdf6e8fcbfd",
@@ -2687,7 +2687,7 @@
 	  "status": "Pending",
 	  "quantity": 99,
 	  "shipping_address": "2012 Barbara Stravenue Apt. 521, New Scott, UT 50131",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "ec2d5d66-c9aa-4607-9186-e30b9f55dcb4",
@@ -2697,7 +2697,7 @@
 	  "status": "Delivered",
 	  "quantity": 24,
 	  "shipping_address": "2012 Barbara Stravenue Apt. 521, New Scott, UT 50131",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "61e5430c-bc44-4a0c-ac74-8d64e8b82242",
@@ -2707,7 +2707,7 @@
 	  "status": "Delivered",
 	  "quantity": 12,
 	  "shipping_address": "USNV Lambert, FPO AE 66100",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "451a913c-1712-4c61-bf9f-f1090d7ee875",
@@ -2717,7 +2717,7 @@
 	  "status": "Pending",
 	  "quantity": 38,
 	  "shipping_address": "USNV Lambert, FPO AE 66100",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "f4941fcc-b9f4-4beb-ad2d-f843ba7746c2",
@@ -2727,7 +2727,7 @@
 	  "status": "Pending",
 	  "quantity": 73,
 	  "shipping_address": "USNV Lambert, FPO AE 66100",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "b2640f04-1d60-412e-ab63-6a812cb6e5d9",
@@ -2737,7 +2737,7 @@
 	  "status": "Delivered",
 	  "quantity": 1,
 	  "shipping_address": "USNV Lambert, FPO AE 66100",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "aaa17766-c9f9-4ac9-80f5-8d84a233ea61",
@@ -2747,7 +2747,7 @@
 	  "status": "Pending",
 	  "quantity": 21,
 	  "shipping_address": "USNV Lambert, FPO AE 66100",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "73a2ffe5-826f-48c5-8577-631f4305f764",
@@ -2757,7 +2757,7 @@
 	  "status": "Delivered",
 	  "quantity": 20,
 	  "shipping_address": "851 Knight Ramp Suite 866, Amandaland, GA 92896",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "6fa5869a-5beb-4950-9ee9-a548e76eb86f",
@@ -2767,7 +2767,7 @@
 	  "status": "Pending",
 	  "quantity": 58,
 	  "shipping_address": "851 Knight Ramp Suite 866, Amandaland, GA 92896",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "a56d8905-8c2c-4d94-a0bb-ff20cebc75f8",
@@ -2777,7 +2777,7 @@
 	  "status": "Pending",
 	  "quantity": 60,
 	  "shipping_address": "851 Knight Ramp Suite 866, Amandaland, GA 92896",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "be32610a-ce5a-4410-8891-b8af47f4b4ed",
@@ -2787,7 +2787,7 @@
 	  "status": "Shipped",
 	  "quantity": 69,
 	  "shipping_address": "851 Knight Ramp Suite 866, Amandaland, GA 92896",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "704219ff-4c0f-493b-9728-1e7c792ee9a4",
@@ -2797,7 +2797,7 @@
 	  "status": "Pending",
 	  "quantity": 25,
 	  "shipping_address": "851 Knight Ramp Suite 866, Amandaland, GA 92896",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "fa44be61-d1db-4033-8597-7b7c2cfba971",
@@ -2807,7 +2807,7 @@
 	  "status": "Pending",
 	  "quantity": 99,
 	  "shipping_address": "46530 Patrick Square, Lake Duane, IL 92286",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "76743e8d-318d-483b-9132-e9e90955610e",
@@ -2817,7 +2817,7 @@
 	  "status": "Shipped",
 	  "quantity": 1,
 	  "shipping_address": "46530 Patrick Square, Lake Duane, IL 92286",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "6d870897-278b-4656-bfbb-523e0af53561",
@@ -2827,7 +2827,7 @@
 	  "status": "Shipped",
 	  "quantity": 49,
 	  "shipping_address": "46530 Patrick Square, Lake Duane, IL 92286",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "4ccf09a7-3c1d-41ec-8341-b061c3c1c97d",
@@ -2837,7 +2837,7 @@
 	  "status": "Shipped",
 	  "quantity": 1,
 	  "shipping_address": "46530 Patrick Square, Lake Duane, IL 92286",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "2c3427b4-87b4-44be-bcdd-c425f1334fbd",
@@ -2847,7 +2847,7 @@
 	  "status": "Delivered",
 	  "quantity": 96,
 	  "shipping_address": "46530 Patrick Square, Lake Duane, IL 92286",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "bee9ecef-0483-4380-8d34-1e02f85f5949",
@@ -2857,7 +2857,7 @@
 	  "status": "Delivered",
 	  "quantity": 58,
 	  "shipping_address": "000 Thomas Overpass, Courtneymouth, VT 83853",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "61c49105-01b4-4eb8-9c54-3079dd5cd60a",
@@ -2867,7 +2867,7 @@
 	  "status": "Shipped",
 	  "quantity": 21,
 	  "shipping_address": "000 Thomas Overpass, Courtneymouth, VT 83853",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "25c4e4e5-8392-4223-be3c-43fc324399a9",
@@ -2877,7 +2877,7 @@
 	  "status": "Pending",
 	  "quantity": 92,
 	  "shipping_address": "000 Thomas Overpass, Courtneymouth, VT 83853",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "b6e61bfe-8736-4ec1-bdb3-d0bbdc84b589",
@@ -2887,7 +2887,7 @@
 	  "status": "Shipped",
 	  "quantity": 73,
 	  "shipping_address": "000 Thomas Overpass, Courtneymouth, VT 83853",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "a881d4c5-700f-4320-888d-7e263ec80a25",
@@ -2897,7 +2897,7 @@
 	  "status": "Shipped",
 	  "quantity": 30,
 	  "shipping_address": "000 Thomas Overpass, Courtneymouth, VT 83853",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "e38a8242-7d93-4770-9f3f-c3c42ea0f1f9",
@@ -2907,7 +2907,7 @@
 	  "status": "Shipped",
 	  "quantity": 58,
 	  "shipping_address": "1364 Gonzales Gateway, Saundersview, SC 80609",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "4ad2d522-dc17-4cb1-99c6-1fc4c6be0556",
@@ -2917,7 +2917,7 @@
 	  "status": "Shipped",
 	  "quantity": 45,
 	  "shipping_address": "1364 Gonzales Gateway, Saundersview, SC 80609",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "82b22514-cde9-4155-87ac-0a9a6fa5334a",
@@ -2927,7 +2927,7 @@
 	  "status": "Pending",
 	  "quantity": 31,
 	  "shipping_address": "1364 Gonzales Gateway, Saundersview, SC 80609",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "f4184c94-50b1-451d-860c-6e0643af0f68",
@@ -2937,7 +2937,7 @@
 	  "status": "Pending",
 	  "quantity": 48,
 	  "shipping_address": "1364 Gonzales Gateway, Saundersview, SC 80609",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "e1971800-7bd1-49a2-9bfe-65abf74026ed",
@@ -2947,7 +2947,7 @@
 	  "status": "Pending",
 	  "quantity": 10,
 	  "shipping_address": "1364 Gonzales Gateway, Saundersview, SC 80609",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "e57f76e0-148b-4dd9-a905-4a6a49219748",
@@ -2957,7 +2957,7 @@
 	  "status": "Shipped",
 	  "quantity": 19,
 	  "shipping_address": "2723 Eric Branch, North Michael, TN 28203",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "4b4e0483-c9a8-44f7-9496-e6564e6ff137",
@@ -2967,7 +2967,7 @@
 	  "status": "Delivered",
 	  "quantity": 89,
 	  "shipping_address": "2723 Eric Branch, North Michael, TN 28203",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "1b83d212-0800-443a-82bd-153bcfff4172",
@@ -2977,7 +2977,7 @@
 	  "status": "Shipped",
 	  "quantity": 57,
 	  "shipping_address": "2723 Eric Branch, North Michael, TN 28203",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "33b5f2f5-e3a3-4120-8e8e-97344c040885",
@@ -2987,7 +2987,7 @@
 	  "status": "Delivered",
 	  "quantity": 99,
 	  "shipping_address": "2723 Eric Branch, North Michael, TN 28203",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "17de5cd9-12d4-4bd8-8873-f34beca727aa",
@@ -2997,7 +2997,7 @@
 	  "status": "Pending",
 	  "quantity": 10,
 	  "shipping_address": "2723 Eric Branch, North Michael, TN 28203",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "959c25ef-d82c-4725-9a33-c21b3c2ab339",
@@ -3007,7 +3007,7 @@
 	  "status": "Delivered",
 	  "quantity": 13,
 	  "shipping_address": "427 Daniel Causeway, Martinezchester, OH 34127",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "8420d565-24b2-4a8b-8601-b9fd66d9d4ae",
@@ -3017,7 +3017,7 @@
 	  "status": "Delivered",
 	  "quantity": 100,
 	  "shipping_address": "427 Daniel Causeway, Martinezchester, OH 34127",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "5cb69440-c7e3-4d4b-ab54-fab16ff746ea",
@@ -3027,7 +3027,7 @@
 	  "status": "Delivered",
 	  "quantity": 32,
 	  "shipping_address": "427 Daniel Causeway, Martinezchester, OH 34127",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "54d96c68-161c-4620-9cfe-e362e9a1d2b1",
@@ -3037,7 +3037,7 @@
 	  "status": "Shipped",
 	  "quantity": 42,
 	  "shipping_address": "427 Daniel Causeway, Martinezchester, OH 34127",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "f3d33776-7c0c-4f3b-8c7a-d6de5f8567dd",
@@ -3047,7 +3047,7 @@
 	  "status": "Pending",
 	  "quantity": 68,
 	  "shipping_address": "427 Daniel Causeway, Martinezchester, OH 34127",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "90fd33fa-9347-417a-9b71-f35a6b48ab5a",
@@ -3057,7 +3057,7 @@
 	  "status": "Shipped",
 	  "quantity": 10,
 	  "shipping_address": "4733 Mccall Islands, Jennifermouth, TX 53717",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "b9176a92-8403-40af-9d68-9578dbdeb40d",
@@ -3067,7 +3067,7 @@
 	  "status": "Pending",
 	  "quantity": 15,
 	  "shipping_address": "4733 Mccall Islands, Jennifermouth, TX 53717",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "0b868e47-de4e-429b-8a43-40146b8dd577",
@@ -3077,7 +3077,7 @@
 	  "status": "Delivered",
 	  "quantity": 46,
 	  "shipping_address": "4733 Mccall Islands, Jennifermouth, TX 53717",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "55558400-6f94-40eb-a7b3-f0e78749fb9c",
@@ -3087,7 +3087,7 @@
 	  "status": "Pending",
 	  "quantity": 68,
 	  "shipping_address": "4733 Mccall Islands, Jennifermouth, TX 53717",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "f5bb7682-d4b0-4dde-9d7f-148c5e24f7fc",
@@ -3097,7 +3097,7 @@
 	  "status": "Pending",
 	  "quantity": 92,
 	  "shipping_address": "4733 Mccall Islands, Jennifermouth, TX 53717",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "2d51b1ad-ee19-4843-b0e1-98bfbb6a37c1",
@@ -3107,7 +3107,7 @@
 	  "status": "Delivered",
 	  "quantity": 3,
 	  "shipping_address": "23984 Sullivan Plaza, South Amanda, CT 46189",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "4c760cb5-6a5f-4776-a27b-802bf8f19862",
@@ -3117,7 +3117,7 @@
 	  "status": "Delivered",
 	  "quantity": 20,
 	  "shipping_address": "23984 Sullivan Plaza, South Amanda, CT 46189",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "3a9bdab5-eb57-4b46-9676-ed3c7564e1db",
@@ -3127,7 +3127,7 @@
 	  "status": "Pending",
 	  "quantity": 15,
 	  "shipping_address": "23984 Sullivan Plaza, South Amanda, CT 46189",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "ac85fde8-40cb-4ccf-b355-bdbbf24538fa",
@@ -3137,7 +3137,7 @@
 	  "status": "Shipped",
 	  "quantity": 6,
 	  "shipping_address": "23984 Sullivan Plaza, South Amanda, CT 46189",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "1cf57326-a89b-4fa7-a576-289d86a54fce",
@@ -3147,7 +3147,7 @@
 	  "status": "Pending",
 	  "quantity": 92,
 	  "shipping_address": "23984 Sullivan Plaza, South Amanda, CT 46189",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "b724c72c-af8b-4454-bebd-3319e390d7ec",
@@ -3157,7 +3157,7 @@
 	  "status": "Pending",
 	  "quantity": 87,
 	  "shipping_address": "7987 Barnes Lodge Apt. 717, Daisyview, UT 53326",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "1ec2c714-6a40-41fa-becb-c7b737f3206e",
@@ -3167,7 +3167,7 @@
 	  "status": "Pending",
 	  "quantity": 32,
 	  "shipping_address": "7987 Barnes Lodge Apt. 717, Daisyview, UT 53326",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "0a955fbe-3661-492c-9319-f027e1fdfd2d",
@@ -3177,7 +3177,7 @@
 	  "status": "Delivered",
 	  "quantity": 79,
 	  "shipping_address": "7987 Barnes Lodge Apt. 717, Daisyview, UT 53326",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "a9c72185-850e-4e09-b3ef-12ddc56687dc",
@@ -3187,7 +3187,7 @@
 	  "status": "Pending",
 	  "quantity": 6,
 	  "shipping_address": "7987 Barnes Lodge Apt. 717, Daisyview, UT 53326",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "8c0d4c73-140a-4e96-be88-ba5ececd0a24",
@@ -3197,7 +3197,7 @@
 	  "status": "Delivered",
 	  "quantity": 84,
 	  "shipping_address": "7987 Barnes Lodge Apt. 717, Daisyview, UT 53326",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "0f4f5c3c-206a-4b05-9617-e35b42b93a18",
@@ -3207,7 +3207,7 @@
 	  "status": "Shipped",
 	  "quantity": 67,
 	  "shipping_address": "08381 Megan Park Apt. 362, Port Christopherborough, RI 05055",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "246ba87a-41d2-4342-912e-6ace4067af75",
@@ -3217,7 +3217,7 @@
 	  "status": "Pending",
 	  "quantity": 48,
 	  "shipping_address": "08381 Megan Park Apt. 362, Port Christopherborough, RI 05055",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "265fb33f-8827-4fff-a38a-cf600f56fbc0",
@@ -3227,7 +3227,7 @@
 	  "status": "Pending",
 	  "quantity": 22,
 	  "shipping_address": "08381 Megan Park Apt. 362, Port Christopherborough, RI 05055",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "f5ff5a67-a9b7-4522-ac10-aa1d66e753f6",
@@ -3237,7 +3237,7 @@
 	  "status": "Shipped",
 	  "quantity": 63,
 	  "shipping_address": "08381 Megan Park Apt. 362, Port Christopherborough, RI 05055",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "7a482a26-8425-46d6-9fcf-f80b1fe4fa90",
@@ -3247,7 +3247,7 @@
 	  "status": "Delivered",
 	  "quantity": 93,
 	  "shipping_address": "08381 Megan Park Apt. 362, Port Christopherborough, RI 05055",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "1c7de52b-4233-4e0d-999b-62e01f86e88a",
@@ -3257,7 +3257,7 @@
 	  "status": "Pending",
 	  "quantity": 23,
 	  "shipping_address": "PSC 9527, Box 5808, APO AA 22010",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "dc4188e4-ca1b-4afb-aa6f-64e5adb970f8",
@@ -3267,7 +3267,7 @@
 	  "status": "Shipped",
 	  "quantity": 59,
 	  "shipping_address": "PSC 9527, Box 5808, APO AA 22010",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "3b272ad0-7e6e-4561-bea3-bf6f461ddc89",
@@ -3277,7 +3277,7 @@
 	  "status": "Shipped",
 	  "quantity": 60,
 	  "shipping_address": "PSC 9527, Box 5808, APO AA 22010",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "9861328d-9584-4ec7-ba5c-f2b6ddf87510",
@@ -3287,7 +3287,7 @@
 	  "status": "Delivered",
 	  "quantity": 44,
 	  "shipping_address": "PSC 9527, Box 5808, APO AA 22010",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "73e1c9b9-4446-41db-9a0e-ecc6e69600d8",
@@ -3297,7 +3297,7 @@
 	  "status": "Pending",
 	  "quantity": 86,
 	  "shipping_address": "PSC 9527, Box 5808, APO AA 22010",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "01c2dfa7-f805-4ca1-bc48-d86d61e3ff5a",
@@ -3307,7 +3307,7 @@
 	  "status": "Shipped",
 	  "quantity": 83,
 	  "shipping_address": "9524 Tara Tunnel Apt. 929, New Mary, WI 71141",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "f4665587-4336-4202-8086-808f08b83ab8",
@@ -3317,7 +3317,7 @@
 	  "status": "Pending",
 	  "quantity": 27,
 	  "shipping_address": "9524 Tara Tunnel Apt. 929, New Mary, WI 71141",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "94b0862b-9dbb-4cb3-8a59-cb62b91b68f4",
@@ -3327,7 +3327,7 @@
 	  "status": "Shipped",
 	  "quantity": 51,
 	  "shipping_address": "9524 Tara Tunnel Apt. 929, New Mary, WI 71141",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "ff65cc60-abd4-47e4-a52d-e61ff08e84fe",
@@ -3337,7 +3337,7 @@
 	  "status": "Pending",
 	  "quantity": 32,
 	  "shipping_address": "9524 Tara Tunnel Apt. 929, New Mary, WI 71141",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "0c1e9254-bc70-4b0c-87c9-f32456f54f1a",
@@ -3347,7 +3347,7 @@
 	  "status": "Delivered",
 	  "quantity": 3,
 	  "shipping_address": "9524 Tara Tunnel Apt. 929, New Mary, WI 71141",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "61c46548-3597-4f2b-b883-40f170678957",
@@ -3357,7 +3357,7 @@
 	  "status": "Delivered",
 	  "quantity": 44,
 	  "shipping_address": "202 Stacy Dale Apt. 121, Melissaborough, ME 25015",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "5acd10ba-a17b-4692-98ea-bad71ae88e1f",
@@ -3367,7 +3367,7 @@
 	  "status": "Delivered",
 	  "quantity": 64,
 	  "shipping_address": "202 Stacy Dale Apt. 121, Melissaborough, ME 25015",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "b853404c-0557-49dc-8111-295225baaec8",
@@ -3377,7 +3377,7 @@
 	  "status": "Shipped",
 	  "quantity": 71,
 	  "shipping_address": "202 Stacy Dale Apt. 121, Melissaborough, ME 25015",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "a5747d5c-c8b1-45e5-b970-4218edf8f847",
@@ -3387,7 +3387,7 @@
 	  "status": "Pending",
 	  "quantity": 65,
 	  "shipping_address": "202 Stacy Dale Apt. 121, Melissaborough, ME 25015",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "a55ffb9a-6ca9-47b4-960a-1b6113f0cd30",
@@ -3397,7 +3397,7 @@
 	  "status": "Shipped",
 	  "quantity": 98,
 	  "shipping_address": "202 Stacy Dale Apt. 121, Melissaborough, ME 25015",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "d620c713-c6c0-4ff5-bbed-d1c2fc6a33b9",
@@ -3407,7 +3407,7 @@
 	  "status": "Pending",
 	  "quantity": 47,
 	  "shipping_address": "7017 Duncan Heights, Amberborough, IN 51957",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "c2008f50-0a29-463d-9bf2-6693b3ab9607",
@@ -3417,7 +3417,7 @@
 	  "status": "Shipped",
 	  "quantity": 31,
 	  "shipping_address": "7017 Duncan Heights, Amberborough, IN 51957",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "d50df2b5-0ff2-47be-8ca9-5d5a7540e977",
@@ -3427,7 +3427,7 @@
 	  "status": "Pending",
 	  "quantity": 73,
 	  "shipping_address": "7017 Duncan Heights, Amberborough, IN 51957",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "c8f2f6f9-4030-4893-8251-3aefdf37bc54",
@@ -3437,7 +3437,7 @@
 	  "status": "Delivered",
 	  "quantity": 96,
 	  "shipping_address": "7017 Duncan Heights, Amberborough, IN 51957",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "ce6a9e7a-7436-4428-b710-dd0e2d97df7a",
@@ -3447,7 +3447,7 @@
 	  "status": "Delivered",
 	  "quantity": 43,
 	  "shipping_address": "7017 Duncan Heights, Amberborough, IN 51957",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "29a75b6a-3613-467e-a6e0-11553ce48be1",
@@ -3457,7 +3457,7 @@
 	  "status": "Shipped",
 	  "quantity": 65,
 	  "shipping_address": "94861 Joseph Forges Apt. 906, East Jeffreyside, NC 87936",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "132091c2-3e00-4e6a-a518-89041c30e890",
@@ -3467,7 +3467,7 @@
 	  "status": "Shipped",
 	  "quantity": 45,
 	  "shipping_address": "94861 Joseph Forges Apt. 906, East Jeffreyside, NC 87936",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "35c4deec-cd2c-4ed1-890e-7eeb46a7ee7d",
@@ -3477,7 +3477,7 @@
 	  "status": "Shipped",
 	  "quantity": 20,
 	  "shipping_address": "94861 Joseph Forges Apt. 906, East Jeffreyside, NC 87936",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "5e2fe7e7-3c0c-4cc6-bb82-d4bd2e3328e9",
@@ -3487,7 +3487,7 @@
 	  "status": "Delivered",
 	  "quantity": 57,
 	  "shipping_address": "94861 Joseph Forges Apt. 906, East Jeffreyside, NC 87936",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "b4806900-919e-4938-8f22-35585bde9f92",
@@ -3497,7 +3497,7 @@
 	  "status": "Pending",
 	  "quantity": 62,
 	  "shipping_address": "94861 Joseph Forges Apt. 906, East Jeffreyside, NC 87936",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "4af3c73a-f752-4b35-9a32-1968c5e56c74",
@@ -3507,7 +3507,7 @@
 	  "status": "Pending",
 	  "quantity": 58,
 	  "shipping_address": "2072 Gomez Ramp Apt. 319, North Julie, VT 51627",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "0f947d0a-05a4-43e7-8875-2a93f0953f14",
@@ -3517,7 +3517,7 @@
 	  "status": "Shipped",
 	  "quantity": 9,
 	  "shipping_address": "2072 Gomez Ramp Apt. 319, North Julie, VT 51627",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "099d7a17-2390-4b3b-8871-957b327afa8f",
@@ -3527,7 +3527,7 @@
 	  "status": "Pending",
 	  "quantity": 53,
 	  "shipping_address": "2072 Gomez Ramp Apt. 319, North Julie, VT 51627",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "e72e3888-24f7-44c3-9b1b-d2527e5a8770",
@@ -3537,7 +3537,7 @@
 	  "status": "Delivered",
 	  "quantity": 59,
 	  "shipping_address": "2072 Gomez Ramp Apt. 319, North Julie, VT 51627",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "4401b124-2e3c-4de0-bda1-bf68a99b425d",
@@ -3547,7 +3547,7 @@
 	  "status": "Shipped",
 	  "quantity": 53,
 	  "shipping_address": "2072 Gomez Ramp Apt. 319, North Julie, VT 51627",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "8c77991c-e753-4aae-939c-8d86c9f8be40",
@@ -3557,7 +3557,7 @@
 	  "status": "Pending",
 	  "quantity": 100,
 	  "shipping_address": "51464 David Ford, East Mary, IN 62784",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "cbf3fd1a-c3ca-4f05-bb9d-8e1e4894eef5",
@@ -3567,7 +3567,7 @@
 	  "status": "Shipped",
 	  "quantity": 70,
 	  "shipping_address": "51464 David Ford, East Mary, IN 62784",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "69106faf-8e50-4364-b129-6992bfc07270",
@@ -3577,7 +3577,7 @@
 	  "status": "Shipped",
 	  "quantity": 61,
 	  "shipping_address": "51464 David Ford, East Mary, IN 62784",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "c718d189-fd53-40d5-bad8-f2b5dd6fefb8",
@@ -3587,7 +3587,7 @@
 	  "status": "Shipped",
 	  "quantity": 18,
 	  "shipping_address": "51464 David Ford, East Mary, IN 62784",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "72f999fd-8f7c-4c96-afc9-3ef7d8c0ea83",
@@ -3597,7 +3597,7 @@
 	  "status": "Pending",
 	  "quantity": 39,
 	  "shipping_address": "51464 David Ford, East Mary, IN 62784",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "275f68dd-330b-411d-b6da-3893be7b8263",
@@ -3607,7 +3607,7 @@
 	  "status": "Pending",
 	  "quantity": 93,
 	  "shipping_address": "686 Yoder Walk, Ryanshire, WV 17711",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "f0ab9220-8a39-4f30-841e-5947703db178",
@@ -3617,7 +3617,7 @@
 	  "status": "Shipped",
 	  "quantity": 51,
 	  "shipping_address": "686 Yoder Walk, Ryanshire, WV 17711",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "33ee764e-7790-4765-8f2a-934845cc4567",
@@ -3627,7 +3627,7 @@
 	  "status": "Pending",
 	  "quantity": 91,
 	  "shipping_address": "686 Yoder Walk, Ryanshire, WV 17711",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "0d8fba45-6e4e-4ea8-a197-7fc210409eac",
@@ -3637,7 +3637,7 @@
 	  "status": "Delivered",
 	  "quantity": 100,
 	  "shipping_address": "686 Yoder Walk, Ryanshire, WV 17711",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "05c0267b-af2b-4b01-91a6-3f621a756c85",
@@ -3647,7 +3647,7 @@
 	  "status": "Shipped",
 	  "quantity": 3,
 	  "shipping_address": "686 Yoder Walk, Ryanshire, WV 17711",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "8e9abfd4-0e61-40e8-b40f-2b82b90c1448",
@@ -3657,7 +3657,7 @@
 	  "status": "Shipped",
 	  "quantity": 42,
 	  "shipping_address": "237 Beasley Village Suite 846, Port Emmaport, DC 68444",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "02d0aa88-8ba1-4f34-ab94-cf9912571845",
@@ -3667,7 +3667,7 @@
 	  "status": "Shipped",
 	  "quantity": 23,
 	  "shipping_address": "237 Beasley Village Suite 846, Port Emmaport, DC 68444",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "82fbd101-9271-48d3-b572-6cd5e7c31b84",
@@ -3677,7 +3677,7 @@
 	  "status": "Shipped",
 	  "quantity": 78,
 	  "shipping_address": "237 Beasley Village Suite 846, Port Emmaport, DC 68444",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "f415dffc-6d2b-4990-9d05-1f8188914a75",
@@ -3687,7 +3687,7 @@
 	  "status": "Shipped",
 	  "quantity": 80,
 	  "shipping_address": "237 Beasley Village Suite 846, Port Emmaport, DC 68444",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "1ad3e2fc-21b6-43f0-9e94-8bad6b75412e",
@@ -3697,7 +3697,7 @@
 	  "status": "Pending",
 	  "quantity": 57,
 	  "shipping_address": "237 Beasley Village Suite 846, Port Emmaport, DC 68444",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "365a49ae-7bbc-4468-97bc-0a26cbd70ede",
@@ -3707,7 +3707,7 @@
 	  "status": "Delivered",
 	  "quantity": 96,
 	  "shipping_address": "157 Melissa Divide, Gilmoreshire, MO 82914",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "124da216-f852-4964-814d-0168c3a6e265",
@@ -3717,7 +3717,7 @@
 	  "status": "Pending",
 	  "quantity": 43,
 	  "shipping_address": "157 Melissa Divide, Gilmoreshire, MO 82914",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "fc2b301f-a1cf-4095-adda-0e400cc47c8d",
@@ -3727,7 +3727,7 @@
 	  "status": "Pending",
 	  "quantity": 42,
 	  "shipping_address": "157 Melissa Divide, Gilmoreshire, MO 82914",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "8dfeb23a-385e-4c84-84c3-20f660db0b1e",
@@ -3737,7 +3737,7 @@
 	  "status": "Pending",
 	  "quantity": 48,
 	  "shipping_address": "157 Melissa Divide, Gilmoreshire, MO 82914",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "84139393-c7b8-4e78-8e87-8419e96f82fb",
@@ -3747,7 +3747,7 @@
 	  "status": "Delivered",
 	  "quantity": 57,
 	  "shipping_address": "157 Melissa Divide, Gilmoreshire, MO 82914",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "0f4e61a5-91e1-45a7-b91a-6a672bdef0ba",
@@ -3757,7 +3757,7 @@
 	  "status": "Pending",
 	  "quantity": 21,
 	  "shipping_address": "Unit 1254 Box 6649, DPO AP 23410",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "68121100-cfbc-4bb4-9cf4-7c959613d045",
@@ -3767,7 +3767,7 @@
 	  "status": "Shipped",
 	  "quantity": 55,
 	  "shipping_address": "Unit 1254 Box 6649, DPO AP 23410",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "f21294dd-35d4-4740-973d-dea7cd23c37e",
@@ -3777,7 +3777,7 @@
 	  "status": "Shipped",
 	  "quantity": 97,
 	  "shipping_address": "Unit 1254 Box 6649, DPO AP 23410",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "f5d03eee-b957-4e8e-9964-36bf57f8d18a",
@@ -3787,7 +3787,7 @@
 	  "status": "Pending",
 	  "quantity": 4,
 	  "shipping_address": "Unit 1254 Box 6649, DPO AP 23410",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "368a464b-0878-4658-a21e-8a8d27ac840e",
@@ -3797,7 +3797,7 @@
 	  "status": "Delivered",
 	  "quantity": 40,
 	  "shipping_address": "Unit 1254 Box 6649, DPO AP 23410",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "3da8f399-4b7e-4ae2-9a37-9d94ae40eb54",
@@ -3807,7 +3807,7 @@
 	  "status": "Shipped",
 	  "quantity": 97,
 	  "shipping_address": "4533 Sandy Burgs Apt. 737, Palmerhaven, NC 97282",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "0da61cf1-48ea-4e37-b0eb-3cd7fcf2cf30",
@@ -3817,7 +3817,7 @@
 	  "status": "Shipped",
 	  "quantity": 39,
 	  "shipping_address": "4533 Sandy Burgs Apt. 737, Palmerhaven, NC 97282",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "07c182d0-3813-4834-ab9e-d97bbac0e6a0",
@@ -3827,7 +3827,7 @@
 	  "status": "Pending",
 	  "quantity": 52,
 	  "shipping_address": "4533 Sandy Burgs Apt. 737, Palmerhaven, NC 97282",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "8c0470d5-454d-4ede-b3a2-156066ec576d",
@@ -3837,7 +3837,7 @@
 	  "status": "Pending",
 	  "quantity": 86,
 	  "shipping_address": "4533 Sandy Burgs Apt. 737, Palmerhaven, NC 97282",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "02cbe24f-3bde-4afa-be24-a53af935abe2",
@@ -3847,7 +3847,7 @@
 	  "status": "Shipped",
 	  "quantity": 88,
 	  "shipping_address": "4533 Sandy Burgs Apt. 737, Palmerhaven, NC 97282",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "cc0d6d1b-4eef-45b6-8d7b-54ca494529f9",
@@ -3857,7 +3857,7 @@
 	  "status": "Shipped",
 	  "quantity": 56,
 	  "shipping_address": "9499 David Spring Suite 176, Brandtchester, TN 25325",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "603f38fe-5efe-4a5a-ab6b-3a3c312c3b48",
@@ -3867,7 +3867,7 @@
 	  "status": "Shipped",
 	  "quantity": 9,
 	  "shipping_address": "9499 David Spring Suite 176, Brandtchester, TN 25325",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "9d947853-e594-46e2-92e1-f64d072ba305",
@@ -3877,7 +3877,7 @@
 	  "status": "Delivered",
 	  "quantity": 99,
 	  "shipping_address": "9499 David Spring Suite 176, Brandtchester, TN 25325",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "478af01c-a11d-4799-aa4a-626ccfe81239",
@@ -3887,7 +3887,7 @@
 	  "status": "Pending",
 	  "quantity": 61,
 	  "shipping_address": "9499 David Spring Suite 176, Brandtchester, TN 25325",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "2dccfdc0-36a4-416b-9ff8-e87c78def8c1",
@@ -3897,7 +3897,7 @@
 	  "status": "Pending",
 	  "quantity": 68,
 	  "shipping_address": "9499 David Spring Suite 176, Brandtchester, TN 25325",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "4abde6f8-de05-44db-851f-09f6a79e35e7",
@@ -3907,7 +3907,7 @@
 	  "status": "Delivered",
 	  "quantity": 38,
 	  "shipping_address": "6172 Christine Summit, Lake Dylan, UT 92001",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "58b8ec53-c061-48b0-9cc0-ff6bbe0b503c",
@@ -3917,7 +3917,7 @@
 	  "status": "Pending",
 	  "quantity": 84,
 	  "shipping_address": "6172 Christine Summit, Lake Dylan, UT 92001",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "3387a9f5-e6c7-4006-9f9d-e5a8522004bd",
@@ -3927,7 +3927,7 @@
 	  "status": "Pending",
 	  "quantity": 31,
 	  "shipping_address": "6172 Christine Summit, Lake Dylan, UT 92001",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "e1c90441-c38d-4414-b339-70a79b797094",
@@ -3937,7 +3937,7 @@
 	  "status": "Shipped",
 	  "quantity": 71,
 	  "shipping_address": "6172 Christine Summit, Lake Dylan, UT 92001",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "d0f580cf-035e-4fd1-a72b-4e09b5c857b7",
@@ -3947,7 +3947,7 @@
 	  "status": "Pending",
 	  "quantity": 62,
 	  "shipping_address": "6172 Christine Summit, Lake Dylan, UT 92001",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "5b0cb58b-3baa-4dc3-84e3-de82105fec69",
@@ -3957,7 +3957,7 @@
 	  "status": "Shipped",
 	  "quantity": 82,
 	  "shipping_address": "757 Katherine Plains Apt. 858, Markshaven, CA 67793",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "b4e05207-9d0f-4d26-878a-0ad5b5629d91",
@@ -3967,7 +3967,7 @@
 	  "status": "Pending",
 	  "quantity": 92,
 	  "shipping_address": "757 Katherine Plains Apt. 858, Markshaven, CA 67793",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "d25ef62f-5eea-4e0c-bc02-8cf3bebc6437",
@@ -3977,7 +3977,7 @@
 	  "status": "Shipped",
 	  "quantity": 71,
 	  "shipping_address": "757 Katherine Plains Apt. 858, Markshaven, CA 67793",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "c8734a74-5d54-4f37-8e1e-63df60d623a4",
@@ -3987,7 +3987,7 @@
 	  "status": "Pending",
 	  "quantity": 6,
 	  "shipping_address": "757 Katherine Plains Apt. 858, Markshaven, CA 67793",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "694ab548-eb26-4f8c-8b8e-7a2ea6980990",
@@ -3997,7 +3997,7 @@
 	  "status": "Pending",
 	  "quantity": 16,
 	  "shipping_address": "757 Katherine Plains Apt. 858, Markshaven, CA 67793",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "fe14f714-3b3c-4c59-b040-e95b1c9ca0bb",
@@ -4007,7 +4007,7 @@
 	  "status": "Shipped",
 	  "quantity": 23,
 	  "shipping_address": "382 Hays Falls Apt. 116, Lake Kennethmouth, MO 17261",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "10eb38c7-4539-4cb7-ba98-9d3eb5b28e5e",
@@ -4017,7 +4017,7 @@
 	  "status": "Delivered",
 	  "quantity": 71,
 	  "shipping_address": "382 Hays Falls Apt. 116, Lake Kennethmouth, MO 17261",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "faeda774-a89b-46a3-9a45-9c7afc36a957",
@@ -4027,7 +4027,7 @@
 	  "status": "Shipped",
 	  "quantity": 28,
 	  "shipping_address": "382 Hays Falls Apt. 116, Lake Kennethmouth, MO 17261",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "0dfc21ed-5b92-461c-8e11-b5edfc715044",
@@ -4037,7 +4037,7 @@
 	  "status": "Pending",
 	  "quantity": 42,
 	  "shipping_address": "382 Hays Falls Apt. 116, Lake Kennethmouth, MO 17261",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "cbaa2f4b-8fe9-405a-9029-93e63d5c06b1",
@@ -4047,7 +4047,7 @@
 	  "status": "Delivered",
 	  "quantity": 21,
 	  "shipping_address": "382 Hays Falls Apt. 116, Lake Kennethmouth, MO 17261",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "d8e97864-967b-49d2-b52a-3ddf44e0060d",
@@ -4057,7 +4057,7 @@
 	  "status": "Shipped",
 	  "quantity": 62,
 	  "shipping_address": "62279 Marvin Pines Suite 852, New Tinaville, MA 28066",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "f254d865-48a8-4ced-9ca7-56512250d147",
@@ -4067,7 +4067,7 @@
 	  "status": "Delivered",
 	  "quantity": 83,
 	  "shipping_address": "62279 Marvin Pines Suite 852, New Tinaville, MA 28066",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "c73e6cfe-ba5c-4d3c-a9de-8646b951a2ab",
@@ -4077,7 +4077,7 @@
 	  "status": "Shipped",
 	  "quantity": 37,
 	  "shipping_address": "62279 Marvin Pines Suite 852, New Tinaville, MA 28066",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "98d386c4-00cc-46ca-96f0-320cdebc452d",
@@ -4087,7 +4087,7 @@
 	  "status": "Shipped",
 	  "quantity": 38,
 	  "shipping_address": "62279 Marvin Pines Suite 852, New Tinaville, MA 28066",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "48e0afe0-39d2-419f-b1c6-5cf71da3758e",
@@ -4097,7 +4097,7 @@
 	  "status": "Shipped",
 	  "quantity": 48,
 	  "shipping_address": "62279 Marvin Pines Suite 852, New Tinaville, MA 28066",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "b51b6c82-912d-4344-8d5d-a7a868dc8f8d",
@@ -4107,7 +4107,7 @@
 	  "status": "Shipped",
 	  "quantity": 53,
 	  "shipping_address": "0567 Hamilton Ferry, Johnsonberg, IL 21768",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "20385fd2-83cb-4a6d-9bdf-e8ae0dda5d13",
@@ -4117,7 +4117,7 @@
 	  "status": "Delivered",
 	  "quantity": 73,
 	  "shipping_address": "0567 Hamilton Ferry, Johnsonberg, IL 21768",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "2169f49d-d06c-4a74-a53c-83731bf64e43",
@@ -4127,7 +4127,7 @@
 	  "status": "Pending",
 	  "quantity": 40,
 	  "shipping_address": "0567 Hamilton Ferry, Johnsonberg, IL 21768",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "e33b8ead-d1f4-42a3-89b0-b1604d000640",
@@ -4137,7 +4137,7 @@
 	  "status": "Pending",
 	  "quantity": 35,
 	  "shipping_address": "0567 Hamilton Ferry, Johnsonberg, IL 21768",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "147dc3b4-119c-41d9-868e-3b7aa0ab1326",
@@ -4147,7 +4147,7 @@
 	  "status": "Shipped",
 	  "quantity": 59,
 	  "shipping_address": "0567 Hamilton Ferry, Johnsonberg, IL 21768",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "976a31eb-a7cb-49e0-9579-16cbbac60987",
@@ -4157,7 +4157,7 @@
 	  "status": "Shipped",
 	  "quantity": 23,
 	  "shipping_address": "751 Tucker Dale, Thomasland, OR 71378",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "f76042e4-6365-4bc7-9897-9d20cbf3bd7f",
@@ -4167,7 +4167,7 @@
 	  "status": "Pending",
 	  "quantity": 90,
 	  "shipping_address": "751 Tucker Dale, Thomasland, OR 71378",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "348a8aac-307c-42e1-a0c9-64edf286bbae",
@@ -4177,7 +4177,7 @@
 	  "status": "Shipped",
 	  "quantity": 5,
 	  "shipping_address": "751 Tucker Dale, Thomasland, OR 71378",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "75ecd08a-b393-4ad9-a58c-f4b0a1f93936",
@@ -4187,7 +4187,7 @@
 	  "status": "Shipped",
 	  "quantity": 57,
 	  "shipping_address": "751 Tucker Dale, Thomasland, OR 71378",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "59991e48-2088-41a7-982d-630c8fc54a10",
@@ -4197,7 +4197,7 @@
 	  "status": "Shipped",
 	  "quantity": 35,
 	  "shipping_address": "751 Tucker Dale, Thomasland, OR 71378",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "419ca3d4-885a-4d60-b7b7-f17d74a73967",
@@ -4207,7 +4207,7 @@
 	  "status": "Pending",
 	  "quantity": 82,
 	  "shipping_address": "9110 Hood Wall Suite 050, Michaelberg, MI 55975",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "fc18f2b4-9cee-48d7-a4f4-5ba27f064217",
@@ -4217,7 +4217,7 @@
 	  "status": "Delivered",
 	  "quantity": 17,
 	  "shipping_address": "9110 Hood Wall Suite 050, Michaelberg, MI 55975",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "5c875f28-334d-44fa-bf8a-b74f0c00dbc3",
@@ -4227,7 +4227,7 @@
 	  "status": "Delivered",
 	  "quantity": 3,
 	  "shipping_address": "9110 Hood Wall Suite 050, Michaelberg, MI 55975",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "e2ab7052-6dbe-49c2-aace-7376328bd536",
@@ -4237,7 +4237,7 @@
 	  "status": "Pending",
 	  "quantity": 10,
 	  "shipping_address": "9110 Hood Wall Suite 050, Michaelberg, MI 55975",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "ffbf0427-aca6-49d1-b88c-7b5bff24aa92",
@@ -4247,7 +4247,7 @@
 	  "status": "Shipped",
 	  "quantity": 62,
 	  "shipping_address": "9110 Hood Wall Suite 050, Michaelberg, MI 55975",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "138c86fa-9dd6-4180-bff6-b006c3175e2a",
@@ -4257,7 +4257,7 @@
 	  "status": "Pending",
 	  "quantity": 68,
 	  "shipping_address": "19995 Joan Club, East Sherry, NC 99053",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "6ab0043c-5dca-472b-a48a-053e19d989bb",
@@ -4267,7 +4267,7 @@
 	  "status": "Shipped",
 	  "quantity": 29,
 	  "shipping_address": "19995 Joan Club, East Sherry, NC 99053",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "41f68891-739c-4c3d-bb4c-7528a586a64a",
@@ -4277,7 +4277,7 @@
 	  "status": "Shipped",
 	  "quantity": 99,
 	  "shipping_address": "19995 Joan Club, East Sherry, NC 99053",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "292f3a5c-b5bd-4bb7-9788-6850ee5f3bab",
@@ -4287,7 +4287,7 @@
 	  "status": "Shipped",
 	  "quantity": 22,
 	  "shipping_address": "19995 Joan Club, East Sherry, NC 99053",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "df7fbcee-7de7-4bcc-8074-e798f91aae59",
@@ -4297,7 +4297,7 @@
 	  "status": "Pending",
 	  "quantity": 46,
 	  "shipping_address": "19995 Joan Club, East Sherry, NC 99053",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "0dbddd51-4cec-41d8-9550-fee878389dd2",
@@ -4307,7 +4307,7 @@
 	  "status": "Shipped",
 	  "quantity": 42,
 	  "shipping_address": "PSC 9981, Box 8778, APO AA 61671",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "2fd555b0-02fc-495a-afb1-add9782cf455",
@@ -4317,7 +4317,7 @@
 	  "status": "Shipped",
 	  "quantity": 63,
 	  "shipping_address": "PSC 9981, Box 8778, APO AA 61671",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "0d03ddd5-b72b-4b76-8692-effabd0272be",
@@ -4327,7 +4327,7 @@
 	  "status": "Shipped",
 	  "quantity": 50,
 	  "shipping_address": "PSC 9981, Box 8778, APO AA 61671",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "2e277033-fb3f-4e54-b583-b2a8c3864586",
@@ -4337,7 +4337,7 @@
 	  "status": "Pending",
 	  "quantity": 78,
 	  "shipping_address": "PSC 9981, Box 8778, APO AA 61671",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "1bf84daf-6e49-4d87-b3f0-62ec515987d3",
@@ -4347,7 +4347,7 @@
 	  "status": "Delivered",
 	  "quantity": 64,
 	  "shipping_address": "PSC 9981, Box 8778, APO AA 61671",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "7d5691ac-17fe-4f5d-8b78-3899d3277503",
@@ -4357,7 +4357,7 @@
 	  "status": "Shipped",
 	  "quantity": 97,
 	  "shipping_address": "6241 Lindsey Trafficway, Lake Kathyside, PA 70963",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "a861e7df-d5ac-4d14-a10a-2f636b22d168",
@@ -4367,7 +4367,7 @@
 	  "status": "Pending",
 	  "quantity": 67,
 	  "shipping_address": "6241 Lindsey Trafficway, Lake Kathyside, PA 70963",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "98309e9c-1bf0-42ca-aa66-c9fed2af5e5f",
@@ -4377,7 +4377,7 @@
 	  "status": "Delivered",
 	  "quantity": 59,
 	  "shipping_address": "6241 Lindsey Trafficway, Lake Kathyside, PA 70963",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "670b6289-04d2-43af-8a82-02921e260013",
@@ -4387,7 +4387,7 @@
 	  "status": "Pending",
 	  "quantity": 82,
 	  "shipping_address": "6241 Lindsey Trafficway, Lake Kathyside, PA 70963",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "93af921f-df93-4097-9e30-5c33ce7440ef",
@@ -4397,7 +4397,7 @@
 	  "status": "Shipped",
 	  "quantity": 42,
 	  "shipping_address": "6241 Lindsey Trafficway, Lake Kathyside, PA 70963",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "df2db695-d14d-4996-809e-7125a245dd77",
@@ -4407,7 +4407,7 @@
 	  "status": "Delivered",
 	  "quantity": 82,
 	  "shipping_address": "9928 Jacob Radial Suite 614, Gregorychester, CO 58483",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "91d86090-14f6-489b-add2-8b081f936df6",
@@ -4417,7 +4417,7 @@
 	  "status": "Shipped",
 	  "quantity": 99,
 	  "shipping_address": "9928 Jacob Radial Suite 614, Gregorychester, CO 58483",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "03d21ddd-5cd6-460d-bc29-50ceddf73ad3",
@@ -4427,7 +4427,7 @@
 	  "status": "Delivered",
 	  "quantity": 81,
 	  "shipping_address": "9928 Jacob Radial Suite 614, Gregorychester, CO 58483",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "51d58abf-6627-47f1-af27-e142b925af18",
@@ -4437,7 +4437,7 @@
 	  "status": "Delivered",
 	  "quantity": 80,
 	  "shipping_address": "9928 Jacob Radial Suite 614, Gregorychester, CO 58483",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "25359f51-3127-4172-8811-e4f7b52dc947",
@@ -4447,7 +4447,7 @@
 	  "status": "Shipped",
 	  "quantity": 41,
 	  "shipping_address": "9928 Jacob Radial Suite 614, Gregorychester, CO 58483",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "0ad8a69a-17a7-4244-89ca-9b25ea4c2df6",
@@ -4457,7 +4457,7 @@
 	  "status": "Delivered",
 	  "quantity": 6,
 	  "shipping_address": "61878 Larry Parkway, Meyerstad, OK 23099",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "199870ff-4386-4a0b-8c96-331f715805ad",
@@ -4467,7 +4467,7 @@
 	  "status": "Shipped",
 	  "quantity": 40,
 	  "shipping_address": "61878 Larry Parkway, Meyerstad, OK 23099",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "d7af0155-1384-44d0-b4d3-09338b473fa2",
@@ -4477,7 +4477,7 @@
 	  "status": "Shipped",
 	  "quantity": 56,
 	  "shipping_address": "61878 Larry Parkway, Meyerstad, OK 23099",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "7d47f4b8-7a2a-4a0b-afb3-1c6054a78867",
@@ -4487,7 +4487,7 @@
 	  "status": "Delivered",
 	  "quantity": 69,
 	  "shipping_address": "61878 Larry Parkway, Meyerstad, OK 23099",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "e1221c4d-e759-4a6f-a1e8-7194b3fbb7b6",
@@ -4497,7 +4497,7 @@
 	  "status": "Pending",
 	  "quantity": 49,
 	  "shipping_address": "61878 Larry Parkway, Meyerstad, OK 23099",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "5f739afa-7655-4772-81f4-2510b4159c4c",
@@ -4507,7 +4507,7 @@
 	  "status": "Pending",
 	  "quantity": 92,
 	  "shipping_address": "2693 Kaylee Springs, East Destiny, SD 82325",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "ddfc6f89-cdbb-474b-9280-0e808279422d",
@@ -4517,7 +4517,7 @@
 	  "status": "Shipped",
 	  "quantity": 46,
 	  "shipping_address": "2693 Kaylee Springs, East Destiny, SD 82325",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "e8661022-1591-42ad-9266-b672ee4c2c96",
@@ -4527,7 +4527,7 @@
 	  "status": "Delivered",
 	  "quantity": 40,
 	  "shipping_address": "2693 Kaylee Springs, East Destiny, SD 82325",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "c775c7cc-9083-45c5-aef6-10202b21dd1c",
@@ -4537,7 +4537,7 @@
 	  "status": "Pending",
 	  "quantity": 20,
 	  "shipping_address": "2693 Kaylee Springs, East Destiny, SD 82325",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "0a8018fe-b8ba-4eaf-a898-c9bb424bdd00",
@@ -4547,7 +4547,7 @@
 	  "status": "Shipped",
 	  "quantity": 69,
 	  "shipping_address": "2693 Kaylee Springs, East Destiny, SD 82325",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "56c9fc6d-a631-443e-8345-8800adf549a0",
@@ -4557,7 +4557,7 @@
 	  "status": "Shipped",
 	  "quantity": 15,
 	  "shipping_address": "713 Ian Rapids Suite 763, Kimberlyville, UT 79600",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "d9b7d5c0-473e-42d6-a7ae-a99d248ce4ae",
@@ -4567,7 +4567,7 @@
 	  "status": "Delivered",
 	  "quantity": 87,
 	  "shipping_address": "713 Ian Rapids Suite 763, Kimberlyville, UT 79600",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "daaa9730-bafe-4d38-a544-411b796e5c0f",
@@ -4577,7 +4577,7 @@
 	  "status": "Pending",
 	  "quantity": 17,
 	  "shipping_address": "713 Ian Rapids Suite 763, Kimberlyville, UT 79600",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "fe60fcdb-4708-4163-ad5b-ef70d48a1091",
@@ -4587,7 +4587,7 @@
 	  "status": "Delivered",
 	  "quantity": 10,
 	  "shipping_address": "713 Ian Rapids Suite 763, Kimberlyville, UT 79600",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "81d27cdb-844b-4d3a-930b-df836255b5cd",
@@ -4597,7 +4597,7 @@
 	  "status": "Delivered",
 	  "quantity": 100,
 	  "shipping_address": "713 Ian Rapids Suite 763, Kimberlyville, UT 79600",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "6b210a2d-2a1f-470f-8c09-6e0a0481c4a3",
@@ -4607,7 +4607,7 @@
 	  "status": "Shipped",
 	  "quantity": 92,
 	  "shipping_address": "801 Nelson Coves Apt. 011, East Rachel, MD 46870",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "fcb2f1c1-71a0-4228-a60e-23ff9d82e0a1",
@@ -4617,7 +4617,7 @@
 	  "status": "Pending",
 	  "quantity": 46,
 	  "shipping_address": "801 Nelson Coves Apt. 011, East Rachel, MD 46870",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "b04325fc-5c55-48ad-aaef-741b8af340f0",
@@ -4627,7 +4627,7 @@
 	  "status": "Delivered",
 	  "quantity": 34,
 	  "shipping_address": "801 Nelson Coves Apt. 011, East Rachel, MD 46870",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "365cb951-7e54-4478-85e8-cac3aca97252",
@@ -4637,7 +4637,7 @@
 	  "status": "Delivered",
 	  "quantity": 65,
 	  "shipping_address": "801 Nelson Coves Apt. 011, East Rachel, MD 46870",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "eb11ff4e-64ca-43b6-aac0-392ef376de62",
@@ -4647,7 +4647,7 @@
 	  "status": "Delivered",
 	  "quantity": 34,
 	  "shipping_address": "801 Nelson Coves Apt. 011, East Rachel, MD 46870",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "a0621894-fa0d-4017-8f86-65a8173e615f",
@@ -4657,7 +4657,7 @@
 	  "status": "Pending",
 	  "quantity": 18,
 	  "shipping_address": "41489 Hubbard Fall, West Susanhaven, ND 66571",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "00d8768f-be3f-4655-863a-50c7bf20dfc1",
@@ -4667,7 +4667,7 @@
 	  "status": "Shipped",
 	  "quantity": 42,
 	  "shipping_address": "41489 Hubbard Fall, West Susanhaven, ND 66571",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "0f03e239-cba0-43dc-9125-4f4edadfb0e2",
@@ -4677,7 +4677,7 @@
 	  "status": "Pending",
 	  "quantity": 86,
 	  "shipping_address": "41489 Hubbard Fall, West Susanhaven, ND 66571",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "f0abed5a-4128-48a0-9874-0ba49bf7e84e",
@@ -4687,7 +4687,7 @@
 	  "status": "Delivered",
 	  "quantity": 61,
 	  "shipping_address": "41489 Hubbard Fall, West Susanhaven, ND 66571",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "3193cca7-0a6e-454e-b8f9-8b97ca2c5867",
@@ -4697,7 +4697,7 @@
 	  "status": "Pending",
 	  "quantity": 53,
 	  "shipping_address": "41489 Hubbard Fall, West Susanhaven, ND 66571",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "20323b6c-1a64-4a97-b303-598cfb2d8191",
@@ -4707,7 +4707,7 @@
 	  "status": "Pending",
 	  "quantity": 2,
 	  "shipping_address": "Unit 4835 Box 4776, DPO AA 11752",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "e90f7f36-13be-4c56-9084-156a85f29fa1",
@@ -4717,7 +4717,7 @@
 	  "status": "Pending",
 	  "quantity": 37,
 	  "shipping_address": "Unit 4835 Box 4776, DPO AA 11752",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "4417303d-5be8-4370-b5bf-96ca0333302f",
@@ -4727,7 +4727,7 @@
 	  "status": "Shipped",
 	  "quantity": 82,
 	  "shipping_address": "Unit 4835 Box 4776, DPO AA 11752",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "2b36ebab-5c5a-49df-9edf-60c830f84bf2",
@@ -4737,7 +4737,7 @@
 	  "status": "Pending",
 	  "quantity": 39,
 	  "shipping_address": "Unit 4835 Box 4776, DPO AA 11752",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "907ef159-a87c-4383-a2e4-247db9d6aa7f",
@@ -4747,7 +4747,7 @@
 	  "status": "Shipped",
 	  "quantity": 70,
 	  "shipping_address": "Unit 4835 Box 4776, DPO AA 11752",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "82ede1ee-7ec8-4256-bf1d-353ae047cbfd",
@@ -4757,7 +4757,7 @@
 	  "status": "Shipped",
 	  "quantity": 85,
 	  "shipping_address": "4254 Carrillo Grove Suite 541, Stephaniefurt, ID 02397",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "965c84d5-afe3-47bc-a100-d41161f2e745",
@@ -4767,7 +4767,7 @@
 	  "status": "Pending",
 	  "quantity": 37,
 	  "shipping_address": "4254 Carrillo Grove Suite 541, Stephaniefurt, ID 02397",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "d3ab84ea-d2ea-43c1-a943-b563687d0a4d",
@@ -4777,7 +4777,7 @@
 	  "status": "Pending",
 	  "quantity": 89,
 	  "shipping_address": "4254 Carrillo Grove Suite 541, Stephaniefurt, ID 02397",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "8d235633-c8c0-40ca-acda-adcc1adf0ca4",
@@ -4787,7 +4787,7 @@
 	  "status": "Delivered",
 	  "quantity": 76,
 	  "shipping_address": "4254 Carrillo Grove Suite 541, Stephaniefurt, ID 02397",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "05e12e61-167d-41c2-a1c3-523d358cfbae",
@@ -4797,7 +4797,7 @@
 	  "status": "Delivered",
 	  "quantity": 91,
 	  "shipping_address": "4254 Carrillo Grove Suite 541, Stephaniefurt, ID 02397",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "3b8ca5df-9ec9-46d2-89ad-2c40abfb4175",
@@ -4807,7 +4807,7 @@
 	  "status": "Delivered",
 	  "quantity": 54,
 	  "shipping_address": "Unit 8109 Box 6119, DPO AA 76391",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "15ce9443-97be-4d0f-93b1-1ece7dc6b9c3",
@@ -4817,7 +4817,7 @@
 	  "status": "Shipped",
 	  "quantity": 90,
 	  "shipping_address": "Unit 8109 Box 6119, DPO AA 76391",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "f7d42a16-934c-4800-b4a8-80f92ac61516",
@@ -4827,7 +4827,7 @@
 	  "status": "Pending",
 	  "quantity": 98,
 	  "shipping_address": "Unit 8109 Box 6119, DPO AA 76391",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "69430849-708c-4c02-a67f-457992f55674",
@@ -4837,7 +4837,7 @@
 	  "status": "Pending",
 	  "quantity": 6,
 	  "shipping_address": "Unit 8109 Box 6119, DPO AA 76391",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "dda12e46-63af-404a-bd70-f53908794067",
@@ -4847,7 +4847,7 @@
 	  "status": "Shipped",
 	  "quantity": 39,
 	  "shipping_address": "Unit 8109 Box 6119, DPO AA 76391",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "71fc7648-c43a-4250-93e6-2033d3c0fb37",
@@ -4857,7 +4857,7 @@
 	  "status": "Shipped",
 	  "quantity": 53,
 	  "shipping_address": "74993 Jorge Groves Suite 793, Kathrynland, KS 39076",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "133d4ed3-2bb4-4578-8218-2f80d282206e",
@@ -4867,7 +4867,7 @@
 	  "status": "Delivered",
 	  "quantity": 83,
 	  "shipping_address": "74993 Jorge Groves Suite 793, Kathrynland, KS 39076",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "aa888172-4a6c-4123-9ccb-807bc429435d",
@@ -4877,7 +4877,7 @@
 	  "status": "Pending",
 	  "quantity": 23,
 	  "shipping_address": "74993 Jorge Groves Suite 793, Kathrynland, KS 39076",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "b77851bc-9339-426d-831e-88ed97ed124f",
@@ -4887,7 +4887,7 @@
 	  "status": "Delivered",
 	  "quantity": 7,
 	  "shipping_address": "74993 Jorge Groves Suite 793, Kathrynland, KS 39076",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "74157171-0c9c-45df-90f4-1b9a3f31df80",
@@ -4897,7 +4897,7 @@
 	  "status": "Delivered",
 	  "quantity": 16,
 	  "shipping_address": "74993 Jorge Groves Suite 793, Kathrynland, KS 39076",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "f04bec09-4b04-4e91-9170-23214e7bf459",
@@ -4907,7 +4907,7 @@
 	  "status": "Shipped",
 	  "quantity": 32,
 	  "shipping_address": "USNS Gibson, FPO AE 31345",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "ef496e23-6e30-48e7-85ea-3d77ba1ca3fc",
@@ -4917,7 +4917,7 @@
 	  "status": "Pending",
 	  "quantity": 86,
 	  "shipping_address": "USNS Gibson, FPO AE 31345",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "9f74b4d1-f3e3-4636-a8fc-08e2b6c76840",
@@ -4927,7 +4927,7 @@
 	  "status": "Pending",
 	  "quantity": 31,
 	  "shipping_address": "USNS Gibson, FPO AE 31345",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "1a79c714-59db-45f8-8333-bbe677f5cf7f",
@@ -4937,7 +4937,7 @@
 	  "status": "Shipped",
 	  "quantity": 23,
 	  "shipping_address": "USNS Gibson, FPO AE 31345",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "144be8a4-0e05-4b86-9339-9ebf311b0b54",
@@ -4947,7 +4947,7 @@
 	  "status": "Delivered",
 	  "quantity": 97,
 	  "shipping_address": "USNS Gibson, FPO AE 31345",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "c81f5b57-03f8-4ccb-acef-d877254dcc94",
@@ -4957,7 +4957,7 @@
 	  "status": "Pending",
 	  "quantity": 70,
 	  "shipping_address": "38829 Smith Track, Port Justinstad, NJ 00534",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "4c8c806d-4ebd-4d75-bb06-436b892d46d8",
@@ -4967,7 +4967,7 @@
 	  "status": "Pending",
 	  "quantity": 96,
 	  "shipping_address": "38829 Smith Track, Port Justinstad, NJ 00534",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "e8990a44-b991-4153-9d77-f5fbbdf83114",
@@ -4977,7 +4977,7 @@
 	  "status": "Shipped",
 	  "quantity": 4,
 	  "shipping_address": "38829 Smith Track, Port Justinstad, NJ 00534",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "233b117f-c6fd-4c55-b47e-65f01249ebba",
@@ -4987,7 +4987,7 @@
 	  "status": "Pending",
 	  "quantity": 60,
 	  "shipping_address": "38829 Smith Track, Port Justinstad, NJ 00534",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "c349f2a5-781b-4a27-9e86-11254fcda21f",
@@ -4997,7 +4997,7 @@
 	  "status": "Delivered",
 	  "quantity": 28,
 	  "shipping_address": "38829 Smith Track, Port Justinstad, NJ 00534",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "617e41ed-738f-401d-bafc-e6259c266860",
@@ -5007,7 +5007,7 @@
 	  "status": "Delivered",
 	  "quantity": 61,
 	  "shipping_address": "3241 Whitney Spurs, Brandonmouth, WA 67613",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "17f7ae16-87da-41d0-85d7-78627c4f5535",
@@ -5017,7 +5017,7 @@
 	  "status": "Delivered",
 	  "quantity": 9,
 	  "shipping_address": "3241 Whitney Spurs, Brandonmouth, WA 67613",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "e0d156d9-5493-4d2b-85ec-9470aa4672ab",
@@ -5027,7 +5027,7 @@
 	  "status": "Delivered",
 	  "quantity": 9,
 	  "shipping_address": "3241 Whitney Spurs, Brandonmouth, WA 67613",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "908b031a-3cec-4d1b-a1e1-5102b08677c6",
@@ -5037,7 +5037,7 @@
 	  "status": "Pending",
 	  "quantity": 77,
 	  "shipping_address": "3241 Whitney Spurs, Brandonmouth, WA 67613",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "04a4c341-4bd3-4c14-a822-a468c073d9d7",
@@ -5047,7 +5047,7 @@
 	  "status": "Pending",
 	  "quantity": 65,
 	  "shipping_address": "3241 Whitney Spurs, Brandonmouth, WA 67613",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "b02ecca5-e26c-4bf6-8d98-9fa73525998c",
@@ -5057,7 +5057,7 @@
 	  "status": "Shipped",
 	  "quantity": 7,
 	  "shipping_address": "1760 Jodi Canyon, East Candice, NJ 65574",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "f1596187-10d9-4f13-aedb-c25a21fd5743",
@@ -5067,7 +5067,7 @@
 	  "status": "Shipped",
 	  "quantity": 21,
 	  "shipping_address": "1760 Jodi Canyon, East Candice, NJ 65574",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "d35f088b-c87f-4d13-9f40-f4b6b6d12ebf",
@@ -5077,7 +5077,7 @@
 	  "status": "Pending",
 	  "quantity": 31,
 	  "shipping_address": "1760 Jodi Canyon, East Candice, NJ 65574",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "736381fa-5da4-4f06-bb70-50efb36d5fed",
@@ -5087,7 +5087,7 @@
 	  "status": "Pending",
 	  "quantity": 45,
 	  "shipping_address": "1760 Jodi Canyon, East Candice, NJ 65574",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "49305a91-8a4e-42d2-9718-f4573f130128",
@@ -5097,7 +5097,7 @@
 	  "status": "Shipped",
 	  "quantity": 62,
 	  "shipping_address": "1760 Jodi Canyon, East Candice, NJ 65574",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "df1eaaec-d351-4d49-a84b-6486e8cd8d3a",
@@ -5107,7 +5107,7 @@
 	  "status": "Delivered",
 	  "quantity": 27,
 	  "shipping_address": "0172 Chaney Well Apt. 770, South Ruthstad, NV 47400",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "fdd01c16-624a-490b-8d6b-0d3d4023cf9c",
@@ -5117,7 +5117,7 @@
 	  "status": "Shipped",
 	  "quantity": 53,
 	  "shipping_address": "0172 Chaney Well Apt. 770, South Ruthstad, NV 47400",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "e333b3e0-87f4-4c5f-abb6-a80659d35ee6",
@@ -5127,7 +5127,7 @@
 	  "status": "Shipped",
 	  "quantity": 97,
 	  "shipping_address": "0172 Chaney Well Apt. 770, South Ruthstad, NV 47400",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "ae920f1c-644c-49b7-807c-9f4ac46ea1a0",
@@ -5137,7 +5137,7 @@
 	  "status": "Pending",
 	  "quantity": 88,
 	  "shipping_address": "0172 Chaney Well Apt. 770, South Ruthstad, NV 47400",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "a0c5d591-6a56-4f9d-ad20-e7cd6a2c4352",
@@ -5147,7 +5147,7 @@
 	  "status": "Shipped",
 	  "quantity": 15,
 	  "shipping_address": "0172 Chaney Well Apt. 770, South Ruthstad, NV 47400",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "08d5a358-14a5-4eb8-8bc2-130ad0ed27ef",
@@ -5157,7 +5157,7 @@
 	  "status": "Delivered",
 	  "quantity": 91,
 	  "shipping_address": "6684 Campbell Cliffs Apt. 026, New Amanda, ND 54248",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "cd014b52-f3d1-453d-b4b4-fd3a536f5aa6",
@@ -5167,7 +5167,7 @@
 	  "status": "Shipped",
 	  "quantity": 36,
 	  "shipping_address": "6684 Campbell Cliffs Apt. 026, New Amanda, ND 54248",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "8bc7d011-499f-49ce-9803-58015f222446",
@@ -5177,7 +5177,7 @@
 	  "status": "Shipped",
 	  "quantity": 63,
 	  "shipping_address": "6684 Campbell Cliffs Apt. 026, New Amanda, ND 54248",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "a675a4d3-1d69-4965-9bd2-966f010eca38",
@@ -5187,7 +5187,7 @@
 	  "status": "Delivered",
 	  "quantity": 37,
 	  "shipping_address": "6684 Campbell Cliffs Apt. 026, New Amanda, ND 54248",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "66cc5808-e8b1-4db4-bf72-ae244a38c8ad",
@@ -5197,7 +5197,7 @@
 	  "status": "Delivered",
 	  "quantity": 88,
 	  "shipping_address": "6684 Campbell Cliffs Apt. 026, New Amanda, ND 54248",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "92d97a5f-9e04-4354-93c6-a0bd0b99c477",
@@ -5207,7 +5207,7 @@
 	  "status": "Delivered",
 	  "quantity": 10,
 	  "shipping_address": "56399 Brian Villages, Lopezberg, WV 43295",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "b8e65165-12d1-4f26-9c47-e15efb07fd63",
@@ -5217,7 +5217,7 @@
 	  "status": "Pending",
 	  "quantity": 36,
 	  "shipping_address": "56399 Brian Villages, Lopezberg, WV 43295",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "8794bb8f-d662-482c-9e22-e389e91db5c1",
@@ -5227,7 +5227,7 @@
 	  "status": "Shipped",
 	  "quantity": 57,
 	  "shipping_address": "56399 Brian Villages, Lopezberg, WV 43295",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "67244d12-8879-4f2e-b65f-23199e3aae95",
@@ -5237,7 +5237,7 @@
 	  "status": "Shipped",
 	  "quantity": 39,
 	  "shipping_address": "56399 Brian Villages, Lopezberg, WV 43295",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "053dfd72-f961-4d88-b8b1-056f6da1b484",
@@ -5247,7 +5247,7 @@
 	  "status": "Shipped",
 	  "quantity": 57,
 	  "shipping_address": "56399 Brian Villages, Lopezberg, WV 43295",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "a57ff1e1-8c3f-452e-afdf-c91180e4a2bf",
@@ -5257,7 +5257,7 @@
 	  "status": "Delivered",
 	  "quantity": 22,
 	  "shipping_address": "3731 Jose Street Apt. 872, Sandraport, KS 03012",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "84cbf820-209b-4b2b-86b5-4217a4733639",
@@ -5267,7 +5267,7 @@
 	  "status": "Delivered",
 	  "quantity": 75,
 	  "shipping_address": "3731 Jose Street Apt. 872, Sandraport, KS 03012",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "cb8d2e5d-c32d-4273-ab1d-108f54b89872",
@@ -5277,7 +5277,7 @@
 	  "status": "Shipped",
 	  "quantity": 12,
 	  "shipping_address": "3731 Jose Street Apt. 872, Sandraport, KS 03012",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "547616fd-9dc1-4598-b23d-65a0510e3301",
@@ -5287,7 +5287,7 @@
 	  "status": "Delivered",
 	  "quantity": 70,
 	  "shipping_address": "3731 Jose Street Apt. 872, Sandraport, KS 03012",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "e3910aaa-d735-4395-a472-739d2824acce",
@@ -5297,7 +5297,7 @@
 	  "status": "Pending",
 	  "quantity": 37,
 	  "shipping_address": "3731 Jose Street Apt. 872, Sandraport, KS 03012",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "5b149d95-d443-411b-94a6-8e572178a343",
@@ -5307,7 +5307,7 @@
 	  "status": "Shipped",
 	  "quantity": 65,
 	  "shipping_address": "Unit 1191 Box 7185, DPO AA 97277",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "4cce1ed4-849b-4ae8-a379-e60f35098d45",
@@ -5317,7 +5317,7 @@
 	  "status": "Shipped",
 	  "quantity": 8,
 	  "shipping_address": "Unit 1191 Box 7185, DPO AA 97277",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "6eea9625-e995-4756-a336-c3042952f221",
@@ -5327,7 +5327,7 @@
 	  "status": "Shipped",
 	  "quantity": 4,
 	  "shipping_address": "Unit 1191 Box 7185, DPO AA 97277",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "55cbeff5-4e2c-4477-8082-5e815954c58d",
@@ -5337,7 +5337,7 @@
 	  "status": "Delivered",
 	  "quantity": 5,
 	  "shipping_address": "Unit 1191 Box 7185, DPO AA 97277",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "d57c0f34-6e2d-4bfc-8f8b-ead3a94594a6",
@@ -5347,7 +5347,7 @@
 	  "status": "Pending",
 	  "quantity": 63,
 	  "shipping_address": "Unit 1191 Box 7185, DPO AA 97277",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "53fdee25-cd97-472a-acdb-40853bf89462",
@@ -5357,7 +5357,7 @@
 	  "status": "Shipped",
 	  "quantity": 97,
 	  "shipping_address": "2429 Johnathan Path Apt. 079, Yatesshire, CT 45157",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "fa12eb72-0eef-45a5-ae70-3eafac2b22ca",
@@ -5367,7 +5367,7 @@
 	  "status": "Delivered",
 	  "quantity": 87,
 	  "shipping_address": "2429 Johnathan Path Apt. 079, Yatesshire, CT 45157",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "f873bb52-e7e7-4c66-9de2-c2beae3b7e66",
@@ -5377,7 +5377,7 @@
 	  "status": "Delivered",
 	  "quantity": 86,
 	  "shipping_address": "2429 Johnathan Path Apt. 079, Yatesshire, CT 45157",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "06e90826-6a08-4496-85b2-311ff8de5636",
@@ -5387,7 +5387,7 @@
 	  "status": "Pending",
 	  "quantity": 68,
 	  "shipping_address": "2429 Johnathan Path Apt. 079, Yatesshire, CT 45157",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "b15e956e-1bb9-4434-a67e-56f51e6e2e18",
@@ -5397,7 +5397,7 @@
 	  "status": "Shipped",
 	  "quantity": 46,
 	  "shipping_address": "2429 Johnathan Path Apt. 079, Yatesshire, CT 45157",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "3e940d0c-e40d-4333-a846-1ce4a55574dc",
@@ -5407,7 +5407,7 @@
 	  "status": "Pending",
 	  "quantity": 13,
 	  "shipping_address": "Unit 1567 Box 7134, DPO AP 87128",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "1153e2a1-1a1b-430c-b447-d85a6a549572",
@@ -5417,7 +5417,7 @@
 	  "status": "Pending",
 	  "quantity": 19,
 	  "shipping_address": "Unit 1567 Box 7134, DPO AP 87128",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "a3cffd9e-57d4-4394-9cc4-c3eafeca16a5",
@@ -5427,7 +5427,7 @@
 	  "status": "Shipped",
 	  "quantity": 16,
 	  "shipping_address": "Unit 1567 Box 7134, DPO AP 87128",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "474d307f-b981-4513-9327-79c6d5cdcc61",
@@ -5437,7 +5437,7 @@
 	  "status": "Pending",
 	  "quantity": 85,
 	  "shipping_address": "Unit 1567 Box 7134, DPO AP 87128",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "ef5df2e8-afa5-4ae5-bfa1-0366f77c6bc8",
@@ -5447,7 +5447,7 @@
 	  "status": "Shipped",
 	  "quantity": 40,
 	  "shipping_address": "Unit 1567 Box 7134, DPO AP 87128",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "61f1e972-106c-4f56-93e6-f6ba12b8b3ca",
@@ -5457,7 +5457,7 @@
 	  "status": "Pending",
 	  "quantity": 18,
 	  "shipping_address": "Unit 1956 Box 7667, DPO AE 77875",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "f26a4c44-85e5-40cb-9159-455c84c5d17f",
@@ -5467,7 +5467,7 @@
 	  "status": "Delivered",
 	  "quantity": 11,
 	  "shipping_address": "Unit 1956 Box 7667, DPO AE 77875",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "85f2aa36-58b2-46c5-8234-8d6788295509",
@@ -5477,7 +5477,7 @@
 	  "status": "Delivered",
 	  "quantity": 56,
 	  "shipping_address": "Unit 1956 Box 7667, DPO AE 77875",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "0592be8b-b472-4561-a412-48583f71f128",
@@ -5487,7 +5487,7 @@
 	  "status": "Pending",
 	  "quantity": 41,
 	  "shipping_address": "Unit 1956 Box 7667, DPO AE 77875",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "cbde21e8-102d-4426-a6a9-6e3a501e0b3a",
@@ -5497,7 +5497,7 @@
 	  "status": "Pending",
 	  "quantity": 79,
 	  "shipping_address": "Unit 1956 Box 7667, DPO AE 77875",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "96f65c72-b5ca-4876-b390-c2bb5ed3701c",
@@ -5507,7 +5507,7 @@
 	  "status": "Delivered",
 	  "quantity": 92,
 	  "shipping_address": "USNV Newman, FPO AP 21501",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "5367bf3f-628c-4d51-9c5a-5237008cdf62",
@@ -5517,7 +5517,7 @@
 	  "status": "Delivered",
 	  "quantity": 44,
 	  "shipping_address": "USNV Newman, FPO AP 21501",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "08774612-fa87-4062-ab1b-751a183e80bb",
@@ -5527,7 +5527,7 @@
 	  "status": "Pending",
 	  "quantity": 58,
 	  "shipping_address": "USNV Newman, FPO AP 21501",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "fbdf9224-bf7b-4c9a-83e8-a692e874b100",
@@ -5537,7 +5537,7 @@
 	  "status": "Delivered",
 	  "quantity": 4,
 	  "shipping_address": "USNV Newman, FPO AP 21501",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "6d919645-b6ec-43b1-9578-44486b93e854",
@@ -5547,7 +5547,7 @@
 	  "status": "Delivered",
 	  "quantity": 23,
 	  "shipping_address": "USNV Newman, FPO AP 21501",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "dd04e4bc-00ac-497b-b2da-e921d3a64c27",
@@ -5557,7 +5557,7 @@
 	  "status": "Shipped",
 	  "quantity": 77,
 	  "shipping_address": "6175 Karen Squares Suite 452, Austinville, DC 31421",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "9ef96805-582a-4083-9ace-e0bb602fa12d",
@@ -5567,7 +5567,7 @@
 	  "status": "Shipped",
 	  "quantity": 100,
 	  "shipping_address": "6175 Karen Squares Suite 452, Austinville, DC 31421",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "7386df2d-a584-4d87-a3d9-044a1ae00970",
@@ -5577,7 +5577,7 @@
 	  "status": "Shipped",
 	  "quantity": 44,
 	  "shipping_address": "6175 Karen Squares Suite 452, Austinville, DC 31421",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "82bf0a04-f685-4e58-a049-a1b1e67716ad",
@@ -5587,7 +5587,7 @@
 	  "status": "Shipped",
 	  "quantity": 25,
 	  "shipping_address": "6175 Karen Squares Suite 452, Austinville, DC 31421",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "c25e3395-36f3-44d2-b779-954f5d9ce58d",
@@ -5597,7 +5597,7 @@
 	  "status": "Shipped",
 	  "quantity": 55,
 	  "shipping_address": "6175 Karen Squares Suite 452, Austinville, DC 31421",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "273e770a-4642-4e0d-b7fc-46afff302f5b",
@@ -5607,7 +5607,7 @@
 	  "status": "Pending",
 	  "quantity": 53,
 	  "shipping_address": "PSC 7322, Box 2075, APO AE 87131",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "0eb80bc6-c4c0-42db-ba97-2e9799b8f3e0",
@@ -5617,7 +5617,7 @@
 	  "status": "Pending",
 	  "quantity": 83,
 	  "shipping_address": "PSC 7322, Box 2075, APO AE 87131",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "8dabf10e-a70f-4c2a-9f29-7e9536b41d97",
@@ -5627,7 +5627,7 @@
 	  "status": "Delivered",
 	  "quantity": 68,
 	  "shipping_address": "PSC 7322, Box 2075, APO AE 87131",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "6bf2f80f-5d07-452e-8ee4-0dc9dfe8ba37",
@@ -5637,7 +5637,7 @@
 	  "status": "Delivered",
 	  "quantity": 84,
 	  "shipping_address": "PSC 7322, Box 2075, APO AE 87131",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "0b7ea538-cf9e-459e-a091-6fa0bf82806e",
@@ -5647,7 +5647,7 @@
 	  "status": "Shipped",
 	  "quantity": 1,
 	  "shipping_address": "PSC 7322, Box 2075, APO AE 87131",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "41c41e20-8dac-41ff-9559-62023ad3659c",
@@ -5657,7 +5657,7 @@
 	  "status": "Pending",
 	  "quantity": 7,
 	  "shipping_address": "19074 Joseph Forge, New Joshuamouth, IA 90264",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "f5e95380-6de3-4842-9841-19f94ad1e626",
@@ -5667,7 +5667,7 @@
 	  "status": "Pending",
 	  "quantity": 71,
 	  "shipping_address": "19074 Joseph Forge, New Joshuamouth, IA 90264",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "2929705d-1b77-4972-9f79-9b7ef3dd474e",
@@ -5677,7 +5677,7 @@
 	  "status": "Delivered",
 	  "quantity": 15,
 	  "shipping_address": "19074 Joseph Forge, New Joshuamouth, IA 90264",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "96fa1d44-ff08-4c16-93b4-460a0a31b9f8",
@@ -5687,7 +5687,7 @@
 	  "status": "Shipped",
 	  "quantity": 1,
 	  "shipping_address": "19074 Joseph Forge, New Joshuamouth, IA 90264",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "c46fe34f-3ad6-40fd-a17b-db6f43fa6723",
@@ -5697,7 +5697,7 @@
 	  "status": "Pending",
 	  "quantity": 65,
 	  "shipping_address": "19074 Joseph Forge, New Joshuamouth, IA 90264",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "e3bbd235-7df8-4c32-81da-2ea63d3515eb",
@@ -5707,7 +5707,7 @@
 	  "status": "Shipped",
 	  "quantity": 22,
 	  "shipping_address": "PSC 2183, Box 2849, APO AA 61283",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "5f270cfd-7e40-4cba-8ffa-ba32d58598eb",
@@ -5717,7 +5717,7 @@
 	  "status": "Delivered",
 	  "quantity": 10,
 	  "shipping_address": "PSC 2183, Box 2849, APO AA 61283",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "e72a10b0-ac5d-4a2a-b4b2-1e64a6ea595a",
@@ -5727,7 +5727,7 @@
 	  "status": "Pending",
 	  "quantity": 54,
 	  "shipping_address": "PSC 2183, Box 2849, APO AA 61283",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "c4c9d4a7-dec5-467a-b511-fab338ce8386",
@@ -5737,7 +5737,7 @@
 	  "status": "Pending",
 	  "quantity": 22,
 	  "shipping_address": "PSC 2183, Box 2849, APO AA 61283",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "1e024c62-9430-4352-bafd-0c05ef71b516",
@@ -5747,7 +5747,7 @@
 	  "status": "Shipped",
 	  "quantity": 97,
 	  "shipping_address": "PSC 2183, Box 2849, APO AA 61283",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "4129c500-bdf4-4e76-8f70-762be0987966",
@@ -5757,7 +5757,7 @@
 	  "status": "Delivered",
 	  "quantity": 42,
 	  "shipping_address": "30756 Melissa Dam Suite 192, Fisherchester, PA 81811",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "b546772e-5611-466f-95a1-bffbe8c2964c",
@@ -5767,7 +5767,7 @@
 	  "status": "Shipped",
 	  "quantity": 2,
 	  "shipping_address": "30756 Melissa Dam Suite 192, Fisherchester, PA 81811",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "6b7a4982-26c5-4aec-9f2a-d0652021275b",
@@ -5777,7 +5777,7 @@
 	  "status": "Pending",
 	  "quantity": 41,
 	  "shipping_address": "30756 Melissa Dam Suite 192, Fisherchester, PA 81811",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "4d804454-cb2e-4746-bb64-bdb073145b45",
@@ -5787,7 +5787,7 @@
 	  "status": "Pending",
 	  "quantity": 48,
 	  "shipping_address": "30756 Melissa Dam Suite 192, Fisherchester, PA 81811",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "ea870345-f451-4bff-b054-d4080748534b",
@@ -5797,7 +5797,7 @@
 	  "status": "Shipped",
 	  "quantity": 71,
 	  "shipping_address": "30756 Melissa Dam Suite 192, Fisherchester, PA 81811",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "54cb83b0-2598-4cb5-85b0-ce1897734d16",
@@ -5807,7 +5807,7 @@
 	  "status": "Pending",
 	  "quantity": 61,
 	  "shipping_address": "339 Lori Plaza Suite 860, New Danamouth, DE 73106",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "4d6e38ff-d4ef-40f8-b18f-c3baab158dee",
@@ -5817,7 +5817,7 @@
 	  "status": "Delivered",
 	  "quantity": 18,
 	  "shipping_address": "339 Lori Plaza Suite 860, New Danamouth, DE 73106",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "312d1895-4355-4acb-9d1f-79c7e05059ac",
@@ -5827,7 +5827,7 @@
 	  "status": "Pending",
 	  "quantity": 49,
 	  "shipping_address": "339 Lori Plaza Suite 860, New Danamouth, DE 73106",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "61b3e89d-701d-43cf-9717-ef6ed6e22a68",
@@ -5837,7 +5837,7 @@
 	  "status": "Shipped",
 	  "quantity": 79,
 	  "shipping_address": "339 Lori Plaza Suite 860, New Danamouth, DE 73106",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "89e0b3dd-4ee3-4d80-959c-f7c797ee3400",
@@ -5847,7 +5847,7 @@
 	  "status": "Pending",
 	  "quantity": 14,
 	  "shipping_address": "339 Lori Plaza Suite 860, New Danamouth, DE 73106",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "4ee8dd74-0fc8-4168-a6fc-7b3873bfcba8",
@@ -5857,7 +5857,7 @@
 	  "status": "Shipped",
 	  "quantity": 51,
 	  "shipping_address": "61371 Miller Parkway Apt. 628, Justinburgh, IN 19307",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "f389210d-d3df-4ef7-acf6-9bb668168d38",
@@ -5867,7 +5867,7 @@
 	  "status": "Pending",
 	  "quantity": 99,
 	  "shipping_address": "61371 Miller Parkway Apt. 628, Justinburgh, IN 19307",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "620236ee-a366-466b-8c50-0dc54fe8f0d1",
@@ -5877,7 +5877,7 @@
 	  "status": "Shipped",
 	  "quantity": 76,
 	  "shipping_address": "61371 Miller Parkway Apt. 628, Justinburgh, IN 19307",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "35176dd2-19ce-45b0-8b77-3d0390775b41",
@@ -5887,7 +5887,7 @@
 	  "status": "Pending",
 	  "quantity": 92,
 	  "shipping_address": "61371 Miller Parkway Apt. 628, Justinburgh, IN 19307",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "3ac5439d-aa31-4af6-98f0-fbe8ad9fb08e",
@@ -5897,7 +5897,7 @@
 	  "status": "Delivered",
 	  "quantity": 82,
 	  "shipping_address": "61371 Miller Parkway Apt. 628, Justinburgh, IN 19307",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "6a008403-2d47-4f20-b0dc-e2569f3ae308",
@@ -5907,7 +5907,7 @@
 	  "status": "Delivered",
 	  "quantity": 81,
 	  "shipping_address": "USNV Terrell, FPO AE 31514",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "2c9a1205-a11c-4b48-baf3-1165b8d0ddf6",
@@ -5917,7 +5917,7 @@
 	  "status": "Pending",
 	  "quantity": 15,
 	  "shipping_address": "USNV Terrell, FPO AE 31514",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "1682ff81-3a46-4a5a-96bc-70ef512d2d2d",
@@ -5927,7 +5927,7 @@
 	  "status": "Delivered",
 	  "quantity": 19,
 	  "shipping_address": "USNV Terrell, FPO AE 31514",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "b0497fb6-9122-4539-9167-6579b2f886a6",
@@ -5937,7 +5937,7 @@
 	  "status": "Pending",
 	  "quantity": 68,
 	  "shipping_address": "USNV Terrell, FPO AE 31514",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "cc430457-b68c-4baf-b83a-d923b8bf29e1",
@@ -5947,7 +5947,7 @@
 	  "status": "Shipped",
 	  "quantity": 8,
 	  "shipping_address": "USNV Terrell, FPO AE 31514",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "20c27765-1bf1-48bc-a542-dd4cfaae3c3d",
@@ -5957,7 +5957,7 @@
 	  "status": "Shipped",
 	  "quantity": 35,
 	  "shipping_address": "43120 Stephanie Freeway Suite 454, Sarahtown, MI 63914",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "e5451439-656c-4fa5-8bd4-711ea6e72a85",
@@ -5967,7 +5967,7 @@
 	  "status": "Delivered",
 	  "quantity": 19,
 	  "shipping_address": "43120 Stephanie Freeway Suite 454, Sarahtown, MI 63914",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "a29032d8-cec6-477e-9177-10a959e9a765",
@@ -5977,7 +5977,7 @@
 	  "status": "Pending",
 	  "quantity": 88,
 	  "shipping_address": "43120 Stephanie Freeway Suite 454, Sarahtown, MI 63914",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "77f3ec12-7b67-42fc-b2ab-6b0ba3d6f7c3",
@@ -5987,7 +5987,7 @@
 	  "status": "Delivered",
 	  "quantity": 30,
 	  "shipping_address": "43120 Stephanie Freeway Suite 454, Sarahtown, MI 63914",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "2c2e7185-6764-4f70-9d10-3e7c9b02dd5b",
@@ -5997,7 +5997,7 @@
 	  "status": "Pending",
 	  "quantity": 48,
 	  "shipping_address": "43120 Stephanie Freeway Suite 454, Sarahtown, MI 63914",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "e4c27313-3f7c-4475-bf59-58604aa44c55",
@@ -6007,7 +6007,7 @@
 	  "status": "Delivered",
 	  "quantity": 60,
 	  "shipping_address": "60624 Carrie Streets, Blevinshaven, WA 46984",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "fd21acbb-ba31-4f76-9142-775c6e05a8f0",
@@ -6017,7 +6017,7 @@
 	  "status": "Delivered",
 	  "quantity": 75,
 	  "shipping_address": "60624 Carrie Streets, Blevinshaven, WA 46984",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "78f0d1e6-3ec7-440b-93d4-4f1268a8cba4",
@@ -6027,7 +6027,7 @@
 	  "status": "Delivered",
 	  "quantity": 45,
 	  "shipping_address": "60624 Carrie Streets, Blevinshaven, WA 46984",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "73d8ee98-4828-48c2-8f69-a2ca54e1bf1f",
@@ -6037,7 +6037,7 @@
 	  "status": "Delivered",
 	  "quantity": 15,
 	  "shipping_address": "60624 Carrie Streets, Blevinshaven, WA 46984",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "84a9b1b5-9a30-4a45-8cb5-2e62cfff3bc5",
@@ -6047,7 +6047,7 @@
 	  "status": "Pending",
 	  "quantity": 12,
 	  "shipping_address": "60624 Carrie Streets, Blevinshaven, WA 46984",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "bf9036a6-ccd4-4543-86c5-ad0226cb0be7",
@@ -6057,7 +6057,7 @@
 	  "status": "Shipped",
 	  "quantity": 62,
 	  "shipping_address": "81940 Ray Corners, Deborahland, AL 99607",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "250ec217-4838-4965-9837-c88ee97aa112",
@@ -6067,7 +6067,7 @@
 	  "status": "Delivered",
 	  "quantity": 75,
 	  "shipping_address": "81940 Ray Corners, Deborahland, AL 99607",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "4c940ec6-6494-4a01-bc2e-cfec3c8f143e",
@@ -6077,7 +6077,7 @@
 	  "status": "Delivered",
 	  "quantity": 78,
 	  "shipping_address": "81940 Ray Corners, Deborahland, AL 99607",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "d284e8e0-f53b-45ec-992d-9bd513b882dd",
@@ -6087,7 +6087,7 @@
 	  "status": "Delivered",
 	  "quantity": 58,
 	  "shipping_address": "81940 Ray Corners, Deborahland, AL 99607",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "cb78491d-94aa-4562-9e37-6deaefe557a1",
@@ -6097,7 +6097,7 @@
 	  "status": "Pending",
 	  "quantity": 73,
 	  "shipping_address": "81940 Ray Corners, Deborahland, AL 99607",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "de937469-7261-4409-991b-9d142cd68f33",
@@ -6107,7 +6107,7 @@
 	  "status": "Shipped",
 	  "quantity": 85,
 	  "shipping_address": "39189 Kristen Alley, Davidmouth, MI 63961",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "fd2d6b1c-ef84-46af-bdf7-d3f842056a43",
@@ -6117,7 +6117,7 @@
 	  "status": "Pending",
 	  "quantity": 64,
 	  "shipping_address": "39189 Kristen Alley, Davidmouth, MI 63961",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "83380e40-5b38-42f5-8711-2cbd653c4437",
@@ -6127,7 +6127,7 @@
 	  "status": "Delivered",
 	  "quantity": 68,
 	  "shipping_address": "39189 Kristen Alley, Davidmouth, MI 63961",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "8f8c3893-3c49-4ccd-aae6-3269a0399ad8",
@@ -6137,7 +6137,7 @@
 	  "status": "Shipped",
 	  "quantity": 61,
 	  "shipping_address": "39189 Kristen Alley, Davidmouth, MI 63961",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "aa9f6b71-7753-4581-8c51-54c2073d4750",
@@ -6147,7 +6147,7 @@
 	  "status": "Shipped",
 	  "quantity": 56,
 	  "shipping_address": "39189 Kristen Alley, Davidmouth, MI 63961",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "0423248d-0b4e-4e61-8b82-de384869e380",
@@ -6157,7 +6157,7 @@
 	  "status": "Delivered",
 	  "quantity": 63,
 	  "shipping_address": "430 Ashley Vista, New Heather, MD 27757",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "9007733e-1847-4950-910c-4adee53a0f70",
@@ -6167,7 +6167,7 @@
 	  "status": "Delivered",
 	  "quantity": 19,
 	  "shipping_address": "430 Ashley Vista, New Heather, MD 27757",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "bc02adaf-2d3e-4699-adec-0761b18fe3e2",
@@ -6177,7 +6177,7 @@
 	  "status": "Pending",
 	  "quantity": 59,
 	  "shipping_address": "430 Ashley Vista, New Heather, MD 27757",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "ba19364a-69e6-4d7b-adec-cf12b2773400",
@@ -6187,7 +6187,7 @@
 	  "status": "Shipped",
 	  "quantity": 40,
 	  "shipping_address": "430 Ashley Vista, New Heather, MD 27757",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "fec06186-a664-4227-975a-0bc8b427d3a8",
@@ -6197,7 +6197,7 @@
 	  "status": "Pending",
 	  "quantity": 34,
 	  "shipping_address": "430 Ashley Vista, New Heather, MD 27757",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "3ff25b9c-3489-44e8-af80-ff064beb5576",
@@ -6207,7 +6207,7 @@
 	  "status": "Pending",
 	  "quantity": 44,
 	  "shipping_address": "508 Simpson Roads Apt. 737, North Cassidyville, NH 02343",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "0a3cad4f-5227-4809-bf83-a1b6a6333f2c",
@@ -6217,7 +6217,7 @@
 	  "status": "Pending",
 	  "quantity": 76,
 	  "shipping_address": "508 Simpson Roads Apt. 737, North Cassidyville, NH 02343",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "ff2450e8-f4c0-4b64-9e16-c1603b0e8ce7",
@@ -6227,7 +6227,7 @@
 	  "status": "Shipped",
 	  "quantity": 75,
 	  "shipping_address": "508 Simpson Roads Apt. 737, North Cassidyville, NH 02343",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "e1e69535-dc7e-45a0-9805-2a9439ecc7fb",
@@ -6237,7 +6237,7 @@
 	  "status": "Pending",
 	  "quantity": 88,
 	  "shipping_address": "508 Simpson Roads Apt. 737, North Cassidyville, NH 02343",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "8673ea14-55de-4bd7-99ca-bba20a77ff31",
@@ -6247,7 +6247,7 @@
 	  "status": "Delivered",
 	  "quantity": 25,
 	  "shipping_address": "508 Simpson Roads Apt. 737, North Cassidyville, NH 02343",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "0f7989a3-ea60-40e0-9c71-9a3c4d76f541",
@@ -6257,7 +6257,7 @@
 	  "status": "Shipped",
 	  "quantity": 87,
 	  "shipping_address": "023 Grant Stravenue, New Cynthiafurt, TX 95449",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "72ba9ad4-b206-4365-8f75-dbe2c47b7695",
@@ -6267,7 +6267,7 @@
 	  "status": "Pending",
 	  "quantity": 47,
 	  "shipping_address": "023 Grant Stravenue, New Cynthiafurt, TX 95449",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "71ca16f8-96a9-497e-8f86-b0424964b300",
@@ -6277,7 +6277,7 @@
 	  "status": "Pending",
 	  "quantity": 54,
 	  "shipping_address": "023 Grant Stravenue, New Cynthiafurt, TX 95449",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "e18c368b-a8c6-4c63-9f12-1e989efc8dc1",
@@ -6287,7 +6287,7 @@
 	  "status": "Delivered",
 	  "quantity": 82,
 	  "shipping_address": "023 Grant Stravenue, New Cynthiafurt, TX 95449",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "9f25d025-d540-4d77-8bda-50c4b37200a1",
@@ -6297,7 +6297,7 @@
 	  "status": "Shipped",
 	  "quantity": 49,
 	  "shipping_address": "023 Grant Stravenue, New Cynthiafurt, TX 95449",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "0433457b-7821-4286-9645-c8004bbb3c78",
@@ -6307,7 +6307,7 @@
 	  "status": "Delivered",
 	  "quantity": 16,
 	  "shipping_address": "5373 Olson Summit Suite 297, South Madison, WY 19030",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "efea2b4c-8fc2-41da-92b4-924ceeffdb9e",
@@ -6317,7 +6317,7 @@
 	  "status": "Pending",
 	  "quantity": 7,
 	  "shipping_address": "5373 Olson Summit Suite 297, South Madison, WY 19030",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "5040e0db-339e-4c2c-bd7d-260cc1fe61df",
@@ -6327,7 +6327,7 @@
 	  "status": "Shipped",
 	  "quantity": 86,
 	  "shipping_address": "5373 Olson Summit Suite 297, South Madison, WY 19030",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "ea640f70-e830-443d-99d7-3fd5918cdfa6",
@@ -6337,7 +6337,7 @@
 	  "status": "Pending",
 	  "quantity": 2,
 	  "shipping_address": "5373 Olson Summit Suite 297, South Madison, WY 19030",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "36ec586a-4502-4284-9fdf-0185860a485c",
@@ -6347,7 +6347,7 @@
 	  "status": "Pending",
 	  "quantity": 22,
 	  "shipping_address": "5373 Olson Summit Suite 297, South Madison, WY 19030",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "89339612-487a-4604-8ba7-2748364509d6",
@@ -6357,7 +6357,7 @@
 	  "status": "Delivered",
 	  "quantity": 32,
 	  "shipping_address": "443 Amy Lights Suite 430, Kennedyshire, ME 99519",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "dad2860b-a1d5-4b7a-a914-1f9bbdce3944",
@@ -6367,7 +6367,7 @@
 	  "status": "Shipped",
 	  "quantity": 39,
 	  "shipping_address": "443 Amy Lights Suite 430, Kennedyshire, ME 99519",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "e28dd2d7-9185-49bd-b30a-fd953fd25723",
@@ -6377,7 +6377,7 @@
 	  "status": "Pending",
 	  "quantity": 2,
 	  "shipping_address": "443 Amy Lights Suite 430, Kennedyshire, ME 99519",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "df6fa6ab-24ed-4831-a455-93908b7c768a",
@@ -6387,7 +6387,7 @@
 	  "status": "Pending",
 	  "quantity": 54,
 	  "shipping_address": "443 Amy Lights Suite 430, Kennedyshire, ME 99519",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "c6700e47-6b2c-4cba-9f86-39a69b4445c4",
@@ -6397,7 +6397,7 @@
 	  "status": "Delivered",
 	  "quantity": 66,
 	  "shipping_address": "443 Amy Lights Suite 430, Kennedyshire, ME 99519",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "34f7d8fd-3767-4df3-a4d3-2408437a72a5",
@@ -6407,7 +6407,7 @@
 	  "status": "Shipped",
 	  "quantity": 44,
 	  "shipping_address": "00684 Ana Gardens Suite 137, Ballview, MS 03001",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "6620de62-3608-4654-80f0-985c393587c2",
@@ -6417,7 +6417,7 @@
 	  "status": "Pending",
 	  "quantity": 37,
 	  "shipping_address": "00684 Ana Gardens Suite 137, Ballview, MS 03001",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "4366317b-a0c4-4e4b-b1a6-5b7b56e730c5",
@@ -6427,7 +6427,7 @@
 	  "status": "Shipped",
 	  "quantity": 93,
 	  "shipping_address": "00684 Ana Gardens Suite 137, Ballview, MS 03001",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "999ac710-9416-46dd-a404-205f2141052c",
@@ -6437,7 +6437,7 @@
 	  "status": "Shipped",
 	  "quantity": 1,
 	  "shipping_address": "00684 Ana Gardens Suite 137, Ballview, MS 03001",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "b6e882c4-7fa2-45a0-a763-5943ef835573",
@@ -6447,7 +6447,7 @@
 	  "status": "Delivered",
 	  "quantity": 70,
 	  "shipping_address": "00684 Ana Gardens Suite 137, Ballview, MS 03001",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "036f7b32-93c1-40ed-8971-49c555260c55",
@@ -6457,7 +6457,7 @@
 	  "status": "Delivered",
 	  "quantity": 83,
 	  "shipping_address": "4551 Kimberly Stravenue, Lake Nathaniel, VT 35198",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "91e9db0a-284a-4673-b178-1022445423b5",
@@ -6467,7 +6467,7 @@
 	  "status": "Delivered",
 	  "quantity": 67,
 	  "shipping_address": "4551 Kimberly Stravenue, Lake Nathaniel, VT 35198",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "12f2351b-c994-4240-8b8d-db89934db341",
@@ -6477,7 +6477,7 @@
 	  "status": "Delivered",
 	  "quantity": 29,
 	  "shipping_address": "4551 Kimberly Stravenue, Lake Nathaniel, VT 35198",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "f60ba4e4-d7be-4027-90f7-e5e7bf84b0ba",
@@ -6487,7 +6487,7 @@
 	  "status": "Shipped",
 	  "quantity": 52,
 	  "shipping_address": "4551 Kimberly Stravenue, Lake Nathaniel, VT 35198",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "c4e9b03d-b958-4ecb-910b-ce932e9eb2ad",
@@ -6497,7 +6497,7 @@
 	  "status": "Delivered",
 	  "quantity": 25,
 	  "shipping_address": "4551 Kimberly Stravenue, Lake Nathaniel, VT 35198",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "1cc69caa-e5d5-4a93-a79d-5f4e00f644b0",
@@ -6507,7 +6507,7 @@
 	  "status": "Shipped",
 	  "quantity": 24,
 	  "shipping_address": "35207 Joshua Street Suite 958, Morganchester, NH 26581",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "b6449d64-8419-4166-9553-0e4bbdae02e8",
@@ -6517,7 +6517,7 @@
 	  "status": "Shipped",
 	  "quantity": 12,
 	  "shipping_address": "35207 Joshua Street Suite 958, Morganchester, NH 26581",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "51188727-5145-4b3e-91c5-14b3e2904e37",
@@ -6527,7 +6527,7 @@
 	  "status": "Pending",
 	  "quantity": 48,
 	  "shipping_address": "35207 Joshua Street Suite 958, Morganchester, NH 26581",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "cbf8771e-0a51-424c-b0cb-523570fd85d5",
@@ -6537,7 +6537,7 @@
 	  "status": "Shipped",
 	  "quantity": 100,
 	  "shipping_address": "35207 Joshua Street Suite 958, Morganchester, NH 26581",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "8fd373d0-00d3-446b-a24e-0a99651f2e1d",
@@ -6547,7 +6547,7 @@
 	  "status": "Shipped",
 	  "quantity": 92,
 	  "shipping_address": "35207 Joshua Street Suite 958, Morganchester, NH 26581",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "519294cd-b927-4378-8024-48ff842b8f69",
@@ -6557,7 +6557,7 @@
 	  "status": "Pending",
 	  "quantity": 64,
 	  "shipping_address": "PSC 8772, Box 9282, APO AA 42520",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "5e3a4a48-2e70-4b0a-895c-3ab6eb22c323",
@@ -6567,7 +6567,7 @@
 	  "status": "Pending",
 	  "quantity": 15,
 	  "shipping_address": "PSC 8772, Box 9282, APO AA 42520",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "2812044f-f2de-4de2-836c-18e6e739efb5",
@@ -6577,7 +6577,7 @@
 	  "status": "Shipped",
 	  "quantity": 5,
 	  "shipping_address": "PSC 8772, Box 9282, APO AA 42520",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "f3177469-cd7d-4f9e-b886-bf304a7c3768",
@@ -6587,7 +6587,7 @@
 	  "status": "Delivered",
 	  "quantity": 7,
 	  "shipping_address": "PSC 8772, Box 9282, APO AA 42520",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "91957cc8-7ad9-4a3b-9365-4791b2c0a2f6",
@@ -6597,7 +6597,7 @@
 	  "status": "Shipped",
 	  "quantity": 27,
 	  "shipping_address": "PSC 8772, Box 9282, APO AA 42520",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "94eec19f-8317-4e4b-958c-8e99ce4cf28d",
@@ -6607,7 +6607,7 @@
 	  "status": "Delivered",
 	  "quantity": 94,
 	  "shipping_address": "USCGC Armstrong, FPO AE 58234",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "e8887f83-cb29-47ed-9001-c032fe05e023",
@@ -6617,7 +6617,7 @@
 	  "status": "Delivered",
 	  "quantity": 49,
 	  "shipping_address": "USCGC Armstrong, FPO AE 58234",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "38ce0bcf-e7c2-41f6-b983-4e741691cb78",
@@ -6627,7 +6627,7 @@
 	  "status": "Shipped",
 	  "quantity": 16,
 	  "shipping_address": "USCGC Armstrong, FPO AE 58234",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "45cf751a-955d-476e-9f6d-a09344f094d8",
@@ -6637,7 +6637,7 @@
 	  "status": "Delivered",
 	  "quantity": 54,
 	  "shipping_address": "USCGC Armstrong, FPO AE 58234",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "2c2cbc37-8fe9-4008-bd83-290f9b2f94f4",
@@ -6647,7 +6647,7 @@
 	  "status": "Pending",
 	  "quantity": 94,
 	  "shipping_address": "USCGC Armstrong, FPO AE 58234",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "46360fe8-2263-40fb-9d32-14ee959017a7",
@@ -6657,7 +6657,7 @@
 	  "status": "Pending",
 	  "quantity": 33,
 	  "shipping_address": "7294 Carly Shore Apt. 283, Port Elizabethchester, CA 93242",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "c7da8102-ce34-4884-9c20-a38a8a03b7dc",
@@ -6667,7 +6667,7 @@
 	  "status": "Delivered",
 	  "quantity": 24,
 	  "shipping_address": "7294 Carly Shore Apt. 283, Port Elizabethchester, CA 93242",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "3e37d4d7-47a3-4b89-a58e-9b3dcc162218",
@@ -6677,7 +6677,7 @@
 	  "status": "Shipped",
 	  "quantity": 16,
 	  "shipping_address": "7294 Carly Shore Apt. 283, Port Elizabethchester, CA 93242",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "1c638b37-74f5-48d4-9166-2316b07e5b43",
@@ -6687,7 +6687,7 @@
 	  "status": "Pending",
 	  "quantity": 39,
 	  "shipping_address": "7294 Carly Shore Apt. 283, Port Elizabethchester, CA 93242",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "48801fce-9ca0-4c56-b991-0bb8f6e6b40b",
@@ -6697,7 +6697,7 @@
 	  "status": "Pending",
 	  "quantity": 45,
 	  "shipping_address": "7294 Carly Shore Apt. 283, Port Elizabethchester, CA 93242",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "a92e6daf-d445-4cf2-a294-53e9f02a207b",
@@ -6707,7 +6707,7 @@
 	  "status": "Delivered",
 	  "quantity": 83,
 	  "shipping_address": "USNS Perry, FPO AE 08814",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "22c49b21-67c1-4098-a8a0-3c09a0a08e49",
@@ -6717,7 +6717,7 @@
 	  "status": "Delivered",
 	  "quantity": 87,
 	  "shipping_address": "USNS Perry, FPO AE 08814",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "ed5e021d-8f3d-46a0-89a6-068a5c9c814c",
@@ -6727,7 +6727,7 @@
 	  "status": "Pending",
 	  "quantity": 24,
 	  "shipping_address": "USNS Perry, FPO AE 08814",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "8d0f6ad2-9548-41b1-ac96-fcfd3610b890",
@@ -6737,7 +6737,7 @@
 	  "status": "Pending",
 	  "quantity": 93,
 	  "shipping_address": "USNS Perry, FPO AE 08814",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "c154687a-7b49-4878-a9ab-6ca8f7d17084",
@@ -6747,7 +6747,7 @@
 	  "status": "Delivered",
 	  "quantity": 27,
 	  "shipping_address": "USNS Perry, FPO AE 08814",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "17b39c23-9ef0-4cb6-925b-4e8c4686051f",
@@ -6757,7 +6757,7 @@
 	  "status": "Delivered",
 	  "quantity": 9,
 	  "shipping_address": "55360 Turner Inlet, West Margaret, TX 76944",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "107a33c2-b144-4667-a75d-c55646076ab2",
@@ -6767,7 +6767,7 @@
 	  "status": "Pending",
 	  "quantity": 33,
 	  "shipping_address": "55360 Turner Inlet, West Margaret, TX 76944",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "c862963d-0177-48a3-a265-b1f7d4738939",
@@ -6777,7 +6777,7 @@
 	  "status": "Shipped",
 	  "quantity": 75,
 	  "shipping_address": "55360 Turner Inlet, West Margaret, TX 76944",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "592c95f8-8b94-445b-b1e5-c0b32c89997d",
@@ -6787,7 +6787,7 @@
 	  "status": "Pending",
 	  "quantity": 58,
 	  "shipping_address": "55360 Turner Inlet, West Margaret, TX 76944",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "7f2d26c7-94b2-41a6-ab95-7f5a77d82b4e",
@@ -6797,7 +6797,7 @@
 	  "status": "Pending",
 	  "quantity": 20,
 	  "shipping_address": "55360 Turner Inlet, West Margaret, TX 76944",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "5322fa81-c68e-444c-9ed4-e06f273aba23",
@@ -6807,7 +6807,7 @@
 	  "status": "Shipped",
 	  "quantity": 96,
 	  "shipping_address": "1125 Smith Forge Suite 626, Leeborough, NM 41186",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "6dc2300e-df38-40b1-914b-f33bf005b029",
@@ -6817,7 +6817,7 @@
 	  "status": "Shipped",
 	  "quantity": 20,
 	  "shipping_address": "1125 Smith Forge Suite 626, Leeborough, NM 41186",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "7925598b-afb4-43d2-9954-111a53883f40",
@@ -6827,7 +6827,7 @@
 	  "status": "Pending",
 	  "quantity": 89,
 	  "shipping_address": "1125 Smith Forge Suite 626, Leeborough, NM 41186",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "b0868db9-1fb8-4739-82eb-e9d52900efd4",
@@ -6837,7 +6837,7 @@
 	  "status": "Delivered",
 	  "quantity": 71,
 	  "shipping_address": "1125 Smith Forge Suite 626, Leeborough, NM 41186",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "0f97377e-d4e7-488c-9f7b-f7087e506698",
@@ -6847,7 +6847,7 @@
 	  "status": "Shipped",
 	  "quantity": 36,
 	  "shipping_address": "1125 Smith Forge Suite 626, Leeborough, NM 41186",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "18121d58-cbf0-4b0f-9cf3-92f6e197a9ed",
@@ -6857,7 +6857,7 @@
 	  "status": "Delivered",
 	  "quantity": 93,
 	  "shipping_address": "USS Johnson, FPO AE 64322",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "810f5d91-4ba5-4e02-9439-7634924baa88",
@@ -6867,7 +6867,7 @@
 	  "status": "Delivered",
 	  "quantity": 84,
 	  "shipping_address": "USS Johnson, FPO AE 64322",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "9d719e0a-371f-4bb8-9470-58b9d6358c78",
@@ -6877,7 +6877,7 @@
 	  "status": "Pending",
 	  "quantity": 10,
 	  "shipping_address": "USS Johnson, FPO AE 64322",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "dcc11090-9da7-4e05-bd11-f2dd141e0e0e",
@@ -6887,7 +6887,7 @@
 	  "status": "Shipped",
 	  "quantity": 3,
 	  "shipping_address": "USS Johnson, FPO AE 64322",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "17e91253-2a05-4031-a30b-e435642af7e6",
@@ -6897,7 +6897,7 @@
 	  "status": "Delivered",
 	  "quantity": 20,
 	  "shipping_address": "USS Johnson, FPO AE 64322",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "41da95e8-290d-4832-ab8b-4665f41bc590",
@@ -6907,7 +6907,7 @@
 	  "status": "Delivered",
 	  "quantity": 33,
 	  "shipping_address": "5297 Barker Squares, Gonzalezberg, IN 80160",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "4bb612e7-be3e-47bb-9c10-28fea8d90c4d",
@@ -6917,7 +6917,7 @@
 	  "status": "Shipped",
 	  "quantity": 4,
 	  "shipping_address": "5297 Barker Squares, Gonzalezberg, IN 80160",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "cfefed82-beac-4592-8143-33767d36baba",
@@ -6927,7 +6927,7 @@
 	  "status": "Delivered",
 	  "quantity": 41,
 	  "shipping_address": "5297 Barker Squares, Gonzalezberg, IN 80160",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "8e57c301-7569-4e02-804c-d89d9ab6aea7",
@@ -6937,7 +6937,7 @@
 	  "status": "Pending",
 	  "quantity": 72,
 	  "shipping_address": "5297 Barker Squares, Gonzalezberg, IN 80160",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "bd8f8600-3caa-476f-a6ad-a301e15c51d9",
@@ -6947,7 +6947,7 @@
 	  "status": "Pending",
 	  "quantity": 42,
 	  "shipping_address": "5297 Barker Squares, Gonzalezberg, IN 80160",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "74ed5d30-05de-4f88-bb99-ff5add042a7a",
@@ -6957,7 +6957,7 @@
 	  "status": "Shipped",
 	  "quantity": 62,
 	  "shipping_address": "016 Reese Trail Apt. 430, South Gregoryport, MO 35147",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "6c53fd38-c9db-42bf-8908-8d79295747d6",
@@ -6967,7 +6967,7 @@
 	  "status": "Shipped",
 	  "quantity": 81,
 	  "shipping_address": "016 Reese Trail Apt. 430, South Gregoryport, MO 35147",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "9f6ca296-d8e9-4aae-84e2-1cab321ec9dc",
@@ -6977,7 +6977,7 @@
 	  "status": "Pending",
 	  "quantity": 32,
 	  "shipping_address": "016 Reese Trail Apt. 430, South Gregoryport, MO 35147",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "3d3bc81b-8498-4c6d-825c-89969808cf90",
@@ -6987,7 +6987,7 @@
 	  "status": "Pending",
 	  "quantity": 89,
 	  "shipping_address": "016 Reese Trail Apt. 430, South Gregoryport, MO 35147",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "3336c4c6-b3ab-4162-98ac-dc0220b412d3",
@@ -6997,7 +6997,7 @@
 	  "status": "Shipped",
 	  "quantity": 34,
 	  "shipping_address": "016 Reese Trail Apt. 430, South Gregoryport, MO 35147",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "79ce269f-18f6-46c9-9b8d-9f02381463c6",
@@ -7007,7 +7007,7 @@
 	  "status": "Delivered",
 	  "quantity": 98,
 	  "shipping_address": "8540 Lawrence Parkways, South Timothyland, VA 84616",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "a3c8f497-a020-49d7-a64d-eb243ab69c78",
@@ -7017,7 +7017,7 @@
 	  "status": "Pending",
 	  "quantity": 33,
 	  "shipping_address": "8540 Lawrence Parkways, South Timothyland, VA 84616",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "17afc084-91d1-4d3f-aab4-9ec166969397",
@@ -7027,7 +7027,7 @@
 	  "status": "Shipped",
 	  "quantity": 68,
 	  "shipping_address": "8540 Lawrence Parkways, South Timothyland, VA 84616",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "47696ed2-340b-46f9-8ca4-7edd397e19df",
@@ -7037,7 +7037,7 @@
 	  "status": "Pending",
 	  "quantity": 38,
 	  "shipping_address": "8540 Lawrence Parkways, South Timothyland, VA 84616",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "2c5cd0e7-1b6c-453d-8fcf-7027812c6ac9",
@@ -7047,7 +7047,7 @@
 	  "status": "Delivered",
 	  "quantity": 2,
 	  "shipping_address": "8540 Lawrence Parkways, South Timothyland, VA 84616",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "fa6daf48-a213-4ccb-ae23-cf752a69e850",
@@ -7057,7 +7057,7 @@
 	  "status": "Delivered",
 	  "quantity": 89,
 	  "shipping_address": "782 Walker Port Suite 163, Rebeccachester, CA 34190",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "31c654fc-5f6f-4319-8d4a-164f9c5dd974",
@@ -7067,7 +7067,7 @@
 	  "status": "Shipped",
 	  "quantity": 51,
 	  "shipping_address": "782 Walker Port Suite 163, Rebeccachester, CA 34190",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "02bcaddc-490b-418f-9439-20ba119ea0ef",
@@ -7077,7 +7077,7 @@
 	  "status": "Delivered",
 	  "quantity": 65,
 	  "shipping_address": "782 Walker Port Suite 163, Rebeccachester, CA 34190",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "888f2e97-a6f3-4c9c-aab2-ee797bfc7cc8",
@@ -7087,7 +7087,7 @@
 	  "status": "Pending",
 	  "quantity": 42,
 	  "shipping_address": "782 Walker Port Suite 163, Rebeccachester, CA 34190",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "7ec63c7b-56ae-40c1-a4c4-236cdc547404",
@@ -7097,7 +7097,7 @@
 	  "status": "Pending",
 	  "quantity": 17,
 	  "shipping_address": "782 Walker Port Suite 163, Rebeccachester, CA 34190",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "68ab1419-04ca-4bb6-a416-63f1240bb353",
@@ -7107,7 +7107,7 @@
 	  "status": "Delivered",
 	  "quantity": 45,
 	  "shipping_address": "72700 Shawn Mission Apt. 514, Amberfurt, MO 42382",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "8fba178f-3cd6-4a0f-8655-703152a63e6b",
@@ -7117,7 +7117,7 @@
 	  "status": "Shipped",
 	  "quantity": 85,
 	  "shipping_address": "72700 Shawn Mission Apt. 514, Amberfurt, MO 42382",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "c303ed16-d75f-419b-8954-6788f9b99472",
@@ -7127,7 +7127,7 @@
 	  "status": "Delivered",
 	  "quantity": 30,
 	  "shipping_address": "72700 Shawn Mission Apt. 514, Amberfurt, MO 42382",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "937906b0-b4b6-4f18-9fc5-5aeaa2e3a877",
@@ -7137,7 +7137,7 @@
 	  "status": "Shipped",
 	  "quantity": 92,
 	  "shipping_address": "72700 Shawn Mission Apt. 514, Amberfurt, MO 42382",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "76ce8def-d8f0-47b1-9395-24beea8d6fb6",
@@ -7147,7 +7147,7 @@
 	  "status": "Pending",
 	  "quantity": 63,
 	  "shipping_address": "72700 Shawn Mission Apt. 514, Amberfurt, MO 42382",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "eed5bbdb-cd06-4d16-85b0-40b23fc2ee35",
@@ -7157,7 +7157,7 @@
 	  "status": "Pending",
 	  "quantity": 73,
 	  "shipping_address": "19946 Lamb Village, South Timothy, ID 39751",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "7a2b3253-219f-4c3b-a6c3-3016ddfb86af",
@@ -7167,7 +7167,7 @@
 	  "status": "Pending",
 	  "quantity": 19,
 	  "shipping_address": "19946 Lamb Village, South Timothy, ID 39751",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "9c21b8be-8e88-4e13-8421-2e6c03ea3d28",
@@ -7177,7 +7177,7 @@
 	  "status": "Pending",
 	  "quantity": 28,
 	  "shipping_address": "19946 Lamb Village, South Timothy, ID 39751",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "9131f91d-fce4-4785-9d8b-fff935bb80fc",
@@ -7187,7 +7187,7 @@
 	  "status": "Pending",
 	  "quantity": 12,
 	  "shipping_address": "19946 Lamb Village, South Timothy, ID 39751",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "369365aa-f7da-48e2-887e-226bf256b20d",
@@ -7197,7 +7197,7 @@
 	  "status": "Delivered",
 	  "quantity": 84,
 	  "shipping_address": "19946 Lamb Village, South Timothy, ID 39751",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "6de821dd-8c0a-4571-9848-d349d1c3de5d",
@@ -7207,7 +7207,7 @@
 	  "status": "Delivered",
 	  "quantity": 7,
 	  "shipping_address": "665 Brianna Village, East Angelicastad, SD 03375",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "7963e4bf-5acb-48c0-813f-bae84d46ef45",
@@ -7217,7 +7217,7 @@
 	  "status": "Delivered",
 	  "quantity": 46,
 	  "shipping_address": "665 Brianna Village, East Angelicastad, SD 03375",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "213b3cd8-7831-466a-ae87-aca3e5f30438",
@@ -7227,7 +7227,7 @@
 	  "status": "Delivered",
 	  "quantity": 76,
 	  "shipping_address": "665 Brianna Village, East Angelicastad, SD 03375",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "4776d6c9-c7d4-4665-8d04-3c87d9ddec10",
@@ -7237,7 +7237,7 @@
 	  "status": "Pending",
 	  "quantity": 22,
 	  "shipping_address": "665 Brianna Village, East Angelicastad, SD 03375",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "c3613d86-0ca6-433c-b8b4-0da778870489",
@@ -7247,7 +7247,7 @@
 	  "status": "Shipped",
 	  "quantity": 16,
 	  "shipping_address": "665 Brianna Village, East Angelicastad, SD 03375",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "b381c53c-48e8-411b-9302-e9dea1965b80",
@@ -7257,7 +7257,7 @@
 	  "status": "Pending",
 	  "quantity": 30,
 	  "shipping_address": "126 Jonathan Stream, East Joanne, FL 51547",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "ef00e495-a8c8-4e29-ad20-27c39b969d16",
@@ -7267,7 +7267,7 @@
 	  "status": "Shipped",
 	  "quantity": 20,
 	  "shipping_address": "126 Jonathan Stream, East Joanne, FL 51547",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "7f127d68-d7dd-48d9-8fea-5640e99ae208",
@@ -7277,7 +7277,7 @@
 	  "status": "Shipped",
 	  "quantity": 85,
 	  "shipping_address": "126 Jonathan Stream, East Joanne, FL 51547",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "8d3d4cec-9948-438d-9e14-01eba3051b89",
@@ -7287,7 +7287,7 @@
 	  "status": "Shipped",
 	  "quantity": 21,
 	  "shipping_address": "126 Jonathan Stream, East Joanne, FL 51547",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "6e14d121-3db7-4dc5-8d96-fe3769a617d3",
@@ -7297,7 +7297,7 @@
 	  "status": "Pending",
 	  "quantity": 96,
 	  "shipping_address": "126 Jonathan Stream, East Joanne, FL 51547",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "e8038011-4dcf-45aa-904f-6798a68698eb",
@@ -7307,7 +7307,7 @@
 	  "status": "Shipped",
 	  "quantity": 43,
 	  "shipping_address": "17139 Swanson Unions, Christyhaven, IL 91445",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "da1bb05a-d16c-4ee6-932c-ae45b8fec3e0",
@@ -7317,7 +7317,7 @@
 	  "status": "Pending",
 	  "quantity": 45,
 	  "shipping_address": "17139 Swanson Unions, Christyhaven, IL 91445",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "76791992-64b0-4b22-a4ef-9dd5a53f6b06",
@@ -7327,7 +7327,7 @@
 	  "status": "Delivered",
 	  "quantity": 40,
 	  "shipping_address": "17139 Swanson Unions, Christyhaven, IL 91445",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "d8523954-828a-4271-9b79-79ad17ee8168",
@@ -7337,7 +7337,7 @@
 	  "status": "Pending",
 	  "quantity": 19,
 	  "shipping_address": "17139 Swanson Unions, Christyhaven, IL 91445",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "b6e0e877-3725-4be5-ab8a-f52092eaccc4",
@@ -7347,7 +7347,7 @@
 	  "status": "Shipped",
 	  "quantity": 41,
 	  "shipping_address": "17139 Swanson Unions, Christyhaven, IL 91445",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "6ac32748-ca44-421e-bf73-01373305031a",
@@ -7357,7 +7357,7 @@
 	  "status": "Pending",
 	  "quantity": 56,
 	  "shipping_address": "879 Kaufman Forks, Taylorland, NJ 23877",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "5549bc2b-014a-4101-a71e-e9d57fd99e0a",
@@ -7367,7 +7367,7 @@
 	  "status": "Pending",
 	  "quantity": 18,
 	  "shipping_address": "879 Kaufman Forks, Taylorland, NJ 23877",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "3afad111-221b-49cf-9b66-fa11a720d285",
@@ -7377,7 +7377,7 @@
 	  "status": "Delivered",
 	  "quantity": 17,
 	  "shipping_address": "879 Kaufman Forks, Taylorland, NJ 23877",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "045be92a-f2b3-4542-a0fd-bc1fba775619",
@@ -7387,7 +7387,7 @@
 	  "status": "Delivered",
 	  "quantity": 39,
 	  "shipping_address": "879 Kaufman Forks, Taylorland, NJ 23877",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "688de8dc-10a8-446a-8ffd-de64b3e52b30",
@@ -7397,7 +7397,7 @@
 	  "status": "Delivered",
 	  "quantity": 75,
 	  "shipping_address": "879 Kaufman Forks, Taylorland, NJ 23877",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "3c4ec6bd-e813-4e6c-8e4c-90f3332e6cc4",
@@ -7407,7 +7407,7 @@
 	  "status": "Pending",
 	  "quantity": 10,
 	  "shipping_address": "Unit 0973 Box 8392, DPO AE 28833",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "e3f391e8-bd7a-4b09-b54c-44fcc14cadc0",
@@ -7417,7 +7417,7 @@
 	  "status": "Shipped",
 	  "quantity": 52,
 	  "shipping_address": "Unit 0973 Box 8392, DPO AE 28833",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "6dd109a6-35c1-45f3-a6c2-ab3428ff9dcd",
@@ -7427,7 +7427,7 @@
 	  "status": "Pending",
 	  "quantity": 68,
 	  "shipping_address": "Unit 0973 Box 8392, DPO AE 28833",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "ba5b83b6-60ce-46f2-897a-febad131a89c",
@@ -7437,7 +7437,7 @@
 	  "status": "Delivered",
 	  "quantity": 28,
 	  "shipping_address": "Unit 0973 Box 8392, DPO AE 28833",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "be988fb0-e02d-492b-8636-c1b59d2639e6",
@@ -7447,7 +7447,7 @@
 	  "status": "Pending",
 	  "quantity": 13,
 	  "shipping_address": "Unit 0973 Box 8392, DPO AE 28833",
-	  "region": "us-east"
+	  "region": 1
 	},
 	{
 	  "order_id": "213705bd-dd6d-4ae4-b720-376b4dbb23ff",
@@ -7457,7 +7457,7 @@
 	  "status": "Pending",
 	  "quantity": 2,
 	  "shipping_address": "3576 Robert Mill Suite 269, Mahoneystad, FL 86997",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "2115b89c-3493-4e14-b736-2a54bc099080",
@@ -7467,7 +7467,7 @@
 	  "status": "Shipped",
 	  "quantity": 32,
 	  "shipping_address": "3576 Robert Mill Suite 269, Mahoneystad, FL 86997",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "e0afbf65-d6bd-4d61-bd13-f3dabe33f57e",
@@ -7477,7 +7477,7 @@
 	  "status": "Pending",
 	  "quantity": 12,
 	  "shipping_address": "3576 Robert Mill Suite 269, Mahoneystad, FL 86997",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "a10db6da-d4f1-40bd-952c-cd2af88e8c80",
@@ -7487,7 +7487,7 @@
 	  "status": "Shipped",
 	  "quantity": 36,
 	  "shipping_address": "3576 Robert Mill Suite 269, Mahoneystad, FL 86997",
-	  "region": "us-west"
+	  "region": 2
 	},
 	{
 	  "order_id": "5cadb6c8-09ca-450d-b68d-e63aacef5f1a",
@@ -7497,6 +7497,6 @@
 	  "status": "Pending",
 	  "quantity": 97,
 	  "shipping_address": "3576 Robert Mill Suite 269, Mahoneystad, FL 86997",
-	  "region": "us-west"
+	  "region": 2
 	}
   ]

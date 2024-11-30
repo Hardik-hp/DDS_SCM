@@ -371,7 +371,7 @@ async def create_order(order: OrderCreate):
             "status": "Pending",
             "quantity": order.quantity,
             "shipping_address": retailer["address"],
-            "region": retailer["region"]
+            "region": 1 if retailer["region"] == 'us-east' else 2
         }
         # Insert the order into MongoDB
         orders_collection.insert_one(order_document)
@@ -484,6 +484,23 @@ async def update_inventory(warehouse_id: UUID, product_id: UUID, quantity_change
     except Exception as e:
         conn.rollback()
         raise HTTPException(status_code=500, detail=str(e))
+    finally:
+        cur.close()
+        conn.close()
+
+@app.get("/api/warehouse/supplier/{supplier_id}")
+async def get_warehouse_inventory(
+    supplier_id: UUID
+):
+    conn = get_cockroach_db_connection("scm")
+    try:
+        cur = conn.cursor(cursor_factory=RealDictCursor)
+        query = "SELECT * FROM warehouses WHERE supplier_id = %s"
+        params = [str(supplier_id)]
+
+        cur.execute(query, params)
+        inventory = cur.fetchall()
+        return {"inventory": inventory}
     finally:
         cur.close()
         conn.close()
