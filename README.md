@@ -24,17 +24,22 @@ Please make sure that other programs in your computer are closed as this project
 
 ### Configuration Steps:
 
-1. Run `. installation.sh` in the subfolder containing that file. (For Windows users pleae make sure `WSL` is installed in your local)
-   Project Startup Steps:
+1. Start Docker daemon on your machine
+2. Run `. installation.sh` in the subfolder containing that file. (For Windows users pleae make sure `WSL` is installed in your local)
+3. docker exec -it mongos1 mongosh --host 127.0.0.1 --port 27017
+4. Copy the commands from shard_setup.js
+5. Paste the commands from shard_setup in mongo console.
+6. Start Postman (Alternatively you can also use SwaggerUI provided by FastAPI).
+7. Import the collections from postman collections folder.
+8. Start testing.
 
-1. Start Docker on machine
-1. sh installation.sh
-1. docker exec -it mongos1 mongosh --host 127.0.0.1 --port 27017
-1. Copy the commands from shard_setup.js
-1. Paste the commands from shard_setup in mongo console.
-1. Start Postman.
-1. Import the collections from postman collections folder.
-1. Start testing.
+### Grafana Setup (Optional)
+
+**_Note_** This is kept optional as the system would have more than 20 docker container running and most machine won't be able to handle it.
+
+1. Run `docker-compose up --build` from inside the grafana_setup directory.
+2. After the containers are up please add `http://loki:3100/ ` as the source to pull the logs.
+3. After the source is added we can use data explorer to query the logs and find and pinpoint issues.
 
 ## Project Structure
 
