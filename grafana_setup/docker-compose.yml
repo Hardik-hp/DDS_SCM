@@ -1,6 +1,6 @@
 version: "3.9"
 
-name: myapp
+name: DDS_grafana_app
 
 services:
   loki:
