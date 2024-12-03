@@ -92,9 +92,10 @@ sh.addShard("us_centralReplSet/us_central_1:27018");
 sh.addShardToZone("us_eastReplSet", "us_east");
 sh.addShardToZone("us_westReplSet", "us_west");
 sh.addShardToZone("us_centralReplSet", "us_central");
-
+db.getSiblingDB("scm");
 sh.enableSharding("scm");
-
+db.createCollection("orders");
+db.orders.createIndex({region: 1});
 sh.shardCollection("scm.orders", { region: 1 });
 
 sh.updateZoneKeyRange(

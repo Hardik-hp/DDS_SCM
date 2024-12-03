@@ -18,9 +18,9 @@ def create_orders_collection():
     try:
         db = client["scm"]
 
-        if "orders" in db.list_collection_names():
-            db["orders"].drop()
-            print("Existing 'orders' collection dropped.")
+        # if "orders" in db.list_collection_names():
+        #     db["orders"].deleteMany({})
+        #     print("Existing 'orders' collection dropped.")
         
         orders_collection = db["orders"]
         # Sample data to insert
