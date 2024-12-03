@@ -7,7 +7,7 @@ sh.addShardToZone("us_westReplSet", "us_west");
 sh.addShardToZone("us_centralReplSet", "us_central");
 
 sh.enableSharding("scm");
-db.orders.createIndex({region: 1})
+db.orders.createIndex({region: 1});
 sh.shardCollection("scm.orders", { region: 1 });
 
 sh.updateZoneKeyRange(

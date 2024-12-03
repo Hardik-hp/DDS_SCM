@@ -56,5 +56,3 @@ Please make sure that other programs in your computer are closed as this project
 9. Project Submission will also contain submission related output and report files not available here!
 
 ## Sample working terminal example:
-
-@TODO: Add image here
