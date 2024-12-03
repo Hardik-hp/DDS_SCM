@@ -10,6 +10,8 @@
 
 ## Installation Steps:
 
+## Please make sure that port 27017 is Free before starting with Installtion
+
 ### Pre-installation requirements:
 
 1. `python3` installed and working (Recommended version 3.11.5 -- this is the version on author's machine)
@@ -38,8 +40,9 @@ Please make sure that other programs in your computer are closed as this project
 **_Note_** This is kept optional as the system would have more than 20 docker container running and most machine won't be able to handle it.
 
 1. Run `docker-compose up --build` from inside the grafana_setup directory.
-2. After the containers are up please add `http://loki:3100/ ` as the source to pull the logs.
-3. After the source is added we can use data explorer to query the logs and find and pinpoint issues.
+2. You can now access grafana from - `http://localhost:3000`
+3. After the containers are up please add `http://loki:3100/ ` as the source to pull the logs.
+4. After the source is added we can use data explorer to query the logs and find and pinpoint issues.
 
 ## Project Structure
 
