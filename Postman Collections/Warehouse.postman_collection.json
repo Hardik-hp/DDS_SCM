@@ -1,0 +1,85 @@
+{
+	"info": {
+		"_postman_id": "ccaa9292-6403-4a93-aee3-04e8987bba71",
+		"name": "Warehouse",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "21310169",
+		"_collection_link": "https://grey-water-758659.postman.co/workspace/My-Workspace~311f6b89-7373-4cd0-806a-04c8db08a7ff/collection/21310169-ccaa9292-6403-4a93-aee3-04e8987bba71?action=share&source=collection_link&creator=21310169"
+	},
+	"item": [
+		{
+			"name": "Get All Warehouses",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "content-type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": "localhost:8000/api/warehouses"
+			},
+			"response": []
+		},
+		{
+			"name": "Check Inventory of Product",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "content-type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": "localhost:8000/api/warehouse/inventory/251b0fb2-7216-4c08-9981-2513b5f69a2e"
+			},
+			"response": []
+		},
+		{
+			"name": "Update Inventory",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "content-type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:8000/api/warehouse/inventory?warehouse_id=13645c7e-171e-4873-b698-426a6589f132&product_id=14e3001e-5193-4246-9dd8-71141e5b2abe&quantity_change=100&supplier_id=9cf05cb7-c732-49b7-8718-84e8e987dda1",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"warehouse",
+						"inventory"
+					],
+					"query": [
+						{
+							"key": "warehouse_id",
+							"value": "13645c7e-171e-4873-b698-426a6589f132"
+						},
+						{
+							"key": "product_id",
+							"value": "14e3001e-5193-4246-9dd8-71141e5b2abe"
+						},
+						{
+							"key": "quantity_change",
+							"value": "100"
+						},
+						{
+							"key": "supplier_id",
+							"value": "9cf05cb7-c732-49b7-8718-84e8e987dda1"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

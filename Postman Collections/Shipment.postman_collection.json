@@ -1,0 +1,103 @@
+{
+	"info": {
+		"_postman_id": "af6f2e37-cffb-47d5-9241-7d60231c71e5",
+		"name": "Shipment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "21310169",
+		"_collection_link": "https://grey-water-758659.postman.co/workspace/My-Workspace~311f6b89-7373-4cd0-806a-04c8db08a7ff/collection/21310169-af6f2e37-cffb-47d5-9241-7d60231c71e5?action=share&source=collection_link&creator=21310169"
+	},
+	"item": [
+		{
+			"name": "Get All Shipments",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "content-type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": "localhost:8000/api/shipments"
+			},
+			"response": []
+		},
+		{
+			"name": "Track Shipment by Track Id",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "content-type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": "localhost:8000/api/shipments/track/TRACK-68434"
+			},
+			"response": []
+		},
+		{
+			"name": "Update Shipments",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "content-type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"status\": \"Shipped\",\n    \"shipment_ids\": [\"c0cca20b-f9fc-40d1-a969-c05906b6b710\"]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8000/api/shipments/update-status",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"shipments",
+						"update-status"
+					],
+					"query": [
+						{
+							"key": "status",
+							"value": "Shipped",
+							"disabled": true
+						},
+						{
+							"key": "shipment_ids",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Outstanding Shipments",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "content-type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": "localhost:8000/api/shipments/outstanding"
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,107 @@
+{
+	"info": {
+		"_postman_id": "f51c4584-d2e1-4161-8a47-b9f765077fcc",
+		"name": "Orders (NoSql)",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21310169",
+		"_collection_link": "https://grey-water-758659.postman.co/workspace/My-Workspace~311f6b89-7373-4cd0-806a-04c8db08a7ff/collection/21310169-f51c4584-d2e1-4161-8a47-b9f765077fcc?action=share&source=collection_link&creator=21310169"
+	},
+	"item": [
+		{
+			"name": "Get All Orders",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "content-type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "localhost:8000/orders",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"orders"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Order by ID",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8000/orders/832c2077-31da-4cf6-98dc-aedcb6092070",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"orders",
+						"832c2077-31da-4cf6-98dc-aedcb6092070"
+					]
+				},
+				"description": "27823924-dc85-4673-be04-293a2a2bd250\n\nd0e20748-27ba-4e8d-a298-08b7f3ca5264"
+			},
+			"response": []
+		},
+		{
+			"name": "Create Order and Shipment",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"retailer_id\": \"9001d099-0661-4b2f-b747-234abd5e9bdd\",\n    \"product_id\": \"3af925b9-54c8-4e04-ba38-065b8a0d2106\",\n    \"quantity\": 10\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8000/api/orders",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"orders"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

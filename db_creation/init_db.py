@@ -14,7 +14,7 @@ def initialize_database():
     create_products_table()
     create_supplier_table()
     create_shipments_table()
-    create_mongo_database()
+    # create_mongo_database()
     create_orders_collection()
     print("Database, tables and collections setup complete.")
 

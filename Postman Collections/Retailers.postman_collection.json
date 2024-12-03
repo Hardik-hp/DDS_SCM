@@ -1,0 +1,74 @@
+{
+	"info": {
+		"_postman_id": "79680329-1bac-4fbc-878c-2685d7d5514f",
+		"name": "Retailers",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "21310169",
+		"_collection_link": "https://grey-water-758659.postman.co/workspace/My-Workspace~311f6b89-7373-4cd0-806a-04c8db08a7ff/collection/21310169-79680329-1bac-4fbc-878c-2685d7d5514f?action=share&source=collection_link&creator=21310169"
+	},
+	"item": [
+		{
+			"name": "Get All Retailers",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "content-type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": "localhost:8000/api/retailers"
+			},
+			"response": []
+		},
+		{
+			"name": "Get All orders of a retailer",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8000/api/orders/search?retailer_id=9001d099-0661-4b2f-b747-234abd5e9bdd&status=Pending",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"orders",
+						"search"
+					],
+					"query": [
+						{
+							"key": "retailer_id",
+							"value": "9001d099-0661-4b2f-b747-234abd5e9bdd"
+						},
+						{
+							"key": "status",
+							"value": "Pending"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

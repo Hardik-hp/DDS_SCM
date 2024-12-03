@@ -1,0 +1,41 @@
+{
+	"info": {
+		"_postman_id": "ef17dd11-4872-410d-85a1-2cc88a3de8b6",
+		"name": "Supplier",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "21310169",
+		"_collection_link": "https://grey-water-758659.postman.co/workspace/My-Workspace~311f6b89-7373-4cd0-806a-04c8db08a7ff/collection/21310169-ef17dd11-4872-410d-85a1-2cc88a3de8b6?action=share&source=collection_link&creator=21310169"
+	},
+	"item": [
+		{
+			"name": "Get All Supplier",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "content-type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": "localhost:8000/api/suppliers"
+			},
+			"response": []
+		},
+		{
+			"name": "Check Products supplied by supplier",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "content-type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": "localhost:8000/api/warehouse/supplier/02d7468f-8153-47a6-8c7e-ae74d8c2b4f5"
+			},
+			"response": []
+		}
+	]
+}
