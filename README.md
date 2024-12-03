@@ -18,7 +18,8 @@
 2. `docker-desktop` This is required to simulate the multi region setup and to host APIs.
 3. First time installation on a new machine requires Internet connection -- downloading libraries and artifacts
 4. Make sure that `docker daemon` is running in your local.
-5. Please make sure that you have required `certificates` before running the installation script as this project uses some features from CockroacDBs enterprise version.
+5. Ensure that you `license_key.txt` which contains license key for cockroachDB enterprise edition. Please contact maintainers for the key if not available.
+6. Please make sure that you have required `certs` folder before running the installation script as this project uses some features from CockroacDBs enterprise version.
 
 ### System Requirements:
 
